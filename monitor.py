@@ -3,50 +3,47 @@ import os
 import re
 from datetime import date, datetime
 from pathlib import Path
+from typing import Any
 from urllib.parse import urljoin
 
 import requests
-from playwright.sync_api import Page, sync_playwright
+from playwright.sync_api import Response, sync_playwright
 
 
 FILM_URL = "https://www.cinemacity.cz/films/odyssea/7268s2r"
 CINEMA_URL = "https://www.cinemacity.cz/cinemas/flora/1052"
 
-STATE_FILE = Path("screenings_state.json")
-DEBUG_FILE = Path("monitor_debug.txt")
-
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
 
-# Zajímají nás pouze projekce 13. 8. 2026 a později.
-MINIMUM_DATE = date(2026, 8, 12)
+STATE_FILE = Path("screenings_state.json")
+DEBUG_FILE = Path("monitor_debug.json")
 
-MONTHS = {
-    "ledna": 1,
-    "února": 2,
-    "unora": 2,
-    "března": 3,
-    "brezna": 3,
-    "dubna": 4,
-    "května": 5,
-    "kvetna": 5,
-    "června": 6,
-    "cervna": 6,
-    "července": 7,
-    "cervence": 7,
-    "srpna": 8,
-    "září": 9,
-    "zari": 9,
-    "října": 10,
-    "rijna": 10,
-    "listopadu": 11,
-    "prosince": 12,
-}
+# Hlídáme pouze projekce od 13. 8. 2026 včetně.
+MINIMUM_DATE_EXCLUSIVE = date(2026, 8, 12)
+
+TITLE_WORDS = ("odyssea", "the odyssey")
+FORMAT_PATTERNS = (
+    r"imax[\s_-]*70(?:[\s_-]*mm)?",
+    r"70[\s_-]*mm",
+)
+
+ISO_DATETIME_RE = re.compile(
+    r"\b(20\d{2})-(\d{2})-(\d{2})[T ]"
+    r"([01]\d|2[0-3]):([0-5]\d)(?::[0-5]\d)?"
+)
+CZ_DATETIME_RE = re.compile(
+    r"\b(\d{1,2})\.\s*(\d{1,2})\.\s*(20\d{2})"
+    r"(?:\s+|[^0-9]{1,20})"
+    r"([01]?\d|2[0-3]):([0-5]\d)\b"
+)
+URL_RE = re.compile(r"https?://[^\s\"'<>]+")
 
 
 def send_notification(
     title: str,
     message: str,
     click_url: str = FILM_URL,
+    priority: int = 5,
 ) -> None:
     response = requests.post(
         "https://ntfy.sh",
@@ -54,7 +51,7 @@ def send_notification(
             "topic": NTFY_TOPIC,
             "title": title,
             "message": message,
-            "priority": 5,
+            "priority": priority,
             "tags": ["movie_camera", "ticket"],
             "click": click_url,
         },
@@ -63,442 +60,144 @@ def send_notification(
     response.raise_for_status()
 
 
-def parse_date(text: str) -> date | None:
-    numeric_patterns = [
-        r"\b(\d{1,2})\.\s*(\d{1,2})\.\s*(2026)\b",
-        r"\b(2026)-(\d{1,2})-(\d{1,2})\b",
-    ]
+def compact_json(value: Any) -> str:
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
 
-    match = re.search(numeric_patterns[0], text)
-    if match:
-        day, month, year = map(int, match.groups())
 
+def contains_title(text: str) -> bool:
+    lowered = text.lower()
+    return any(word in lowered for word in TITLE_WORDS)
+
+
+def contains_format(text: str) -> bool:
+    return any(re.search(pattern, text, re.IGNORECASE) for pattern in FORMAT_PATTERNS)
+
+
+def extract_datetimes(text: str) -> set[tuple[date, str]]:
+    found: set[tuple[date, str]] = set()
+
+    for match in ISO_DATETIME_RE.finditer(text):
+        year, month, day, hour, minute = map(int, match.groups())
         try:
-            return date(year, month, day)
+            found.add((date(year, month, day), f"{hour:02d}:{minute:02d}"))
         except ValueError:
-            return None
+            pass
 
-    match = re.search(numeric_patterns[1], text)
-    if match:
-        year, month, day = map(int, match.groups())
-
+    for match in CZ_DATETIME_RE.finditer(text):
+        day, month, year, hour, minute = map(int, match.groups())
         try:
-            return date(year, month, day)
+            found.add((date(year, month, day), f"{hour:02d}:{minute:02d}"))
         except ValueError:
-            return None
+            pass
 
-    written = re.search(
-        r"\b(\d{1,2})\.?\s+"
-        r"(ledna|února|unora|března|brezna|dubna|května|kvetna|"
-        r"června|cervna|července|cervence|srpna|září|zari|"
-        r"října|rijna|listopadu|prosince)"
-        r"(?:\s+(2026))?\b",
-        text.lower(),
-    )
-
-    if written:
-        day = int(written.group(1))
-        month = MONTHS[written.group(2)]
-        year = int(written.group(3) or 2026)
-
-        try:
-            return date(year, month, day)
-        except ValueError:
-            return None
-
-    return None
+    return found
 
 
-def accept_cookies(page: Page) -> None:
-    labels = [
-        "Přijmout vše",
-        "Povolit vše",
-        "Souhlasím",
-        "Accept all",
-        "Allow all",
-    ]
-
-    for label in labels:
-        try:
-            page.get_by_text(label, exact=False).first.click(timeout=1500)
-            page.wait_for_timeout(1000)
-            return
-        except Exception:
-            continue
-
-
-def normalize_url(url: str | None, base_url: str) -> str:
-    if not url:
-        return FILM_URL
-
-    return urljoin(base_url, url)
-
-
-def get_date_from_element(element) -> date | None:
-    try:
-        text = element.inner_text(timeout=1000)
-    except Exception:
-        text = ""
-
-    screening_date = parse_date(text)
-
-    if screening_date:
-        return screening_date
-
-    attributes = [
-        "aria-label",
-        "title",
-        "data-date",
-        "data-show-date",
-        "datetime",
+def extract_booking_url(value: Any, base_url: str) -> str:
+    preferred_keys = (
+        "bookingUrl",
+        "bookingURL",
+        "booking_url",
+        "ticketUrl",
+        "ticketURL",
+        "ticket_url",
+        "purchaseUrl",
+        "purchaseURL",
+        "purchase_url",
+        "deepLink",
+        "deeplink",
+        "url",
         "href",
-    ]
-
-    for attribute in attributes:
-        try:
-            value = element.get_attribute(attribute)
-        except Exception:
-            value = None
-
-        if value:
-            screening_date = parse_date(value)
-
-            if screening_date:
-                return screening_date
-
-    return None
-
-
-def collect_date_controls(page: Page) -> list:
-    controls = page.locator(
-        "button, a, [role='button'], input[type='radio'], "
-        "[data-date], [data-show-date]"
     )
 
-    found = []
-    seen = set()
+    if isinstance(value, dict):
+        for key in preferred_keys:
+            candidate = value.get(key)
+            if isinstance(candidate, str) and candidate.strip():
+                return urljoin(base_url, candidate.strip())
 
-    for index in range(controls.count()):
-        element = controls.nth(index)
-        screening_date = get_date_from_element(element)
+    text = compact_json(value)
+    urls = URL_RE.findall(text)
 
-        if not screening_date:
-            continue
+    for url in urls:
+        lower = url.lower()
+        if any(word in lower for word in ("book", "ticket", "buy", "purchase", "booking")):
+            return url.rstrip("\\,}]")
 
-        key = screening_date.isoformat()
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-        found.append((screening_date, element))
-
-    return sorted(found, key=lambda item: item[0])
+    return FILM_URL
 
 
-def find_odyssea_cards(page: Page):
-    selectors = [
-        "text=Odyssea",
-        "[data-film-name*='Odyssea' i]",
-        "[aria-label*='Odyssea' i]",
-        "[title*='Odyssea' i]",
-    ]
+def walk_json(value: Any):
+    yield value
 
-    elements = []
-
-    for selector in selectors:
-        try:
-            locator = page.locator(selector)
-
-            for index in range(min(locator.count(), 20)):
-                elements.append(locator.nth(index))
-        except Exception:
-            continue
-
-    return elements
+    if isinstance(value, dict):
+        for child in value.values():
+            yield from walk_json(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from walk_json(child)
 
 
-def get_card_context(element) -> tuple[str, list[dict]]:
-    try:
-        result = element.evaluate(
-            """
-            element => {
-                let node = element;
-                let bestNode = element;
-                let bestText = element.innerText || element.textContent || "";
-
-                for (let i = 0; i < 10 && node; i++) {
-                    const text = node.innerText || node.textContent || "";
-
-                    const hasOdyssea = /odyssea/i.test(text);
-                    const hasTime = /(?:[01]?\\d|2[0-3]):[0-5]\\d/.test(text);
-                    const hasFormat = /imax|70\\s*mm/i.test(text);
-
-                    if (
-                        hasOdyssea &&
-                        hasTime &&
-                        text.length < 6000
-                    ) {
-                        bestNode = node;
-                        bestText = text;
-
-                        if (hasFormat) {
-                            break;
-                        }
-                    }
-
-                    node = node.parentElement;
-                }
-
-                const links = Array.from(
-                    bestNode.querySelectorAll("a[href]")
-                ).map(link => ({
-                    text: link.innerText || link.textContent || "",
-                    href: link.href
-                }));
-
-                return {
-                    text: bestText,
-                    links: links
-                };
-            }
-            """
-        )
-
-        return result.get("text", ""), result.get("links", [])
-
-    except Exception:
-        return "", []
-
-
-def extract_screenings_from_page(
-    page: Page,
-    selected_date: date | None,
+def extract_screenings_from_json(
+    payload: Any,
     source_url: str,
 ) -> list[dict]:
-    results = {}
+    results: dict[str, dict] = {}
 
-    for odyssea_element in find_odyssea_cards(page):
-        card_text, links = get_card_context(odyssea_element)
-
-        if not card_text:
+    for node in walk_json(payload):
+        if not isinstance(node, (dict, list)):
             continue
 
-        if "odyssea" not in card_text.lower():
+        text = compact_json(node)
+
+        # Kandidát musí ve stejném JSON podstromu obsahovat film i formát.
+        if not contains_title(text) or not contains_format(text):
             continue
 
-        # Musí jít o formát IMAX 70 mm.
-        if not re.search(
-            r"IMAX(?:[\s-]*70(?:\s*mm)?)?|70\s*mm",
-            card_text,
-            re.IGNORECASE,
-        ):
+        datetimes = extract_datetimes(text)
+        if not datetimes:
             continue
 
-        screening_date = parse_date(card_text) or selected_date
+        booking_url = extract_booking_url(node, source_url)
 
-        if not screening_date:
-            continue
-
-        times = sorted(
-            set(
-                re.findall(
-                    r"\b(?:[01]?\d|2[0-3]):[0-5]\d\b",
-                    card_text,
-                )
-            )
-        )
-
-        if not times:
-            continue
-
-        purchase_links = []
-
-        for link in links:
-            href = normalize_url(link.get("href"), source_url)
-            link_text = link.get("text", "")
-
-            if re.search(
-                r"\b(?:[01]?\d|2[0-3]):[0-5]\d\b",
-                link_text,
-            ):
-                purchase_links.append((link_text, href))
-
-        for screening_time in times:
-            purchase_url = FILM_URL
-
-            for link_text, href in purchase_links:
-                if screening_time in link_text:
-                    purchase_url = href
-                    break
-
+        for screening_date, screening_time in datetimes:
             identifier = (
                 f"{screening_date.isoformat()}|"
-                f"{screening_time}|{purchase_url}"
+                f"{screening_time}|{booking_url}"
             )
-
             results[identifier] = {
                 "id": identifier,
                 "date": screening_date.isoformat(),
                 "time": screening_time,
-                "url": purchase_url,
+                "url": booking_url,
+                "source": source_url,
             }
 
     return list(results.values())
 
 
-def scan_page(page: Page, url: str) -> tuple[list[dict], str]:
-    page.goto(
-        url,
-        wait_until="domcontentloaded",
-        timeout=90000,
-    )
-
-    page.wait_for_timeout(7000)
-    accept_cookies(page)
-    page.wait_for_timeout(3000)
-
-    all_results = {}
-    debug_sections = []
-
-    try:
-        body_text = page.locator("body").inner_text(timeout=10000)
-    except Exception:
-        body_text = ""
-
-    debug_sections.append(
-        f"\n\n===== {url} – výchozí stránka =====\n{body_text}"
-    )
-
-    initial_results = extract_screenings_from_page(
-        page=page,
-        selected_date=None,
-        source_url=url,
-    )
-
-    for result in initial_results:
-        all_results[result["id"]] = result
-
-    date_controls = collect_date_controls(page)
-
-    for screening_date, control in date_controls:
-        try:
-            control.scroll_into_view_if_needed(timeout=3000)
-            control.click(timeout=5000)
-            page.wait_for_timeout(2500)
-        except Exception:
-            continue
-
-        try:
-            body_text = page.locator("body").inner_text(timeout=10000)
-        except Exception:
-            body_text = ""
-
-        debug_sections.append(
-            f"\n\n===== {url} – {screening_date.isoformat()} =====\n"
-            f"{body_text}"
-        )
-
-        date_results = extract_screenings_from_page(
-            page=page,
-            selected_date=screening_date,
-            source_url=url,
-        )
-
-        for result in date_results:
-            all_results[result["id"]] = result
-
-    return list(all_results.values()), "".join(debug_sections)
-
-
-def find_screenings() -> tuple[list[dict], list[dict]]:
-    all_screenings = {}
-    debug_output = []
-
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True)
-
-        page = browser.new_page(
-            locale="cs-CZ",
-            viewport={"width": 1440, "height": 1800},
-            user_agent=(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 "
-                "Chrome/150 Safari/537.36"
-            ),
-        )
-
-        for url in [FILM_URL, CINEMA_URL]:
-            try:
-                results, debug_text = scan_page(page, url)
-
-                for result in results:
-                    all_screenings[result["id"]] = result
-
-                debug_output.append(debug_text)
-
-            except Exception as error:
-                debug_output.append(
-                    f"\n\nCHYBA PŘI ČTENÍ {url}:\n{error!r}"
-                )
-
-        browser.close()
-
-    DEBUG_FILE.write_text(
-        "\n".join(debug_output),
-        encoding="utf-8",
-    )
-
-    all_found = sorted(
-        all_screenings.values(),
-        key=lambda item: (item["date"], item["time"]),
-    )
-
-    relevant = [
-        item
-        for item in all_found
-        if datetime.strptime(
-            item["date"],
-            "%Y-%m-%d",
-        ).date() > MINIMUM_DATE
-    ]
-
-    return all_found, relevant
-
-
-def load_previous_ids() -> set[str]:
+def load_state() -> dict:
     if not STATE_FILE.exists():
-        return set()
+        return {}
 
     try:
-        state = json.loads(
-            STATE_FILE.read_text(encoding="utf-8")
-        )
-        return set(state.get("screening_ids", []))
+        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
     except Exception:
-        return set()
+        return {}
 
 
-def save_state(
-    all_screenings: list[dict],
-    relevant_screenings: list[dict],
-) -> None:
-    state = {
-        "updated_at": datetime.now().isoformat(),
-        "minimum_date_exclusive": MINIMUM_DATE.isoformat(),
-        "all_found_count": len(all_screenings),
-        "relevant_count": len(relevant_screenings),
-        "screening_ids": [
-            item["id"]
-            for item in relevant_screenings
-        ],
-        "all_found_screenings": all_screenings,
-        "relevant_screenings": relevant_screenings,
-    }
-
+def save_state(all_screenings: list[dict], relevant: list[dict]) -> None:
     STATE_FILE.write_text(
         json.dumps(
-            state,
+            {
+                "updated_at": datetime.now().isoformat(),
+                "minimum_date_exclusive": MINIMUM_DATE_EXCLUSIVE.isoformat(),
+                "all_found_count": len(all_screenings),
+                "relevant_count": len(relevant),
+                "screening_ids": [item["id"] for item in relevant],
+                "all_found_screenings": all_screenings,
+                "relevant_screenings": relevant,
+            },
             ensure_ascii=False,
             indent=2,
         ),
@@ -506,43 +205,174 @@ def save_state(
     )
 
 
-def main() -> None:
-    all_screenings, relevant_screenings = find_screenings()
+def find_screenings() -> tuple[list[dict], dict]:
+    captured: list[dict] = []
+    results: dict[str, dict] = {}
 
-    state_exists = STATE_FILE.exists()
-    previous_ids = load_previous_ids()
+    def handle_response(response: Response) -> None:
+        content_type = (response.headers.get("content-type") or "").lower()
 
-    if not state_exists:
-        save_state(all_screenings, relevant_screenings)
+        if "json" not in content_type:
+            return
 
-        send_notification(
-            "Odyssea monitor je spuštěný",
-            (
-                "✅ Monitor funguje.\n"
-                f"Celkem rozpoznaných IMAX 70mm projekcí: "
-                f"{len(all_screenings)}.\n"
-                f"Projekcí po 12. 8. 2026: "
-                f"{len(relevant_screenings)}.\n"
-                "Upozornění přijde pouze na nově přidané projekce "
-                "od 13. 8. 2026."
+        try:
+            payload = response.json()
+        except Exception:
+            return
+
+        entry = {
+            "url": response.url,
+            "status": response.status,
+            "content_type": content_type,
+            "payload": payload,
+        }
+        captured.append(entry)
+
+        for item in extract_screenings_from_json(payload, response.url):
+            results[item["id"]] = item
+
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(headless=True)
+
+        context = browser.new_context(
+            locale="cs-CZ",
+            viewport={"width": 1440, "height": 1800},
+            user_agent=(
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/150 Safari/537.36"
             ),
+        )
+
+        page = context.new_page()
+        page.on("response", handle_response)
+
+        for url in (FILM_URL, CINEMA_URL):
+            page.goto(url, wait_until="domcontentloaded", timeout=90000)
+            page.wait_for_timeout(12000)
+
+            # Kliknutí na dostupné datumové ovladače vyvolá další API požadavky.
+            controls = page.locator(
+                "button, a, [role='button'], input[type='radio'], "
+                "[data-date], [data-show-date]"
+            )
+
+            limit = min(controls.count(), 250)
+
+            for index in range(limit):
+                control = controls.nth(index)
+
+                try:
+                    text = (
+                        (control.inner_text(timeout=500) or "")
+                        + " "
+                        + (control.get_attribute("aria-label") or "")
+                        + " "
+                        + (control.get_attribute("title") or "")
+                        + " "
+                        + (control.get_attribute("data-date") or "")
+                        + " "
+                        + (control.get_attribute("datetime") or "")
+                    )
+                except Exception:
+                    continue
+
+                if not (
+                    re.search(r"\b\d{1,2}\.\s*\d{1,2}\.", text)
+                    or re.search(r"\b20\d{2}-\d{2}-\d{2}\b", text)
+                    or re.search(
+                        r"led|úno|bře|dub|kvě|čvn|čvc|srp|zář|říj|lis|pro",
+                        text,
+                        re.IGNORECASE,
+                    )
+                ):
+                    continue
+
+                try:
+                    control.click(timeout=2000)
+                    page.wait_for_timeout(1200)
+                except Exception:
+                    pass
+
+        browser.close()
+
+    debug = {
+        "captured_json_response_count": len(captured),
+        "captured_responses": captured,
+        "extracted_screenings": sorted(
+            results.values(),
+            key=lambda item: (item["date"], item["time"], item["url"]),
+        ),
+    }
+
+    DEBUG_FILE.write_text(
+        json.dumps(debug, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    screenings = debug["extracted_screenings"]
+    return screenings, debug
+
+
+def main() -> None:
+    all_screenings, debug = find_screenings()
+
+    # Důležité: při selhání čtení dat se běh nemá tvářit zeleně.
+    if not all_screenings:
+        send_notification(
+            "Odyssea monitor: chyba kontroly",
+            (
+                "⚠️ Monitor dnes nerozpoznal žádnou projekci "
+                "Odyssey v IMAX 70 mm.\n"
+                f"Zachycených JSON odpovědí: "
+                f"{debug['captured_json_response_count']}.\n"
+                "GitHub běh skončí chybou, aby se problém neztratil."
+            ),
+            FILM_URL,
+            priority=4,
+        )
+        raise RuntimeError(
+            "Nebyly rozpoznány žádné projekce. "
+            "Podrobnosti jsou v monitor_debug.json."
+        )
+
+    relevant = [
+        item
+        for item in all_screenings
+        if datetime.strptime(item["date"], "%Y-%m-%d").date()
+        > MINIMUM_DATE_EXCLUSIVE
+    ]
+
+    previous_state = load_state()
+    previous_ids = set(previous_state.get("screening_ids", []))
+    first_successful_run = not previous_state
+
+    if first_successful_run:
+        save_state(all_screenings, relevant)
+        send_notification(
+            "Odyssea API monitor je spuštěný",
+            (
+                "✅ Monitor načetl skutečná JSON data webu.\n"
+                f"Celkem IMAX 70mm projekcí: {len(all_screenings)}.\n"
+                f"Projekcí od 13. 8. 2026: {len(relevant)}.\n"
+                "Další upozornění přijde jen na nově přidaný termín."
+            ),
+            FILM_URL,
         )
         return
 
     new_screenings = [
-        item
-        for item in relevant_screenings
+        item for item in relevant
         if item["id"] not in previous_ids
     ]
 
     for screening in new_screenings:
         readable_date = datetime.strptime(
-            screening["date"],
-            "%Y-%m-%d",
+            screening["date"], "%Y-%m-%d"
         ).strftime("%d. %m. %Y")
 
         send_notification(
-            "Nová projekce Odyssea IMAX 70 mm",
+            "Nová Odyssea v IMAX 70 mm",
             (
                 "🎬 Odyssea – IMAX 70 mm\n"
                 f"📅 {readable_date}\n"
@@ -552,7 +382,7 @@ def main() -> None:
             screening["url"],
         )
 
-    save_state(all_screenings, relevant_screenings)
+    save_state(all_screenings, relevant)
 
 
 if __name__ == "__main__":
