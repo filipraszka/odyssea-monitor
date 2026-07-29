@@ -1,0 +1,40 @@
+name: Odyssea IMAX monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-screenings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Stáhnout soubory
+        uses: actions/checkout@v4
+
+      - name: Nastavit Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Nainstalovat knihovny
+        run: |
+          pip install playwright requests beautifulsoup4
+          playwright install chromium
+
+      - name: Spustit monitor
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python monitor.py
+
+      - name: Uložit seznam nalezených projekcí
+        run: |
+          git config user.name "Odyssea Monitor"
+          git config user.email "actions@github.com"
+          git add screenings_state.json
+          git diff --cached --quiet || git commit -m "Aktualizace projekcí"
+          git push
