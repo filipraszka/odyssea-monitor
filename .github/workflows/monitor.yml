@@ -8,33 +8,39 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: odyssea-imax-monitor
+  cancel-in-progress: false
+
 jobs:
   check-screenings:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Stáhnout soubory
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Nastavit Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Nainstalovat knihovny
+      - name: Install dependencies
         run: |
-          pip install playwright requests beautifulsoup4
-          playwright install chromium
+          pip install playwright requests
+          playwright install --with-deps chromium
 
-      - name: Spustit monitor
+      - name: Run monitor
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python monitor.py
 
-      - name: Uložit seznam nalezených projekcí
+      - name: Save state
+        if: always()
         run: |
           git config user.name "Odyssea Monitor"
           git config user.email "actions@github.com"
-          git add screenings_state.json monitor_debug.txt
-          git diff --cached --quiet || git commit -m "Aktualizace projekcí"
+          git add screenings_state.json monitor_debug.json || true
+          git diff --cached --quiet || git commit -m "Update state"
           git push
