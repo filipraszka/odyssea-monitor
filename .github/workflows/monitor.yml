@@ -3,7 +3,7 @@ name: Odyssea IMAX monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    - cron: "13,28,43,58 * * * *"
 
 permissions:
   contents: write
