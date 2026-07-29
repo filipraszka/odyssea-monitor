@@ -40,13 +40,14 @@ CZECH_MONTHS = {
 
 def send_notification(title: str, message: str, click_url: str = FILM_URL) -> None:
     response = requests.post(
-        f"https://ntfy.sh/{NTFY_TOPIC}",
-        data=message.encode("utf-8"),
-        headers={
-            "Title": title,
-            "Priority": "5",
-            "Tags": "movie_camera,ticket",
-            "Click": click_url,
+        "https://ntfy.sh",
+        json={
+            "topic": NTFY_TOPIC,
+            "title": title,
+            "message": message,
+            "priority": 5,
+            "tags": ["movie_camera", "ticket"],
+            "click": click_url,
         },
         timeout=30,
     )
