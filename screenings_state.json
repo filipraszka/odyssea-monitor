@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-07-29T05:47:23.406177",
+  "minimum_date_exclusive": "2026-08-12",
+  "all_found_count": 8,
+  "relevant_count": 0,
+  "screening_ids": [],
+  "all_found_screenings": [
+    {
+      "id": "2026-07-29|10:40|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "10:40",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    },
+    {
+      "id": "2026-07-29|11:50|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "11:50",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    },
+    {
+      "id": "2026-07-29|12:40|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "12:40",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    },
+    {
+      "id": "2026-07-29|15:00|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "15:00",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    },
+    {
+      "id": "2026-07-29|16:20|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "16:20",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    },
+    {
+      "id": "2026-07-29|18:20|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "18:20",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    },
+    {
+      "id": "2026-07-29|20:40|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "20:40",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    },
+    {
+      "id": "2026-07-29|21:30|https://www.cinemacity.cz/cinemas/flora/1052",
+      "date": "2026-07-29",
+      "time": "21:30",
+      "url": "https://www.cinemacity.cz/cinemas/flora/1052"
+    }
+  ],
+  "relevant_screenings": []
+}
