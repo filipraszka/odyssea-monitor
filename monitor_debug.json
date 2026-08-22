@@ -23,7 +23,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -56,7 +56,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -79,19 +79,9 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "AZ",
-        "stateName": "Arizona",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
-      }
-    },
-    {
-      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "fedcm": {
-          "default": false
-        }
       }
     },
     {
@@ -125,69 +115,12 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-08-22?attr=&lang=cs_CZ",
+      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
       "status": 200,
-      "content_type": "application/json;charset=utf-8",
+      "content_type": "application/json; charset=utf-8",
       "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1037",
-              "name": "Liberec, Forum Liberec",
-              "cinemaIds": [
-                "1037"
-              ]
-            },
-            {
-              "id": "group-1055",
-              "name": "Ostrava, Nová Karolina",
-              "cinemaIds": [
-                "1055"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
-            },
-            {
-              "id": "group-1054",
-              "name": "Plzeň, Plzeň Plaza",
-              "cinemaIds": [
-                "1054"
-              ]
-            },
-            {
-              "id": "group-1036",
-              "name": "Ústí nad Labem, Forum Ústí nad Labem",
-              "cinemaIds": [
-                "1036"
-              ]
-            }
-          ]
+        "fedcm": {
+          "default": false
         }
       }
     },
@@ -213,7 +146,7 @@
             "directors": "Christopher Nolan",
             "synopsis": "Odysseus (Matt Damon) byl král řeckého ostrova Ithaka, který dle legend a básníka Homéra vymyslel slavného Trójského koně, jenž výraznou měrou pomohl obelstít obránce Tróji a ukončit tak vyčerpávající dobývání tohoto města. Po skončení bojů netouží Odysseus po ničem jiném než vrátit se domů, za manželkou Pénelopé (Anne Hathaway) a synem Télemachem (Tom Holland). Svými odvážnými činy však dle pověstí rozhněval bohy a ti se mu rozhodli návrat co nejvíc zkomplikovat. I proto se slovo „odysea“ stalo synonymem pro cestu plnou překážek, které poutníka odvádějí od jeho cíle, místo toho, aby ho k němu přibližovaly. Zatímco Odysseus vzdoruje bohům, obrům, svůdné kouzelnici Kirké a dalším nebezpečím, jeho žena Pénelopé vzdoruje mužům, kteří chtějí uchvátit ji a s ní celé ithacké království.",
             "dateStarted": "2026-07-16T00:00:00",
-            "eventCount": 293,
+            "eventCount": 286,
             "categoriesAttributes": [
               "drama",
               "history"
@@ -318,6 +251,370 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-08-22?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1037",
+              "name": "Liberec, Forum Liberec",
+              "cinemaIds": [
+                "1037"
+              ]
+            },
+            {
+              "id": "group-1055",
+              "name": "Ostrava, Nová Karolina",
+              "cinemaIds": [
+                "1055"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            },
+            {
+              "id": "group-1054",
+              "name": "Plzeň, Plzeň Plaza",
+              "cinemaIds": [
+                "1054"
+              ]
+            },
+            {
+              "id": "group-1036",
+              "name": "Ústí nad Labem, Forum Ústí nad Labem",
+              "cinemaIds": [
+                "1036"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-08-22?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "cinemas": [
+            {
+              "id": "1034",
+              "groupId": "brno",
+              "displayName": "Brno Olympia, OC Olympia Brno",
+              "link": "https://www.cinemacity.cz/cinemas/olympia",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:8ee0c55e-ed26-4935-938c-5c9e278decd4",
+              "address": "U Dálnice 777, 664 42, Brno - Modřice",
+              "addressInfo": {
+                "address1": "U Dálnice 777",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Brno - Modřice",
+                "state": null,
+                "postalCode": "664 42"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 49.13776,
+              "longitude": 16.633123
+            },
+            {
+              "id": "1035",
+              "groupId": "brno",
+              "displayName": "Brno Velký Špalíček, OC Velký Špalíček",
+              "link": "https://www.cinemacity.cz/cinemas/velkyspalicek",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:421251d9-737e-4a8e-bbdd-03293060f9a9",
+              "address": "Mečová 2, 602 00, Brno",
+              "addressInfo": {
+                "address1": "Mečová 2",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Brno",
+                "state": null,
+                "postalCode": "602 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 49.193176,
+              "longitude": 16.607227
+            },
+            {
+              "id": "1037",
+              "groupId": "group-1037",
+              "displayName": "Liberec, Forum Liberec",
+              "link": "https://www.cinemacity.cz/cinemas/liberec",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7e8bbba8-7ea9-4428-aa16-c04a83659a23",
+              "address": "Soukenné náměstí 2a/669, 460 01, Liberec",
+              "addressInfo": {
+                "address1": "Soukenné náměstí 2a/669",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Liberec",
+                "state": null,
+                "postalCode": "460 01"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.766273,
+              "longitude": 15.055446
+            },
+            {
+              "id": "1055",
+              "groupId": "group-1055",
+              "displayName": "Ostrava, Nová Karolina",
+              "link": "https://www.cinemacity.cz/cinemas/ostrava",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:9a174770-b609-4921-9ae2-7e971aa7e89c",
+              "address": "Jantarová 3344/4, 702 00, Ostrava",
+              "addressInfo": {
+                "address1": "Jantarová 3344/4",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Ostrava",
+                "state": null,
+                "postalCode": "702 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 49.831226,
+              "longitude": 18.288877
+            },
+            {
+              "id": "1053",
+              "groupId": "group-1053",
+              "displayName": "Pardubice, Palác Pardubice",
+              "link": "https://www.cinemacity.cz/cinemas/pardubice",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7ca9a5b5-b5f4-4826-becc-118f90b08bdb",
+              "address": "Palác Pardubice, Masarykovo nám 2799, 530 02, Pardubice",
+              "addressInfo": {
+                "address1": "Palác Pardubice",
+                "address2": "Masarykovo nám 2799",
+                "address3": null,
+                "address4": null,
+                "city": "Pardubice",
+                "state": null,
+                "postalCode": "530 02"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.037605,
+              "longitude": 15.7687845
+            },
+            {
+              "id": "1054",
+              "groupId": "group-1054",
+              "displayName": "Plzeň, Plzeň Plaza",
+              "link": "https://www.cinemacity.cz/cinemas/plzen",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:af23c8ba-af38-4e6d-b4ef-95859c0c6aed",
+              "address": "Radčická 2, 1. patro - food court, 301 00, Plzeň",
+              "addressInfo": {
+                "address1": "Radčická 2",
+                "address2": "1. patro - food court",
+                "address3": null,
+                "address4": null,
+                "city": "Plzeň",
+                "state": null,
+                "postalCode": "301 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 49.7493,
+              "longitude": 13.36891
+            },
+            {
+              "id": "1052",
+              "groupId": "prague",
+              "displayName": "Praha Flora, OC FLORA",
+              "link": "https://www.cinemacity.cz/cinemas/flora",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:e3127b5a-5736-49ee-ab8e-0f00f75520b2",
+              "address": "Vinohradská 151, 130 00, Praha 3 - Žižkov",
+              "addressInfo": {
+                "address1": "Vinohradská 151",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Praha 3 - Žižkov",
+                "state": null,
+                "postalCode": "130 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.079,
+              "longitude": 14.461009
+            },
+            {
+              "id": "1056",
+              "groupId": "prague",
+              "displayName": "Praha Chodov, Westfield Chodov",
+              "link": "https://www.cinemacity.cz/cinemas/chodov",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7e3a40d0-f4ee-4a17-962c-622bf50d191b",
+              "address": "Westfield Chodov, Roztylská 2321/19, 148 00, Praha 4",
+              "addressInfo": {
+                "address1": "Westfield Chodov",
+                "address2": "Roztylská 2321/19",
+                "address3": null,
+                "address4": null,
+                "city": "Praha 4",
+                "state": null,
+                "postalCode": "148 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.03207,
+              "longitude": 14.490996
+            },
+            {
+              "id": "1030",
+              "groupId": "prague",
+              "displayName": "Praha Letňany, OC Letňany",
+              "link": "https://www.cinemacity.cz/cinemas/letnany",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:bf570aae-ec11-46dc-ba71-f0abf34ad147",
+              "address": "Veselská 663, 199 00, Praha 9 - Letňany",
+              "addressInfo": {
+                "address1": "Veselská 663",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Praha 9 - Letňany",
+                "state": null,
+                "postalCode": "199 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.13691,
+              "longitude": 14.502875
+            },
+            {
+              "id": "1031",
+              "groupId": "prague",
+              "displayName": "Praha Nový Smíchov, OC Nový Smíchov",
+              "link": "https://www.cinemacity.cz/cinemas/novysmichov",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7d2db264-ff3d-417b-b88d-0d8f95a6ca82",
+              "address": "Plzeňská 8, 150 00, Praha 5",
+              "addressInfo": {
+                "address1": "Plzeňská 8",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Praha 5",
+                "state": null,
+                "postalCode": "150 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.074142,
+              "longitude": 14.40254
+            },
+            {
+              "id": "1033",
+              "groupId": "prague",
+              "displayName": "Praha Slovanský dům",
+              "link": "https://www.cinemacity.cz/cinemas/slovanskydum",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:fc8efac6-ae68-4f8b-b566-c9cc06111687",
+              "address": "Na Příkopě 22, 110 00, Praha 1",
+              "addressInfo": {
+                "address1": "Na Příkopě 22",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Praha 1",
+                "state": null,
+                "postalCode": "110 00"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.086384,
+              "longitude": 14.4274025
+            },
+            {
+              "id": "1051",
+              "groupId": "prague",
+              "displayName": "Praha Zličín, Metropole Zličín",
+              "link": "https://www.cinemacity.cz/cinemas/zlicin",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:5501310d-1b62-4d17-b331-0435d1ab7b70",
+              "address": "Řevnická 121/1, 155 21, Praha 5",
+              "addressInfo": {
+                "address1": "Řevnická 121/1",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Praha 5",
+                "state": null,
+                "postalCode": "155 21"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.053925,
+              "longitude": 14.287215
+            },
+            {
+              "id": "1036",
+              "groupId": "group-1036",
+              "displayName": "Ústí nad Labem, Forum Ústí nad Labem",
+              "link": "https://www.cinemacity.cz/cinemas/ustinadlabem",
+              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:6b37a2ea-9a0f-4e33-87c5-b996624339ae",
+              "address": "Bílinská 6, 400 01, Ústí nad Labem",
+              "addressInfo": {
+                "address1": "Bílinská 6",
+                "address2": null,
+                "address3": null,
+                "address4": null,
+                "city": "Ústí nad Labem",
+                "state": null,
+                "postalCode": "400 01"
+              },
+              "bookingUrl": null,
+              "blockOnlineSales": false,
+              "blockOnlineSalesUntil": null,
+              "latitude": 50.658764,
+              "longitude": 14.038765
+            }
+          ]
+        }
+      }
+    },
+    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/attributes?jsonp&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -2834,8 +3131,8 @@
             "concert-film",
             "3d",
             "music",
-            "romantic-comedy",
             "sci-fi",
+            "romantic-comedy",
             "fairytale",
             "melodrama",
             "action",
@@ -2885,8 +3182,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "screenx",
             "live",
+            "screenx",
             "documentary",
             "horror",
             "original",
@@ -2904,303 +3201,6 @@
             "sport",
             "anime",
             "adult-animation"
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-08-22?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "cinemas": [
-            {
-              "id": "1034",
-              "groupId": "brno",
-              "displayName": "Brno Olympia, OC Olympia Brno",
-              "link": "https://www.cinemacity.cz/cinemas/olympia",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:8ee0c55e-ed26-4935-938c-5c9e278decd4",
-              "address": "U Dálnice 777, 664 42, Brno - Modřice",
-              "addressInfo": {
-                "address1": "U Dálnice 777",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Brno - Modřice",
-                "state": null,
-                "postalCode": "664 42"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 49.13776,
-              "longitude": 16.633123
-            },
-            {
-              "id": "1035",
-              "groupId": "brno",
-              "displayName": "Brno Velký Špalíček, OC Velký Špalíček",
-              "link": "https://www.cinemacity.cz/cinemas/velkyspalicek",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:421251d9-737e-4a8e-bbdd-03293060f9a9",
-              "address": "Mečová 2, 602 00, Brno",
-              "addressInfo": {
-                "address1": "Mečová 2",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Brno",
-                "state": null,
-                "postalCode": "602 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 49.193176,
-              "longitude": 16.607227
-            },
-            {
-              "id": "1037",
-              "groupId": "group-1037",
-              "displayName": "Liberec, Forum Liberec",
-              "link": "https://www.cinemacity.cz/cinemas/liberec",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7e8bbba8-7ea9-4428-aa16-c04a83659a23",
-              "address": "Soukenné náměstí 2a/669, 460 01, Liberec",
-              "addressInfo": {
-                "address1": "Soukenné náměstí 2a/669",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Liberec",
-                "state": null,
-                "postalCode": "460 01"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.766273,
-              "longitude": 15.055446
-            },
-            {
-              "id": "1055",
-              "groupId": "group-1055",
-              "displayName": "Ostrava, Nová Karolina",
-              "link": "https://www.cinemacity.cz/cinemas/ostrava",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:9a174770-b609-4921-9ae2-7e971aa7e89c",
-              "address": "Jantarová 3344/4, 702 00, Ostrava",
-              "addressInfo": {
-                "address1": "Jantarová 3344/4",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Ostrava",
-                "state": null,
-                "postalCode": "702 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 49.831226,
-              "longitude": 18.288877
-            },
-            {
-              "id": "1053",
-              "groupId": "group-1053",
-              "displayName": "Pardubice, Palác Pardubice",
-              "link": "https://www.cinemacity.cz/cinemas/pardubice",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7ca9a5b5-b5f4-4826-becc-118f90b08bdb",
-              "address": "Palác Pardubice, Masarykovo nám 2799, 530 02, Pardubice",
-              "addressInfo": {
-                "address1": "Palác Pardubice",
-                "address2": "Masarykovo nám 2799",
-                "address3": null,
-                "address4": null,
-                "city": "Pardubice",
-                "state": null,
-                "postalCode": "530 02"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.037605,
-              "longitude": 15.7687845
-            },
-            {
-              "id": "1054",
-              "groupId": "group-1054",
-              "displayName": "Plzeň, Plzeň Plaza",
-              "link": "https://www.cinemacity.cz/cinemas/plzen",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:af23c8ba-af38-4e6d-b4ef-95859c0c6aed",
-              "address": "Radčická 2, 1. patro - food court, 301 00, Plzeň",
-              "addressInfo": {
-                "address1": "Radčická 2",
-                "address2": "1. patro - food court",
-                "address3": null,
-                "address4": null,
-                "city": "Plzeň",
-                "state": null,
-                "postalCode": "301 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 49.7493,
-              "longitude": 13.36891
-            },
-            {
-              "id": "1052",
-              "groupId": "prague",
-              "displayName": "Praha Flora, OC FLORA",
-              "link": "https://www.cinemacity.cz/cinemas/flora",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:e3127b5a-5736-49ee-ab8e-0f00f75520b2",
-              "address": "Vinohradská 151, 130 00, Praha 3 - Žižkov",
-              "addressInfo": {
-                "address1": "Vinohradská 151",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Praha 3 - Žižkov",
-                "state": null,
-                "postalCode": "130 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.079,
-              "longitude": 14.461009
-            },
-            {
-              "id": "1056",
-              "groupId": "prague",
-              "displayName": "Praha Chodov, Westfield Chodov",
-              "link": "https://www.cinemacity.cz/cinemas/chodov",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7e3a40d0-f4ee-4a17-962c-622bf50d191b",
-              "address": "Westfield Chodov, Roztylská 2321/19, 148 00, Praha 4",
-              "addressInfo": {
-                "address1": "Westfield Chodov",
-                "address2": "Roztylská 2321/19",
-                "address3": null,
-                "address4": null,
-                "city": "Praha 4",
-                "state": null,
-                "postalCode": "148 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.03207,
-              "longitude": 14.490996
-            },
-            {
-              "id": "1030",
-              "groupId": "prague",
-              "displayName": "Praha Letňany, OC Letňany",
-              "link": "https://www.cinemacity.cz/cinemas/letnany",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:bf570aae-ec11-46dc-ba71-f0abf34ad147",
-              "address": "Veselská 663, 199 00, Praha 9 - Letňany",
-              "addressInfo": {
-                "address1": "Veselská 663",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Praha 9 - Letňany",
-                "state": null,
-                "postalCode": "199 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.13691,
-              "longitude": 14.502875
-            },
-            {
-              "id": "1031",
-              "groupId": "prague",
-              "displayName": "Praha Nový Smíchov, OC Nový Smíchov",
-              "link": "https://www.cinemacity.cz/cinemas/novysmichov",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:7d2db264-ff3d-417b-b88d-0d8f95a6ca82",
-              "address": "Plzeňská 8, 150 00, Praha 5",
-              "addressInfo": {
-                "address1": "Plzeňská 8",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Praha 5",
-                "state": null,
-                "postalCode": "150 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.074142,
-              "longitude": 14.40254
-            },
-            {
-              "id": "1033",
-              "groupId": "prague",
-              "displayName": "Praha Slovanský dům",
-              "link": "https://www.cinemacity.cz/cinemas/slovanskydum",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:fc8efac6-ae68-4f8b-b566-c9cc06111687",
-              "address": "Na Příkopě 22, 110 00, Praha 1",
-              "addressInfo": {
-                "address1": "Na Příkopě 22",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Praha 1",
-                "state": null,
-                "postalCode": "110 00"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.086384,
-              "longitude": 14.4274025
-            },
-            {
-              "id": "1051",
-              "groupId": "prague",
-              "displayName": "Praha Zličín, Metropole Zličín",
-              "link": "https://www.cinemacity.cz/cinemas/zlicin",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:5501310d-1b62-4d17-b331-0435d1ab7b70",
-              "address": "Řevnická 121/1, 155 21, Praha 5",
-              "addressInfo": {
-                "address1": "Řevnická 121/1",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Praha 5",
-                "state": null,
-                "postalCode": "155 21"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.053925,
-              "longitude": 14.287215
-            },
-            {
-              "id": "1036",
-              "groupId": "group-1036",
-              "displayName": "Ústí nad Labem, Forum Ústí nad Labem",
-              "link": "https://www.cinemacity.cz/cinemas/ustinadlabem",
-              "imageUrl": "https://www.cinemacity.cz/static/dam/jcr:6b37a2ea-9a0f-4e33-87c5-b996624339ae",
-              "address": "Bílinská 6, 400 01, Ústí nad Labem",
-              "addressInfo": {
-                "address1": "Bílinská 6",
-                "address2": null,
-                "address3": null,
-                "address4": null,
-                "city": "Ústí nad Labem",
-                "state": null,
-                "postalCode": "400 01"
-              },
-              "bookingUrl": null,
-              "blockOnlineSales": false,
-              "blockOnlineSalesUntil": null,
-              "latitude": 50.658764,
-              "longitude": 14.038765
-            }
           ]
         }
       }
@@ -3994,10 +3994,16 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "AZ",
-        "stateName": "Arizona",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
+    },
+    {
+      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": []
     },
     {
       "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202510.1.0/assets/otFloatingRoundedIcon.json",
@@ -4163,12 +4169,6 @@
           }
         ]
       }
-    },
-    {
-      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": []
     },
     {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-08-22?attr=&lang=cs_CZ",
@@ -7035,8 +7035,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "screenx",
             "live",
+            "screenx",
             "documentary",
             "horror",
             "original",
@@ -7080,27 +7080,6 @@
                 "2d",
                 "comedy",
                 "original-lang-cs"
-              ]
-            },
-            {
-              "id": "6580o3r",
-              "name": "Blue Lock",
-              "length": 127,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6580O3R.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=4c9CUlxPMyE",
-              "link": "https://www.cinemacity.cz/films/blue-lock/6580o3r",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-08-20T00:00:00",
-              "attributeIds": [
-                "2d",
-                "dubbed",
-                "dubbed-lang-cs",
-                "first-subbed-lang-cs",
-                "original-lang-ja",
-                "sport",
-                "subbed",
-                "suitable-for-all"
               ]
             },
             {
@@ -7267,98 +7246,6 @@
           ],
           "events": [
             {
-              "id": "224517",
-              "filmId": "7268s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-08-22",
-              "eventDateTime": "2026-08-22T16:40:00",
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "70-mm",
-                "drama",
-                "first-subbed-lang-cs",
-                "history",
-                "original-lang-en",
-                "subbed"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/224517",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/224517?lang=cs",
-              "presentationCode": "224517",
-              "soldOut": false,
-              "availabilityRatio": 0.0156,
-              "auditorium": "IMAX VOLVO",
-              "auditoriumTinyName": "IMAX"
-            },
-            {
-              "id": "236903",
-              "filmId": "6580o3r",
-              "cinemaId": "1052",
-              "businessDay": "2026-08-22",
-              "eventDateTime": "2026-08-22T17:20:00",
-              "attributeIds": [
-                "2d",
-                "first-subbed-lang-cs",
-                "original-lang-ja",
-                "sport",
-                "subbed",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "ja"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/236903?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/236903",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/236903?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236903?lang=cs",
-              "presentationCode": "236903",
-              "soldOut": false,
-              "availabilityRatio": 0.9871,
-              "auditorium": "Sál 07",
-              "auditoriumTinyName": "7"
-            },
-            {
               "id": "236981",
               "filmId": "2728d2ss1",
               "cinemaId": "1052",
@@ -7396,7 +7283,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236981?lang=cs",
               "presentationCode": "236981",
               "soldOut": false,
-              "availabilityRatio": 0.9655,
+              "availabilityRatio": 0.9172,
               "auditorium": "Sál 02",
               "auditoriumTinyName": "2"
             },
@@ -7443,7 +7330,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236843?lang=cs",
               "presentationCode": "236843",
               "soldOut": false,
-              "availabilityRatio": 0.9134,
+              "availabilityRatio": 0.8575,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
@@ -7489,7 +7376,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/237023?lang=cs",
               "presentationCode": "237023",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9538,
               "auditorium": "Sál 03",
               "auditoriumTinyName": "3"
             },
@@ -7622,7 +7509,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236957?lang=cs",
               "presentationCode": "236957",
               "soldOut": false,
-              "availabilityRatio": 0.9418,
+              "availabilityRatio": 0.9075,
               "auditorium": "Sál 01",
               "auditoriumTinyName": "1"
             },
@@ -7668,7 +7555,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236933?lang=cs",
               "presentationCode": "236933",
               "soldOut": false,
-              "availabilityRatio": 0.8148,
+              "availabilityRatio": 0.784,
               "auditorium": "Sál 08",
               "auditoriumTinyName": "8"
             },
@@ -7892,7 +7779,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236825?lang=cs",
               "presentationCode": "236825",
               "soldOut": false,
-              "availabilityRatio": 0.9861,
+              "availabilityRatio": 0.9757,
               "auditorium": "Sál 04",
               "auditoriumTinyName": "4"
             },
@@ -10680,8 +10567,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "screenx",
             "live",
+            "screenx",
             "documentary",
             "horror",
             "original",
@@ -11054,27 +10941,6 @@
               ]
             },
             {
-              "id": "6580o3r",
-              "name": "Blue Lock",
-              "length": 127,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6580O3R.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=4c9CUlxPMyE",
-              "link": "https://www.cinemacity.cz/films/blue-lock/6580o3r",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-08-20T00:00:00",
-              "attributeIds": [
-                "2d",
-                "dubbed",
-                "dubbed-lang-cs",
-                "first-subbed-lang-cs",
-                "original-lang-ja",
-                "sport",
-                "subbed",
-                "suitable-for-all"
-              ]
-            },
-            {
               "id": "7842d3x1",
               "name": "Bojovník",
               "length": 120,
@@ -11238,98 +11104,6 @@
           ],
           "events": [
             {
-              "id": "224517",
-              "filmId": "7268s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-08-22",
-              "eventDateTime": "2026-08-22T16:40:00",
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "70-mm",
-                "drama",
-                "first-subbed-lang-cs",
-                "history",
-                "original-lang-en",
-                "subbed"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/224517",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/224517?lang=cs",
-              "presentationCode": "224517",
-              "soldOut": false,
-              "availabilityRatio": 0.0156,
-              "auditorium": "IMAX VOLVO",
-              "auditoriumTinyName": "IMAX"
-            },
-            {
-              "id": "236903",
-              "filmId": "6580o3r",
-              "cinemaId": "1052",
-              "businessDay": "2026-08-22",
-              "eventDateTime": "2026-08-22T17:20:00",
-              "attributeIds": [
-                "2d",
-                "first-subbed-lang-cs",
-                "original-lang-ja",
-                "sport",
-                "subbed",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "ja"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/236903?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/236903",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/236903?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236903?lang=cs",
-              "presentationCode": "236903",
-              "soldOut": false,
-              "availabilityRatio": 0.9871,
-              "auditorium": "Sál 07",
-              "auditoriumTinyName": "7"
-            },
-            {
               "id": "236981",
               "filmId": "2728d2ss1",
               "cinemaId": "1052",
@@ -11367,7 +11141,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236981?lang=cs",
               "presentationCode": "236981",
               "soldOut": false,
-              "availabilityRatio": 0.9655,
+              "availabilityRatio": 0.9172,
               "auditorium": "Sál 02",
               "auditoriumTinyName": "2"
             },
@@ -11414,7 +11188,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236843?lang=cs",
               "presentationCode": "236843",
               "soldOut": false,
-              "availabilityRatio": 0.9134,
+              "availabilityRatio": 0.8575,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
@@ -11460,7 +11234,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/237023?lang=cs",
               "presentationCode": "237023",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9538,
               "auditorium": "Sál 03",
               "auditoriumTinyName": "3"
             },
@@ -11593,7 +11367,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236957?lang=cs",
               "presentationCode": "236957",
               "soldOut": false,
-              "availabilityRatio": 0.9418,
+              "availabilityRatio": 0.9075,
               "auditorium": "Sál 01",
               "auditoriumTinyName": "1"
             },
@@ -11639,7 +11413,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236933?lang=cs",
               "presentationCode": "236933",
               "soldOut": false,
-              "availabilityRatio": 0.8148,
+              "availabilityRatio": 0.784,
               "auditorium": "Sál 08",
               "auditoriumTinyName": "8"
             },
@@ -11863,7 +11637,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236825?lang=cs",
               "presentationCode": "236825",
               "soldOut": false,
-              "availabilityRatio": 0.9861,
+              "availabilityRatio": 0.9757,
               "auditorium": "Sál 04",
               "auditoriumTinyName": "4"
             },
@@ -12078,21 +11852,21 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": []
-    },
-    {
       "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
       "status": 200,
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "AZ",
-        "stateName": "Arizona",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
+    },
+    {
+      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": []
     },
     {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/trailers/byCinemaId/1052",
@@ -14839,8 +14613,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "screenx",
             "live",
+            "screenx",
             "documentary",
             "horror",
             "original",
@@ -15213,27 +14987,6 @@
               ]
             },
             {
-              "id": "6580o3r",
-              "name": "Blue Lock",
-              "length": 127,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6580O3R.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=4c9CUlxPMyE",
-              "link": "https://www.cinemacity.cz/films/blue-lock/6580o3r",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-08-20T00:00:00",
-              "attributeIds": [
-                "2d",
-                "dubbed",
-                "dubbed-lang-cs",
-                "first-subbed-lang-cs",
-                "original-lang-ja",
-                "sport",
-                "subbed",
-                "suitable-for-all"
-              ]
-            },
-            {
               "id": "7842d3x1",
               "name": "Bojovník",
               "length": 120,
@@ -15397,98 +15150,6 @@
           ],
           "events": [
             {
-              "id": "224517",
-              "filmId": "7268s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-08-22",
-              "eventDateTime": "2026-08-22T16:40:00",
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "70-mm",
-                "drama",
-                "first-subbed-lang-cs",
-                "history",
-                "original-lang-en",
-                "subbed"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/224517",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/224517?lang=cs",
-              "presentationCode": "224517",
-              "soldOut": false,
-              "availabilityRatio": 0.0156,
-              "auditorium": "IMAX VOLVO",
-              "auditoriumTinyName": "IMAX"
-            },
-            {
-              "id": "236903",
-              "filmId": "6580o3r",
-              "cinemaId": "1052",
-              "businessDay": "2026-08-22",
-              "eventDateTime": "2026-08-22T17:20:00",
-              "attributeIds": [
-                "2d",
-                "first-subbed-lang-cs",
-                "original-lang-ja",
-                "sport",
-                "subbed",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "ja"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/236903?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/236903",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/236903?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236903?lang=cs",
-              "presentationCode": "236903",
-              "soldOut": false,
-              "availabilityRatio": 0.9871,
-              "auditorium": "Sál 07",
-              "auditoriumTinyName": "7"
-            },
-            {
               "id": "236981",
               "filmId": "2728d2ss1",
               "cinemaId": "1052",
@@ -15526,7 +15187,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236981?lang=cs",
               "presentationCode": "236981",
               "soldOut": false,
-              "availabilityRatio": 0.9655,
+              "availabilityRatio": 0.9172,
               "auditorium": "Sál 02",
               "auditoriumTinyName": "2"
             },
@@ -15573,7 +15234,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236843?lang=cs",
               "presentationCode": "236843",
               "soldOut": false,
-              "availabilityRatio": 0.9134,
+              "availabilityRatio": 0.8575,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
@@ -15619,7 +15280,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/237023?lang=cs",
               "presentationCode": "237023",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9538,
               "auditorium": "Sál 03",
               "auditoriumTinyName": "3"
             },
@@ -15752,7 +15413,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236957?lang=cs",
               "presentationCode": "236957",
               "soldOut": false,
-              "availabilityRatio": 0.9418,
+              "availabilityRatio": 0.9075,
               "auditorium": "Sál 01",
               "auditoriumTinyName": "1"
             },
@@ -15798,7 +15459,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236933?lang=cs",
               "presentationCode": "236933",
               "soldOut": false,
-              "availabilityRatio": 0.8148,
+              "availabilityRatio": 0.784,
               "auditorium": "Sál 08",
               "auditoriumTinyName": "8"
             },
@@ -16022,7 +15683,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/236825?lang=cs",
               "presentationCode": "236825",
               "soldOut": false,
-              "availabilityRatio": 0.9861,
+              "availabilityRatio": 0.9757,
               "auditorium": "Sál 04",
               "auditoriumTinyName": "4"
             },
@@ -16243,6 +15904,17 @@
       "payload": []
     },
     {
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "status": 200,
+      "content_type": "application/json",
+      "payload": {
+        "country": "US",
+        "state": "CA",
+        "stateName": "California",
+        "continent": "NA"
+      }
+    },
+    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/trailers/byCinemaId/1052",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -16375,17 +16047,6 @@
             "videoLink": "https://www.youtube.com/watch?v=A7tIMoYvJWk"
           }
         ]
-      }
-    },
-    {
-      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
-      "status": 200,
-      "content_type": "application/json",
-      "payload": {
-        "country": "US",
-        "state": "AZ",
-        "stateName": "Arizona",
-        "continent": "NA"
       }
     },
     {
@@ -18992,8 +18653,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "screenx",
             "live",
+            "screenx",
             "documentary",
             "horror",
             "original",
@@ -19318,8 +18979,8 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "AZ",
-        "stateName": "Arizona",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
     },
@@ -19354,116 +19015,259 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/2728d2ss1",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/8183s2r/until/2027-08-22?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1037",
+              "name": "Liberec, Forum Liberec",
+              "cinemaIds": [
+                "1037"
+              ]
+            },
+            {
+              "id": "group-1055",
+              "name": "Ostrava, Nová Karolina",
+              "cinemaIds": [
+                "1055"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            },
+            {
+              "id": "group-1054",
+              "name": "Plzeň, Plzeň Plaza",
+              "cinemaIds": [
+                "1054"
+              ]
+            },
+            {
+              "id": "group-1036",
+              "name": "Ústí nad Labem, Forum Ústí nad Labem",
+              "cinemaIds": [
+                "1036"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/8183s2r/until/2027-08-22?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1037",
+              "name": "Liberec, Forum Liberec",
+              "cinemaIds": [
+                "1037"
+              ]
+            },
+            {
+              "id": "group-1055",
+              "name": "Ostrava, Nová Karolina",
+              "cinemaIds": [
+                "1055"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            },
+            {
+              "id": "group-1054",
+              "name": "Plzeň, Plzeň Plaza",
+              "cinemaIds": [
+                "1054"
+              ]
+            },
+            {
+              "id": "group-1036",
+              "name": "Ústí nad Labem, Forum Ústí nad Labem",
+              "cinemaIds": [
+                "1036"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/8183s2r",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
         "body": {
           "filmDetails": {
-            "id": "2728d2ss1",
-            "name": "Chica Checa",
-            "originalName": "Chica Checa",
-            "length": 96,
-            "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1.jpg",
-            "posterLinkLarge": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1-lg.jpg",
-            "videoLink": "https://www.youtube.com/watch?v=24E_j3IujTU",
-            "link": "https://www.cinemacity.cz/films/chica-checa/2728d2ss1",
+            "id": "8183s2r",
+            "name": "Insidious: Jsou mezi námi",
+            "originalName": "Insidious: Jsou mezi námi",
+            "length": 106,
+            "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R.jpg",
+            "posterLinkLarge": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R-lg.jpg",
+            "videoLink": "https://www.youtube.com/watch?v=ZlgOxfwzMxQ",
+            "link": "https://www.cinemacity.cz/films/insidious-jsou-mezi-nami/8183s2r",
             "weight": 0,
             "releaseYear": "2026",
-            "releaseCountry": "CZ",
-            "cast": "Pavla Tomicová, Jan Cina, Alexandra Borbély, Alena Doláková, Natálie Řehořová, Věra Janků, Miroslav Kumhala, Martin Hronský",
-            "directors": "Šimon Holý",
-            "synopsis": "Pětapadesátiletá Zdena (Pavla Tomicová) na první pohled vede obyčejný život venkovské pošťačky. Jednoduché to ale nemá. Dům se rozpadá a samotu jí pomáhají zahánět okurky a televize. Její syn Lukáš (Jan Cina) žije ve Francii – úspěšný, šťastný, vzdálený – aspoň tak to působí na obrazovce starého počítače, přes který jsou občas v kontaktu. Když Lukášova babička Věra (Věra Janků) vysloví své poslední přání – vidět Helenu Vondráčkovou – zdá se to jako rozmar umírající ženy. Jenže s příjezdem Lukáše domů přijede i tajemství, které roky pečlivě chránil. Jeho návštěva spustí lavinu: ukáže se, že je gay a živí se jako úspěšná drag queen Chica Checa. A také že Zdena touží po jiném životě, než okolí očekává. Snaha udělat devadesátileté babičce radost spojí Lukáše a Zdenu dohromady a možná trochu překvapí i je samotné. Protože když přestanete lhát svým nejbližším, musíte přestat lhát i sami sobě…",
+            "releaseCountry": "USA",
+            "cast": "Sam Spruell, Lin Shaye, Maisie Richardson-Sellers, Brandon Perea, Amelia Eve",
+            "directors": "Jacob Chase",
+            "synopsis": "Snímek se zaměřuje na nový příběh rodiny čelící temným silám z dimenze známé jako „Dálava“, přičemž se vrací i ikonická postava parapsycholožky Elise Rainierové. Režie se ujal Jacob Chase a film slibuje kombinaci psychologického napětí, astrálního cestování a charakteristických lekaček. Tvůrci tímto novým filmem navazují na předchozí díly, zároveň však otevírají prostor pro nové postavy a hlubší prozkoumání děsivého světa za hranicí reality.",
             "dateStarted": "2026-08-20T00:00:00",
-            "eventCount": 116,
+            "eventCount": 175,
             "categoriesAttributes": [
-              "comedy",
-              "drama"
+              "horror",
+              "mystery",
+              "thriller"
             ],
             "categoryIds": [
-              5,
-              10
+              16,
+              8,
+              12
             ],
             "screeningAttributes": [
               "2d",
+              "4dx",
+              "dolby-atmos",
               "laser-barco",
               "recliners",
+              "subbed",
               "vip"
             ],
-            "ageRestrictionId": 2,
-            "ageRestrictionLink": "https://www.cinemacity.cz/xmedia/img/10101/rating/12.png",
-            "ageRestrictionName": "12-plus",
+            "ageRestrictionId": 3,
+            "ageRestrictionLink": "https://www.cinemacity.cz/xmedia/img/10101/rating/15.png",
+            "ageRestrictionName": "15-plus",
             "ageRestrictionDescription": null,
             "showingType": "SHOWING",
             "languages": {
               "original": [
-                "cs"
+                "en"
               ],
               "dubbed": [],
               "voiceover": [],
-              "subtitles": []
+              "subtitles": [
+                "cs"
+              ]
             },
             "dubbedLanguage": [],
-            "firstSubbedLanguage": [],
+            "firstSubbedLanguage": [
+              "first-subbed-lang-cs"
+            ],
             "secondSubbedLanguage": [],
             "originalLanguage": [
-              "original-lang-cs"
+              "original-lang-en"
             ],
             "contentLabels": [],
             "mediaList": [
               {
                 "type": "Image",
                 "subType": "",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1.jpg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R.jpg",
                 "dimensionHeight": "889",
                 "dimensionWidth": "600"
               },
               {
                 "type": "Image",
                 "subType": "sm",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1-sm.jpg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R-sm.jpg",
                 "dimensionHeight": "207",
                 "dimensionWidth": "140"
               },
               {
                 "type": "Image",
                 "subType": "md",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1-md.jpg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R-md.jpg",
                 "dimensionHeight": "326",
                 "dimensionWidth": "220"
               },
               {
                 "type": "Image",
                 "subType": "lg",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1-lg.jpg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R-lg.jpg",
                 "dimensionHeight": "445",
                 "dimensionWidth": "300"
               },
               {
                 "type": "Image",
                 "subType": "sm2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1-sm2x.jpg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R-sm2x.jpg",
                 "dimensionHeight": "415",
                 "dimensionWidth": "280"
               },
               {
                 "type": "Image",
                 "subType": "md2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1-md2x.jpg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R-md2x.jpg",
                 "dimensionHeight": "652",
                 "dimensionWidth": "440"
               },
               {
                 "type": "Image",
                 "subType": "lg2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2728D2SS1-lg2x.jpg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8183S2R-lg2x.jpg",
                 "dimensionHeight": "889",
                 "dimensionWidth": "600"
               },
               {
                 "type": "Video",
                 "subType": "trailer",
-                "url": "https://www.youtube.com/watch?v=24E_j3IujTU",
+                "url": "https://www.youtube.com/watch?v=ZlgOxfwzMxQ",
                 "dimensionHeight": null,
                 "dimensionWidth": null
               }
@@ -19475,140 +19279,6 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/2728d2ss1/until/2027-08-22?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1037",
-              "name": "Liberec, Forum Liberec",
-              "cinemaIds": [
-                "1037"
-              ]
-            },
-            {
-              "id": "group-1055",
-              "name": "Ostrava, Nová Karolina",
-              "cinemaIds": [
-                "1055"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
-            },
-            {
-              "id": "group-1054",
-              "name": "Plzeň, Plzeň Plaza",
-              "cinemaIds": [
-                "1054"
-              ]
-            },
-            {
-              "id": "group-1036",
-              "name": "Ústí nad Labem, Forum Ústí nad Labem",
-              "cinemaIds": [
-                "1036"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/2728d2ss1/until/2027-08-22?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1037",
-              "name": "Liberec, Forum Liberec",
-              "cinemaIds": [
-                "1037"
-              ]
-            },
-            {
-              "id": "group-1055",
-              "name": "Ostrava, Nová Karolina",
-              "cinemaIds": [
-                "1055"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
-            },
-            {
-              "id": "group-1054",
-              "name": "Plzeň, Plzeň Plaza",
-              "cinemaIds": [
-                "1054"
-              ]
-            },
-            {
-              "id": "group-1036",
-              "name": "Ústí nad Labem, Forum Ústí nad Labem",
-              "cinemaIds": [
-                "1036"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-08-22?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -22930,8 +22600,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "screenx",
             "live",
+            "screenx",
             "documentary",
             "horror",
             "original",
@@ -22959,8 +22629,8 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "AZ",
-        "stateName": "Arizona",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
     },
@@ -23627,54 +23297,6 @@
           ],
           "events": [
             {
-              "id": "233732",
-              "filmId": "7268s2r",
-              "cinemaId": "1056",
-              "businessDay": "2026-08-22",
-              "eventDateTime": "2026-08-22T17:10:00",
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "drama",
-                "first-subbed-lang-cs",
-                "history",
-                "laser-barco",
-                "original-lang-en",
-                "subbed",
-                "vip"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/233732?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/233732",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/233732?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/233732?lang=cs",
-              "presentationCode": "233732",
-              "soldOut": false,
-              "availabilityRatio": 0.125,
-              "auditorium": "Sál 17 VIP",
-              "auditoriumTinyName": "17"
-            },
-            {
               "id": "233714",
               "filmId": "8085s2r",
               "cinemaId": "1056",
@@ -23719,7 +23341,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/233714?lang=cs",
               "presentationCode": "233714",
               "soldOut": false,
-              "availabilityRatio": 0.35,
+              "availabilityRatio": 0.3,
               "auditorium": "Sál 18 VIP",
               "auditoriumTinyName": "18"
             },
@@ -23921,10 +23543,10 @@
   ],
   "extracted_screenings": [
     {
-      "id": "2026-07-16|00:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-07-16|00:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-07-16",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
@@ -23935,10 +23557,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
-      "id": "2026-07-30|00:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-07-30|00:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-07-30",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
@@ -23949,10 +23571,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
-      "id": "2026-08-06|00:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-06|00:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-06",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
@@ -23963,10 +23585,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-13",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
@@ -23977,10 +23599,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-20",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
@@ -23991,108 +23613,94 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
-      "id": "2026-08-22|16:40|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-      "date": "2026-08-22",
-      "time": "16:40",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-22|17:20|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-      "date": "2026-08-22",
-      "time": "17:20",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-22|17:40|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|17:40|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "17:40",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|18:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|18:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "18:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|18:20|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|18:20|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "18:20",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|18:40|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|18:40|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "18:40",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|19:20|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|19:20|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "19:20",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|19:40|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|19:40|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "19:40",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|19:50|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|19:50|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "19:50",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|20:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|20:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "20:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|20:10|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|20:10|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "20:10",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|20:20|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|20:20|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "20:20",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|20:50|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|20:50|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "20:50",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|21:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|21:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "21:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-22|22:00|https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "id": "2026-08-22|22:00|https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "date": "2026-08-22",
       "time": "22:00",
-      "url": "https://tickets.cinemacity.cz/api/order/224517?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/236981?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-22?attr=&lang=cs_CZ"
     },
     {
