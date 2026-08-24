@@ -1,52 +1,46 @@
 {
-  "updated_at": "2026-08-24T10:26:49.779781",
+  "updated_at": "2026-08-24T11:51:47.181266",
   "minimum_date_exclusive": "2026-08-12",
-  "all_found_count": 42,
-  "relevant_count": 36,
+  "all_found_count": 36,
+  "relevant_count": 30,
   "screening_ids": [
-    "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+    "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
     "2026-08-13|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
-    "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+    "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
     "2026-08-20|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
-    "2026-08-24|12:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|12:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|12:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|13:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|13:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|13:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|14:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|14:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|14:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|15:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|15:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|15:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|16:10|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|16:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|16:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|16:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|17:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|17:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|18:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|18:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|18:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|19:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|19:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|19:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|20:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|20:10|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|20:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|20:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|20:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|21:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-24|22:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-    "2026-08-27|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r"
+    "2026-08-24|13:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|14:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|14:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|14:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|15:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|15:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|15:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|16:10|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|16:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|16:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|16:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|17:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|17:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|18:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|18:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|18:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|19:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|19:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|19:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|20:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|20:10|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|20:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|20:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|20:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|21:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
+    "2026-08-24|22:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs"
   ],
   "all_found_screenings": [
     {
-      "id": "2026-07-16|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-07-16|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-07-16",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
@@ -54,13 +48,13 @@
       "date": "2026-07-16",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-07-30|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-07-30|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-07-30",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
@@ -68,13 +62,13 @@
       "date": "2026-07-30",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-06|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-06|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-06",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
@@ -85,10 +79,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-13",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
@@ -99,10 +93,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-20",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
@@ -110,239 +104,197 @@
       "date": "2026-08-20",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
-    },
-    {
-      "id": "2026-08-24|12:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "12:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|12:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "12:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|12:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "12:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|13:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "13:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|13:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "13:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|13:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|13:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "13:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|14:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|14:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "14:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|14:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|14:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "14:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|14:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|14:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "14:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|15:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|15:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "15:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|15:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|15:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "15:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|15:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|15:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "15:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:10|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:10|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:10",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|17:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|17:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "17:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|17:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|17:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "17:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|18:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|18:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "18:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|18:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|18:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "18:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|18:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|18:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "18:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|19:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|19:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "19:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|19:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|19:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "19:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|19:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|19:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "19:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:10|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:10|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:10",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|21:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|21:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "21:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|22:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|22:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "22:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-27|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "date": "2026-08-27",
-      "time": "00:00",
-      "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     }
   ],
   "relevant_screenings": [
     {
-      "id": "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-13",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
@@ -353,10 +305,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-20|00:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-20",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
@@ -364,231 +316,189 @@
       "date": "2026-08-20",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
-    },
-    {
-      "id": "2026-08-24|12:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "12:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|12:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "12:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|12:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "12:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|13:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "13:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|13:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "date": "2026-08-24",
-      "time": "13:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-24|13:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|13:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "13:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|14:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|14:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "14:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|14:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|14:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "14:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|14:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|14:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "14:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|15:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|15:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "15:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|15:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|15:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "15:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|15:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|15:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "15:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:10|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:10|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:10",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|16:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|16:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "16:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|17:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|17:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "17:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|17:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|17:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "17:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|18:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|18:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "18:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|18:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|18:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "18:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|18:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|18:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "18:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|19:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|19:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "19:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|19:40|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|19:40|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "19:40",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|19:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|19:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "19:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:10|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:10|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:10",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:20|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:20|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:20",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:30|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:30|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:30",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|20:50|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|20:50|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "20:50",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|21:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|21:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "21:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-08-24|22:00|https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "id": "2026-08-24|22:00|https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "date": "2026-08-24",
       "time": "22:00",
-      "url": "https://tickets.cinemacity.cz/api/order/236893?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/237013?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-08-24?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-08-27|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "date": "2026-08-27",
-      "time": "00:00",
-      "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     }
   ]
 }
