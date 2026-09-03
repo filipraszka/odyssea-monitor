@@ -8,6 +8,72 @@
       "payload": {}
     },
     {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
       "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -23,19 +89,9 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "VA",
-        "stateName": "Virginia",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
-      }
-    },
-    {
-      "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202510.1.0/assets/otFloatingRoundedIcon.json",
-      "status": 200,
-      "content_type": "application/json",
-      "payload": {
-        "name": "otFloatingRoundedIcon",
-        "html": "PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxvYXRpbmdSb3VuZGVkSWNvbiB2ZXJ0aWNhbC1hbGlnbi1jb250ZW50Ij48ZGl2IHJvbGU9ImRpYWxvZyI+PCEtLSBDb29raWUgQnV0dG9uIC0tPjxkaXYgaWQ9Im9uZXRydXN0LWNvb2tpZS1idG4tY29udGFpbmVyIj48YnV0dG9uIGNsYXNzPSJvdC1saW5rLWJ0biIgaWQ9Im9uZXRydXN0LWNvb2tpZS1idG4iIHJvbGU9ImJ1dHRvbiIgYXJpYS1sYWJlbD0iQ29va2llcyI+PHN2ZyB3aWR0aD0iNjUiIGhlaWdodD0iNjUiIHZpZXdCb3g9Ii0yIC0yIDM1IDM1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5Db29raWVzIEJ1dHRvbjwvdGl0bGU+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGN4PSIxNSIgY3k9IjE1IiByPSIxNi41IiBmaWxsPSIjMmUzNjQzIi8+PGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMTQuNSIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTUiIHI9IjE0IiBmaWxsPSIjMmUzNjQzIi8+PHBhdGggZD0iTTI1IDE0Ljk1VjE1YzAgNS41MjMtNC40NzcgMTAtMTAgMTBTNSAyMC41MjMgNSAxNWMwLTQuODQyIDMuNDQyLTguODgxIDguMDEzLTkuODAzQTMuNSAzLjUgMCAwIDAgMTYuMTMgOC45OGE0IDQgMCAwIDAgNi4wMjUgNC4zOUEyLjUwMSAyLjUwMSAwIDAgMCAyNSAxNC45NXoiIHN0cm9rZT0iIzMyM0Y0RSIgc3Ryb2tlLXdpZHRoPSIuNSIgZmlsbD0iI0ZGRiIvPjxjaXJjbGUgZmlsbD0iI0JEQkRCRCIgY3g9IjEwIiBjeT0iMTIiIHI9IjIiLz48Y2lyY2xlIGZpbGw9IiNCREJEQkQiIGN4PSIxMi41IiBjeT0iMTkuNSIgcj0iMS41Ii8+PGNpcmNsZSBmaWxsPSIjQkRCREJEIiBjeD0iMjAiIGN5PSIxOCIgcj0iMiIvPjxjaXJjbGUgZmlsbD0iIzZDQzA0QSIgY3g9IjE0IiBjeT0iMTQiIHI9IjEiLz48Y2lyY2xlIGZpbGw9IiM2Q0MwNEEiIGN4PSIxNyIgY3k9IjIyIiByPSIxIi8+PGNpcmNsZSBmaWxsPSIjNkNDMDRBIiBjeD0iOSIgY3k9IjE4IiByPSIxIi8+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjxkaXYgY2xhc3M9ImJhbm5lci1jb250ZW50Ij48ZGl2IGNsYXNzPSJvdC1zZGstY29udGFpbmVyIj48IS0tIENvb2tpZSBCdXR0b24gRU5EIC0tPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay1laWdodCBvdC1zZGstY29sdW1ucyI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGgyIGlkPSJvbmV0cnVzdC1wb2xpY3ktdGl0bGUiPkF1dGhvcml6ZSBhY2Nlc3MgdG8geW91ciBkYXRhPC9oMj48ZGl2IGlkPSJvbmV0cnVzdC1wb2xpY3ktdGV4dCI+dGl0bGU8YSBocmVmPSIjIj5wb2xpY3k8L2E+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZHBkLWNvbnRhaW5lciI+PGgzIGNsYXNzPSJvdC1kcGQtdGl0bGUiPjwvaDM+PGRpdiBjbGFzcz0ib3QtZHBkLWNvbnRlbnQiPjxwIGNsYXNzPSJvdC1kcGQtZGVzYyI+PC9wPjwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LWJ1dHRvbi1ncm91cC1wYXJlbnQiIGNsYXNzPSJvdC1zZGstdGhyZWUgb3Qtc2RrLWNvbHVtbnMiPjxkaXYgaWQ9Im9uZXRydXN0LWJ1dHRvbi1ncm91cCIgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWFjY2VwdC1idG4tY29udGFpbmVyIj48YnV0dG9uIGlkPSJvbmV0cnVzdC1hY2NlcHQtYnRuLWhhbmRsZXIiPkFjY2VwdDwvYnV0dG9uPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXJlamVjdC1idG4tY29udGFpbmVyIj48YnV0dG9uIGlkPSJvbmV0cnVzdC1yZWplY3QtYWxsLWhhbmRsZXIiPlJlamVjdDwvYnV0dG9uPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBjLWJ0bi1jb250YWluZXIiPjxidXR0b24gaWQ9Im9uZXRydXN0LXBjLWJ0bi1oYW5kbGVyIj5DaG9pY2VzPC9idXR0b24+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciBvdC1zZGstZWlnaHQgb3Qtc2RrLWNvbHVtbnMiIGlkPSJiYW5uZXItb3B0aW9ucyI+PGJ1dHRvbiBjbGFzcz0iYmFubmVyLW9wdGlvbi1pbnB1dCIgYXJpYS1leHBhbmRlZD0iZmFsc2UiPjxzcGFuIGNsYXNzPSJiYW5uZXItb3B0aW9uLWhlYWRlciI+PGg0PlB1cnBvc2Ugd2UgdXNlPC9oND48c3BhbiBjbGFzcz0ib3QtYXJyb3ctY29udGFpbmVyIj48L3NwYW4+PC9zcGFuPjwvYnV0dG9uPjxkaXYgY2xhc3M9ImJhbm5lci1vcHRpb24tZGV0YWlscyI+cHVycG9zZSBkZXNjcmlwdGlvbjwvZGl2PjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgaWQ9Im9uZXRydXN0LWNsb3NlLWJ0bi1jb250YWluZXIiPjxidXR0b24gY2xhc3M9Im9uZXRydXN0LWNsb3NlLWJ0bi1oYW5kbGVyIG9uZXRydXN0LWNsb3NlLWJ0bi11aSBiYW5uZXItY2xvc2UtYnV0dG9uIG90LWNsb3NlLWljb24iPjwvYnV0dG9uPjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIEVORCAtLT48L2Rpdj48L2Rpdj48L2Rpdj4=",
-        "css": "#onetrust-banner-sdk.otFloatingRoundedIcon{position:fixed;bottom:2em;right:0;left:5em;z-index:2147483645;background-color:#fff;width:75%;border-radius:6.5px;padding:20px 0;-webkit-box-shadow:0 0 18px rgba(0,0,0,.2);-moz-box-shadow:0 0 18px rgba(0,0,0,.2);box-shadow:0 0 18px rgba(0,0,0,.2);display:table}#onetrust-banner-sdk.otFloatingRoundedIcon.otRelFont{font-size:1rem}#onetrust-banner-sdk .banner-content{overflow-x:hidden;overflow-y:auto;max-height:20rem}#onetrust-banner-sdk .banner-content::-webkit-scrollbar{width:11px}#onetrust-banner-sdk .banner-content::-webkit-scrollbar-thumb{border-radius:10px;background:#c1c1c1}#onetrust-banner-sdk .banner-content{scrollbar-arrow-color:#c1c1c1;scrollbar-darkshadow-color:#c1c1c1;scrollbar-face-color:#c1c1c1;scrollbar-shadow-color:#c1c1c1}#onetrust-banner-sdk h3,#onetrust-banner-sdk p[aria-level=\"3\"]{margin-bottom:0;font-size:1.7em}#onetrust-banner-sdk #onetrust-policy{margin-left:50px}#onetrust-banner-sdk #onetrust-policy .ot-gv-list-handler{float:left;font-size:.812em;padding:0;margin-bottom:0;border:0;height:auto;line-height:normal}#onetrust-banner-sdk #onetrust-button-group-parent{text-align:center}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler{background-color:#68b631;color:#fff;border-color:#68b631;margin-bottom:.6rem}#onetrust-banner-sdk #onetrust-pc-btn-handler{background-color:#68b631;color:#fff;border:1px solid #68b631;padding:0}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{border-radius:50px;font-weight:600;letter-spacing:.05em;min-width:160px;height:auto;white-space:normal;word-break:break-word;word-wrap:break-word;padding:10px 10px;line-height:1.6;-webkit-box-shadow:0px 2px 10px -3px #999;-moz-box-shadow:0px 2px 10px -3px #999;box-shadow:0px 2px 10px -3px #999}#onetrust-banner-sdk #onetrust-pc-btn-handler.cookie-setting-link{background-color:#fff;border:none;color:#68b631;text-decoration:underline;padding-left:0;padding-right:0;box-shadow:none}#onetrust-banner-sdk .onetrust-close-btn-ui{float:right;width:44px;height:44px;background-size:12px;margin:-5px 0 0 0;border:none;padding:0}#onetrust-banner-sdk #onetrust-close-btn-container{position:absolute;top:12px;right:0}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-b-addl-desc{clear:both;float:left;margin-bottom:0;padding-bottom:10px;font-size:.8em;line-height:1.5}#onetrust-banner-sdk #onetrust-policy-text>*,#onetrust-banner-sdk .ot-b-addl-desc>*{font-size:inherit}#onetrust-banner-sdk #onetrust-policy-text a,#onetrust-banner-sdk .ot-b-addl-desc a{font-weight:600;margin-left:5px}#onetrust-banner-sdk .ot-b-addl-desc{display:block}#onetrust-banner-sdk .ot-dpd-desc>.ot-b-addl-desc{padding:0;width:100%;font-size:1em;line-height:1.5;margin-top:10px;margin-bottom:10px}#onetrust-banner-sdk #onetrust-policy-title{float:left;text-align:left;font-size:1em;line-height:1.3;font-weight:600;margin-bottom:10px;color:#2c3643}#onetrust-banner-sdk #onetrust-policy-title a{color:#6c7985}#onetrust-banner-sdk #onetrust-policy-text a{font-weight:bold}#onetrust-banner-sdk #onetrust-cookie-btn{display:block;border-radius:50%;height:64px;width:64px;cursor:pointer;padding:0;margin-bottom:0;border:0}#onetrust-banner-sdk #onetrust-cookie-btn:focus,#onetrust-banner-sdk #onetrust-cookie-btn:hover{opacity:.7}#onetrust-banner-sdk #onetrust-cookie-btn-container{position:absolute;float:left;z-index:1;left:-35px;top:53%;transform:translateY(-50%)}#onetrust-banner-sdk .banner_logo{display:none}#onetrust-banner-sdk.ot-bnr-w-logo #onetrust-cookie-btn{border-radius:0}#onetrust-banner-sdk #banner-options{float:left;margin-left:50px;margin-top:10px;margin-bottom:1em}#onetrust-banner-sdk .banner-option-input{cursor:pointer;width:auto;height:auto;border:none;padding:0;padding-right:3px;margin-bottom:6px;margin-left:20px;font-size:.82em;line-height:1.4}#onetrust-banner-sdk .banner-option-input *{pointer-events:none;font-size:inherit;line-height:inherit}#onetrust-banner-sdk .banner-option-input[aria-expanded=true] .ot-arrow-container{transform:rotate(90deg)}#onetrust-banner-sdk #purpose-option[aria-expanded=true]~.banner-option-details.purpose-option,#onetrust-banner-sdk #feature-option[aria-expanded=true]~.banner-option-details.feature-option,#onetrust-banner-sdk #information-option[aria-expanded=true]~.banner-option-details.information-option{display:block;height:auto}#onetrust-banner-sdk .banner-option-header{cursor:pointer;display:inline-block}#onetrust-banner-sdk .banner-option-header :first-child{color:dimgray;font-weight:bold;float:left}#onetrust-banner-sdk .banner-option-header .ot-arrow-container{display:inline-block;border-top:6px solid rgba(0,0,0,0);border-bottom:6px solid rgba(0,0,0,0);border-left:6px solid dimgray;margin-left:10px;vertical-align:middle;transition:all 300ms ease-in 0s;-webkit-transition:all 300ms ease-in 0s;-moz-transition:all 300ms ease-in 0s;-o-transition:all 300ms ease-in 0s}#onetrust-banner-sdk .banner-option-details{display:none;font-size:.83em;line-height:1.5;height:0px;padding:10px 10px 5px 10px;transition:all 300ms ease-in 0s;-webkit-transition:all 300ms ease-in 0s;-moz-transition:all 300ms ease-in 0s;-o-transition:all 300ms ease-in 0s}#onetrust-banner-sdk .banner-option-details *{font-size:inherit;line-height:inherit;color:dimgray}#onetrust-banner-sdk .ot-dpd-container{float:left;clear:both}#onetrust-banner-sdk .ot-dpd-container .ot-dpd-title{font-weight:600;padding-bottom:8px}#onetrust-banner-sdk .ot-dpd-container .ot-dpd-desc,#onetrust-banner-sdk .ot-dpd-container .ot-dpd-title{font-size:.813em;line-height:1.5}#onetrust-banner-sdk .ot-dpd-container .ot-dpd-desc .onetrust-vendors-list-handler{display:block;margin-left:0px;margin-top:5px;clear:both;padding:0;margin-bottom:0;border:0;line-height:normal;height:auto;width:auto}#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container{position:static;margin:0;text-align:center}#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container button{white-space:pre-wrap;border:none;height:auto;line-height:1.5;text-decoration:underline;font-size:.69em;min-width:175px;float:none;padding:0}#onetrust-banner-sdk.ot-close-btn-link.ot-wo-title #onetrust-group-container{margin-top:20px}@media(min-width: 550px){#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns{width:15%}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns{width:74.333333%}}@media only screen and (min-width: 426px)and (max-width: 896px){#onetrust-banner-sdk{padding:20px 0 10px 0}#onetrust-banner-sdk .ot-optout-signal{margin-top:1.875rem}#onetrust-banner-sdk #onetrust-policy,#onetrust-banner-sdk #onetrust-button-group-parent{margin-left:0}#onetrust-banner-sdk .ot-sdk-container .ot-sdk-row{margin:0 15px 0 15px}#onetrust-banner-sdk #onetrust-cookie-btn-container{display:none}#onetrust-banner-sdk #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-pc-btn-container{display:inline-block;margin-top:15px}#onetrust-banner-sdk #onetrust-pc-btn-container{float:left;margin-right:1em}#onetrust-banner-sdk #onetrust-accept-btn-container{float:right}#onetrust-banner-sdk #onetrust-button-group{display:inline-block}#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container>button{margin:1em}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-b-addl-desc{font-size:.813em;width:94%}#onetrust-banner-sdk #onetrust-policy-text>*,#onetrust-banner-sdk .ot-b-addl-desc>*{font-size:inherit}#onetrust-banner-sdk #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-reject-btn-container{margin-right:10px}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns{width:100%}#onetrust-banner-sdk #banner-options{margin-left:1em}#onetrust-banner-sdk.otFloatingRoundedIcon{left:0;bottom:0;border-radius:0;width:100%;padding:20px 0 10px 0}}@media only screen and (min-width: 769px){#onetrust-banner-sdk.otFloatingRoundedIcon[dir=rtl]{right:20%}}@media only screen and (min-width: 897px){#onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent{position:absolute;top:50%;margin-top:10px;transform:translateY(-50%);width:20%;left:64%}#onetrust-banner-sdk #onetrust-group-container{width:64%}#onetrust-banner-sdk #banner-options{width:60%;margin:0;padding-left:50px}#onetrust-banner-sdk #onetrust-button-group-parent{width:20%;left:64%}}@media only screen and (min-width: 1024px){#onetrust-banner-sdk .banner-content{overflow-x:initial;overflow-y:auto;padding-bottom:20px;padding-top:20px;max-height:35vh}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-banner-sdk #onetrust-group-container{width:64%}#onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent{width:20%;left:66%}#onetrust-banner-sdk #onetrust-button-group-parent{width:20%;left:66%}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{width:auto}#onetrust-banner-sdk #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-pc-btn-container{text-align:center}#onetrust-banner-sdk:not(.vertical-align-content){padding:0}#onetrust-banner-sdk:not(.vertical-align-content) #onetrust-button-group-parent{margin-left:66%}#onetrust-banner-sdk:not(.vertical-align-content) #onetrust-group-container{position:absolute;top:50%;transform:translateY(-50%);left:0}#onetrust-banner-sdk:not(.vertical-align-content) #onetrust-close-btn-container{margin-top:20px}#onetrust-banner-sdk #onetrust-accept-btn-container{margin-top:1em}#onetrust-banner-sdk #onetrust-close-btn-container{margin-right:20px}#onetrust-banner-sdk.ot-close-btn-link #onetrust-button-group-parent{width:28%}#onetrust-banner-sdk.ot-close-btn-link #onetrust-accept-btn-container{margin-top:0}}@media only screen and (max-width: 768px){#onetrust-banner-sdk .banner-content{max-height:85vh}#onetrust-banner-sdk #banner-options{margin-left:0;padding:0;width:100%}#onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-accept-btn-container{margin-right:0;width:100%}#onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-accept-btn-container #onetrust-accept-btn-handler{width:100%}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-accept-btn-container{margin-right:0;width:47%;float:right}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-btn-container{margin-right:0;width:47%}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-btn-container button{float:right}#onetrust-banner-sdk #onetrust-pc-btn-container{width:100%;text-align:center}}@media only screen and (max-width: 760px){#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container{display:flex;flex-wrap:wrap;justify-content:center}}@media only screen and (max-width: 510px){#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container>button{width:100%;margin:1em 0}}@media only screen and (max-width: 425px){#onetrust-banner-sdk .ot-optout-signal{margin-top:1.875rem}#onetrust-banner-sdk #onetrust-policy{margin-left:0;margin-right:.2em}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-b-addl-desc{line-height:1.5;font-size:.813em;padding-top:2em}#onetrust-banner-sdk #onetrust-cookie-btn-container{display:none}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-pc-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-pc-btn-container{width:100%}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-pc-btn-handler,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-pc-btn-handler{width:100%;letter-spacing:0;font-size:.813em}#onetrust-banner-sdk #onetrust-policy-title{display:inline-block;line-height:1;margin-bottom:10px;width:95%}#onetrust-banner-sdk #onetrust-button-group-parent{margin-top:20px}#onetrust-banner-sdk #banner-options{margin-left:0;padding:0;width:100%}#onetrust-banner-sdk .onetrust-close-btn-ui{margin:-15px}#onetrust-banner-sdk #onetrust-group-container{margin-top:20px}#onetrust-banner-sdk #onetrust-close-btn-container{top:22px;right:22px}#onetrust-banner-sdk.otFloatingRoundedIcon{left:0;bottom:0;padding-bottom:0;padding-top:0;width:100%;border-radius:0}}"
       }
     },
     {
@@ -49,6 +105,16 @@
       }
     },
     {
+      "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202510.1.0/assets/otFloatingRoundedIcon.json",
+      "status": 200,
+      "content_type": "application/json",
+      "payload": {
+        "name": "otFloatingRoundedIcon",
+        "html": "PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxvYXRpbmdSb3VuZGVkSWNvbiB2ZXJ0aWNhbC1hbGlnbi1jb250ZW50Ij48ZGl2IHJvbGU9ImRpYWxvZyI+PCEtLSBDb29raWUgQnV0dG9uIC0tPjxkaXYgaWQ9Im9uZXRydXN0LWNvb2tpZS1idG4tY29udGFpbmVyIj48YnV0dG9uIGNsYXNzPSJvdC1saW5rLWJ0biIgaWQ9Im9uZXRydXN0LWNvb2tpZS1idG4iIHJvbGU9ImJ1dHRvbiIgYXJpYS1sYWJlbD0iQ29va2llcyI+PHN2ZyB3aWR0aD0iNjUiIGhlaWdodD0iNjUiIHZpZXdCb3g9Ii0yIC0yIDM1IDM1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5Db29raWVzIEJ1dHRvbjwvdGl0bGU+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGN4PSIxNSIgY3k9IjE1IiByPSIxNi41IiBmaWxsPSIjMmUzNjQzIi8+PGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMTQuNSIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTUiIHI9IjE0IiBmaWxsPSIjMmUzNjQzIi8+PHBhdGggZD0iTTI1IDE0Ljk1VjE1YzAgNS41MjMtNC40NzcgMTAtMTAgMTBTNSAyMC41MjMgNSAxNWMwLTQuODQyIDMuNDQyLTguODgxIDguMDEzLTkuODAzQTMuNSAzLjUgMCAwIDAgMTYuMTMgOC45OGE0IDQgMCAwIDAgNi4wMjUgNC4zOUEyLjUwMSAyLjUwMSAwIDAgMCAyNSAxNC45NXoiIHN0cm9rZT0iIzMyM0Y0RSIgc3Ryb2tlLXdpZHRoPSIuNSIgZmlsbD0iI0ZGRiIvPjxjaXJjbGUgZmlsbD0iI0JEQkRCRCIgY3g9IjEwIiBjeT0iMTIiIHI9IjIiLz48Y2lyY2xlIGZpbGw9IiNCREJEQkQiIGN4PSIxMi41IiBjeT0iMTkuNSIgcj0iMS41Ii8+PGNpcmNsZSBmaWxsPSIjQkRCREJEIiBjeD0iMjAiIGN5PSIxOCIgcj0iMiIvPjxjaXJjbGUgZmlsbD0iIzZDQzA0QSIgY3g9IjE0IiBjeT0iMTQiIHI9IjEiLz48Y2lyY2xlIGZpbGw9IiM2Q0MwNEEiIGN4PSIxNyIgY3k9IjIyIiByPSIxIi8+PGNpcmNsZSBmaWxsPSIjNkNDMDRBIiBjeD0iOSIgY3k9IjE4IiByPSIxIi8+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjxkaXYgY2xhc3M9ImJhbm5lci1jb250ZW50Ij48ZGl2IGNsYXNzPSJvdC1zZGstY29udGFpbmVyIj48IS0tIENvb2tpZSBCdXR0b24gRU5EIC0tPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay1laWdodCBvdC1zZGstY29sdW1ucyI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGgyIGlkPSJvbmV0cnVzdC1wb2xpY3ktdGl0bGUiPkF1dGhvcml6ZSBhY2Nlc3MgdG8geW91ciBkYXRhPC9oMj48ZGl2IGlkPSJvbmV0cnVzdC1wb2xpY3ktdGV4dCI+dGl0bGU8YSBocmVmPSIjIj5wb2xpY3k8L2E+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZHBkLWNvbnRhaW5lciI+PGgzIGNsYXNzPSJvdC1kcGQtdGl0bGUiPjwvaDM+PGRpdiBjbGFzcz0ib3QtZHBkLWNvbnRlbnQiPjxwIGNsYXNzPSJvdC1kcGQtZGVzYyI+PC9wPjwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LWJ1dHRvbi1ncm91cC1wYXJlbnQiIGNsYXNzPSJvdC1zZGstdGhyZWUgb3Qtc2RrLWNvbHVtbnMiPjxkaXYgaWQ9Im9uZXRydXN0LWJ1dHRvbi1ncm91cCIgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWFjY2VwdC1idG4tY29udGFpbmVyIj48YnV0dG9uIGlkPSJvbmV0cnVzdC1hY2NlcHQtYnRuLWhhbmRsZXIiPkFjY2VwdDwvYnV0dG9uPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXJlamVjdC1idG4tY29udGFpbmVyIj48YnV0dG9uIGlkPSJvbmV0cnVzdC1yZWplY3QtYWxsLWhhbmRsZXIiPlJlamVjdDwvYnV0dG9uPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBjLWJ0bi1jb250YWluZXIiPjxidXR0b24gaWQ9Im9uZXRydXN0LXBjLWJ0bi1oYW5kbGVyIj5DaG9pY2VzPC9idXR0b24+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciBvdC1zZGstZWlnaHQgb3Qtc2RrLWNvbHVtbnMiIGlkPSJiYW5uZXItb3B0aW9ucyI+PGJ1dHRvbiBjbGFzcz0iYmFubmVyLW9wdGlvbi1pbnB1dCIgYXJpYS1leHBhbmRlZD0iZmFsc2UiPjxzcGFuIGNsYXNzPSJiYW5uZXItb3B0aW9uLWhlYWRlciI+PGg0PlB1cnBvc2Ugd2UgdXNlPC9oND48c3BhbiBjbGFzcz0ib3QtYXJyb3ctY29udGFpbmVyIj48L3NwYW4+PC9zcGFuPjwvYnV0dG9uPjxkaXYgY2xhc3M9ImJhbm5lci1vcHRpb24tZGV0YWlscyI+cHVycG9zZSBkZXNjcmlwdGlvbjwvZGl2PjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgaWQ9Im9uZXRydXN0LWNsb3NlLWJ0bi1jb250YWluZXIiPjxidXR0b24gY2xhc3M9Im9uZXRydXN0LWNsb3NlLWJ0bi1oYW5kbGVyIG9uZXRydXN0LWNsb3NlLWJ0bi11aSBiYW5uZXItY2xvc2UtYnV0dG9uIG90LWNsb3NlLWljb24iPjwvYnV0dG9uPjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIEVORCAtLT48L2Rpdj48L2Rpdj48L2Rpdj4=",
+        "css": "#onetrust-banner-sdk.otFloatingRoundedIcon{position:fixed;bottom:2em;right:0;left:5em;z-index:2147483645;background-color:#fff;width:75%;border-radius:6.5px;padding:20px 0;-webkit-box-shadow:0 0 18px rgba(0,0,0,.2);-moz-box-shadow:0 0 18px rgba(0,0,0,.2);box-shadow:0 0 18px rgba(0,0,0,.2);display:table}#onetrust-banner-sdk.otFloatingRoundedIcon.otRelFont{font-size:1rem}#onetrust-banner-sdk .banner-content{overflow-x:hidden;overflow-y:auto;max-height:20rem}#onetrust-banner-sdk .banner-content::-webkit-scrollbar{width:11px}#onetrust-banner-sdk .banner-content::-webkit-scrollbar-thumb{border-radius:10px;background:#c1c1c1}#onetrust-banner-sdk .banner-content{scrollbar-arrow-color:#c1c1c1;scrollbar-darkshadow-color:#c1c1c1;scrollbar-face-color:#c1c1c1;scrollbar-shadow-color:#c1c1c1}#onetrust-banner-sdk h3,#onetrust-banner-sdk p[aria-level=\"3\"]{margin-bottom:0;font-size:1.7em}#onetrust-banner-sdk #onetrust-policy{margin-left:50px}#onetrust-banner-sdk #onetrust-policy .ot-gv-list-handler{float:left;font-size:.812em;padding:0;margin-bottom:0;border:0;height:auto;line-height:normal}#onetrust-banner-sdk #onetrust-button-group-parent{text-align:center}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler{background-color:#68b631;color:#fff;border-color:#68b631;margin-bottom:.6rem}#onetrust-banner-sdk #onetrust-pc-btn-handler{background-color:#68b631;color:#fff;border:1px solid #68b631;padding:0}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{border-radius:50px;font-weight:600;letter-spacing:.05em;min-width:160px;height:auto;white-space:normal;word-break:break-word;word-wrap:break-word;padding:10px 10px;line-height:1.6;-webkit-box-shadow:0px 2px 10px -3px #999;-moz-box-shadow:0px 2px 10px -3px #999;box-shadow:0px 2px 10px -3px #999}#onetrust-banner-sdk #onetrust-pc-btn-handler.cookie-setting-link{background-color:#fff;border:none;color:#68b631;text-decoration:underline;padding-left:0;padding-right:0;box-shadow:none}#onetrust-banner-sdk .onetrust-close-btn-ui{float:right;width:44px;height:44px;background-size:12px;margin:-5px 0 0 0;border:none;padding:0}#onetrust-banner-sdk #onetrust-close-btn-container{position:absolute;top:12px;right:0}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-b-addl-desc{clear:both;float:left;margin-bottom:0;padding-bottom:10px;font-size:.8em;line-height:1.5}#onetrust-banner-sdk #onetrust-policy-text>*,#onetrust-banner-sdk .ot-b-addl-desc>*{font-size:inherit}#onetrust-banner-sdk #onetrust-policy-text a,#onetrust-banner-sdk .ot-b-addl-desc a{font-weight:600;margin-left:5px}#onetrust-banner-sdk .ot-b-addl-desc{display:block}#onetrust-banner-sdk .ot-dpd-desc>.ot-b-addl-desc{padding:0;width:100%;font-size:1em;line-height:1.5;margin-top:10px;margin-bottom:10px}#onetrust-banner-sdk #onetrust-policy-title{float:left;text-align:left;font-size:1em;line-height:1.3;font-weight:600;margin-bottom:10px;color:#2c3643}#onetrust-banner-sdk #onetrust-policy-title a{color:#6c7985}#onetrust-banner-sdk #onetrust-policy-text a{font-weight:bold}#onetrust-banner-sdk #onetrust-cookie-btn{display:block;border-radius:50%;height:64px;width:64px;cursor:pointer;padding:0;margin-bottom:0;border:0}#onetrust-banner-sdk #onetrust-cookie-btn:focus,#onetrust-banner-sdk #onetrust-cookie-btn:hover{opacity:.7}#onetrust-banner-sdk #onetrust-cookie-btn-container{position:absolute;float:left;z-index:1;left:-35px;top:53%;transform:translateY(-50%)}#onetrust-banner-sdk .banner_logo{display:none}#onetrust-banner-sdk.ot-bnr-w-logo #onetrust-cookie-btn{border-radius:0}#onetrust-banner-sdk #banner-options{float:left;margin-left:50px;margin-top:10px;margin-bottom:1em}#onetrust-banner-sdk .banner-option-input{cursor:pointer;width:auto;height:auto;border:none;padding:0;padding-right:3px;margin-bottom:6px;margin-left:20px;font-size:.82em;line-height:1.4}#onetrust-banner-sdk .banner-option-input *{pointer-events:none;font-size:inherit;line-height:inherit}#onetrust-banner-sdk .banner-option-input[aria-expanded=true] .ot-arrow-container{transform:rotate(90deg)}#onetrust-banner-sdk #purpose-option[aria-expanded=true]~.banner-option-details.purpose-option,#onetrust-banner-sdk #feature-option[aria-expanded=true]~.banner-option-details.feature-option,#onetrust-banner-sdk #information-option[aria-expanded=true]~.banner-option-details.information-option{display:block;height:auto}#onetrust-banner-sdk .banner-option-header{cursor:pointer;display:inline-block}#onetrust-banner-sdk .banner-option-header :first-child{color:dimgray;font-weight:bold;float:left}#onetrust-banner-sdk .banner-option-header .ot-arrow-container{display:inline-block;border-top:6px solid rgba(0,0,0,0);border-bottom:6px solid rgba(0,0,0,0);border-left:6px solid dimgray;margin-left:10px;vertical-align:middle;transition:all 300ms ease-in 0s;-webkit-transition:all 300ms ease-in 0s;-moz-transition:all 300ms ease-in 0s;-o-transition:all 300ms ease-in 0s}#onetrust-banner-sdk .banner-option-details{display:none;font-size:.83em;line-height:1.5;height:0px;padding:10px 10px 5px 10px;transition:all 300ms ease-in 0s;-webkit-transition:all 300ms ease-in 0s;-moz-transition:all 300ms ease-in 0s;-o-transition:all 300ms ease-in 0s}#onetrust-banner-sdk .banner-option-details *{font-size:inherit;line-height:inherit;color:dimgray}#onetrust-banner-sdk .ot-dpd-container{float:left;clear:both}#onetrust-banner-sdk .ot-dpd-container .ot-dpd-title{font-weight:600;padding-bottom:8px}#onetrust-banner-sdk .ot-dpd-container .ot-dpd-desc,#onetrust-banner-sdk .ot-dpd-container .ot-dpd-title{font-size:.813em;line-height:1.5}#onetrust-banner-sdk .ot-dpd-container .ot-dpd-desc .onetrust-vendors-list-handler{display:block;margin-left:0px;margin-top:5px;clear:both;padding:0;margin-bottom:0;border:0;line-height:normal;height:auto;width:auto}#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container{position:static;margin:0;text-align:center}#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container button{white-space:pre-wrap;border:none;height:auto;line-height:1.5;text-decoration:underline;font-size:.69em;min-width:175px;float:none;padding:0}#onetrust-banner-sdk.ot-close-btn-link.ot-wo-title #onetrust-group-container{margin-top:20px}@media(min-width: 550px){#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns{width:15%}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns{width:74.333333%}}@media only screen and (min-width: 426px)and (max-width: 896px){#onetrust-banner-sdk{padding:20px 0 10px 0}#onetrust-banner-sdk .ot-optout-signal{margin-top:1.875rem}#onetrust-banner-sdk #onetrust-policy,#onetrust-banner-sdk #onetrust-button-group-parent{margin-left:0}#onetrust-banner-sdk .ot-sdk-container .ot-sdk-row{margin:0 15px 0 15px}#onetrust-banner-sdk #onetrust-cookie-btn-container{display:none}#onetrust-banner-sdk #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-pc-btn-container{display:inline-block;margin-top:15px}#onetrust-banner-sdk #onetrust-pc-btn-container{float:left;margin-right:1em}#onetrust-banner-sdk #onetrust-accept-btn-container{float:right}#onetrust-banner-sdk #onetrust-button-group{display:inline-block}#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container>button{margin:1em}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-b-addl-desc{font-size:.813em;width:94%}#onetrust-banner-sdk #onetrust-policy-text>*,#onetrust-banner-sdk .ot-b-addl-desc>*{font-size:inherit}#onetrust-banner-sdk #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-reject-btn-container{margin-right:10px}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns{width:100%}#onetrust-banner-sdk #banner-options{margin-left:1em}#onetrust-banner-sdk.otFloatingRoundedIcon{left:0;bottom:0;border-radius:0;width:100%;padding:20px 0 10px 0}}@media only screen and (min-width: 769px){#onetrust-banner-sdk.otFloatingRoundedIcon[dir=rtl]{right:20%}}@media only screen and (min-width: 897px){#onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent{position:absolute;top:50%;margin-top:10px;transform:translateY(-50%);width:20%;left:64%}#onetrust-banner-sdk #onetrust-group-container{width:64%}#onetrust-banner-sdk #banner-options{width:60%;margin:0;padding-left:50px}#onetrust-banner-sdk #onetrust-button-group-parent{width:20%;left:64%}}@media only screen and (min-width: 1024px){#onetrust-banner-sdk .banner-content{overflow-x:initial;overflow-y:auto;padding-bottom:20px;padding-top:20px;max-height:35vh}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-banner-sdk #onetrust-group-container{width:64%}#onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent{width:20%;left:66%}#onetrust-banner-sdk #onetrust-button-group-parent{width:20%;left:66%}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{width:auto}#onetrust-banner-sdk #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-pc-btn-container{text-align:center}#onetrust-banner-sdk:not(.vertical-align-content){padding:0}#onetrust-banner-sdk:not(.vertical-align-content) #onetrust-button-group-parent{margin-left:66%}#onetrust-banner-sdk:not(.vertical-align-content) #onetrust-group-container{position:absolute;top:50%;transform:translateY(-50%);left:0}#onetrust-banner-sdk:not(.vertical-align-content) #onetrust-close-btn-container{margin-top:20px}#onetrust-banner-sdk #onetrust-accept-btn-container{margin-top:1em}#onetrust-banner-sdk #onetrust-close-btn-container{margin-right:20px}#onetrust-banner-sdk.ot-close-btn-link #onetrust-button-group-parent{width:28%}#onetrust-banner-sdk.ot-close-btn-link #onetrust-accept-btn-container{margin-top:0}}@media only screen and (max-width: 768px){#onetrust-banner-sdk .banner-content{max-height:85vh}#onetrust-banner-sdk #banner-options{margin-left:0;padding:0;width:100%}#onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-accept-btn-container{margin-right:0;width:100%}#onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-accept-btn-container #onetrust-accept-btn-handler{width:100%}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-accept-btn-container{margin-right:0;width:47%;float:right}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-btn-container{margin-right:0;width:47%}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-btn-container button{float:right}#onetrust-banner-sdk #onetrust-pc-btn-container{width:100%;text-align:center}}@media only screen and (max-width: 760px){#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container{display:flex;flex-wrap:wrap;justify-content:center}}@media only screen and (max-width: 510px){#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container>button{width:100%;margin:1em 0}}@media only screen and (max-width: 425px){#onetrust-banner-sdk .ot-optout-signal{margin-top:1.875rem}#onetrust-banner-sdk #onetrust-policy{margin-left:0;margin-right:.2em}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-b-addl-desc{line-height:1.5;font-size:.813em;padding-top:2em}#onetrust-banner-sdk #onetrust-cookie-btn-container{display:none}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-pc-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-accept-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-reject-btn-container,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-pc-btn-container{width:100%}#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-button-group-parent.has-reject-all-button #onetrust-pc-btn-handler,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-button-group-parent #onetrust-pc-btn-handler{width:100%;letter-spacing:0;font-size:.813em}#onetrust-banner-sdk #onetrust-policy-title{display:inline-block;line-height:1;margin-bottom:10px;width:95%}#onetrust-banner-sdk #onetrust-button-group-parent{margin-top:20px}#onetrust-banner-sdk #banner-options{margin-left:0;padding:0;width:100%}#onetrust-banner-sdk .onetrust-close-btn-ui{margin:-15px}#onetrust-banner-sdk #onetrust-group-container{margin-top:20px}#onetrust-banner-sdk #onetrust-close-btn-container{top:22px;right:22px}#onetrust-banner-sdk.otFloatingRoundedIcon{left:0;bottom:0;padding-bottom:0;padding-top:0;width:100%;border-radius:0}}"
+      }
+    },
+    {
       "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202510.1.0/assets/otCookieSettingsButton.json",
       "status": 200,
       "content_type": "application/json",
@@ -56,72 +122,6 @@
         "name": "otCookieSettingsButton",
         "html": "PGRpdiBpZD0ib3Qtc2RrLWJ0bi1mbG9hdGluZyIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbiBvdC1oaWRlIj48ZGl2IGNsYXNzPSJvdC1mbG9hdGluZy1idXR0b25fX2Zyb250Ij48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fb3BlbiI+PC9idXR0b24+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uX19iYWNrIj48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fY2xvc2UiPjwhLS0/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8tLT4gPHN2ZyByb2xlPSJwcmVzZW50YXRpb24iIHRhYmluZGV4PSItMSIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgaWQ9IkJhbm5lcl8wMiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fc3ZnLWZpbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTguMDAwMDAwLCAtNzI1LjAwMDAwMCkiIGZpbGw9IiMyOTJCMkUiIGZpbGwtcnVsZT0ibm9uemVybyI+PGcgaWQ9Ikdyb3VwLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwNS4wMDAwMDAsIDcxMi4wMDAwMDApIj48ZyBpZD0iaWNvbi8xNnB4L3doaXRlL2Nsb3NlIj48cG9seWdvbiBpZD0iTGluZTEiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PHBvbHlnb24gaWQ9IkxpbmUyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4wMDAwMDAsIDI1LjAwMDAwMCkgc2NhbGUoLTEsIDEpIHRyYW5zbGF0ZSgtMjUuMDAwMDAwLCAtMjUuMDAwMDAwKSAiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjwvZGl2Pg==",
         "css": "#ot-sdk-btn-floating.ot-floating-button{position:fixed;bottom:10px;opacity:0;width:50px;height:50px;line-height:15px;cursor:pointer;background-color:rgba(0,0,0,0);transition:all 300ms ease;z-index:2147483646;animation:otFloatingBtnIntro 800ms ease 0ms 1 forwards}#ot-sdk-btn-floating.ot-floating-button.ot-hide{display:none}#ot-sdk-btn-floating.ot-floating-button::before,#ot-sdk-btn-floating.ot-floating-button::after{text-transform:none;line-height:1;user-select:none;pointer-events:none;position:absolute;transform:scale(0);opacity:0;transition:all 300ms ease;display:block;height:auto}#ot-sdk-btn-floating.ot-floating-button::before{content:\"\";border:5px solid rgba(0,0,0,0);z-index:1001;top:50%;border-left-width:0;border-right-color:#333;right:calc(0em - 5px);transform:translate(10px, -50%)}#ot-sdk-btn-floating.ot-floating-button::after{content:attr(data-title);position:absolute;text-align:center;top:50%;left:calc(100% + 5px);transform:translate(10px, -50%);font-size:.75rem;min-width:3em;max-width:21em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:5px;border-radius:.3ch;box-shadow:0 1em 2em -0.5em rgba(0,0,0,.35);background:#333;color:#fff;z-index:2147483645}#ot-sdk-btn-floating.ot-floating-button:hover::before,#ot-sdk-btn-floating.ot-floating-button:hover::after{opacity:1}#ot-sdk-btn-floating.ot-floating-button:hover::before{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button:hover::after{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__front{transform:rotateY(-180deg)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__back{transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front,#ot-sdk-btn-floating .ot-floating-button__back{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#6aaae4;border-radius:10px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:transform .6s;transform-style:preserve-3d}#ot-sdk-btn-floating .ot-floating-button__front{background-color:#6aaae4;transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__front svg:not(.ot-source-sprite){width:30px;height:37px}#ot-sdk-btn-floating .ot-floating-button__front svg.ot-source-sprite{width:50px;height:50px}#ot-sdk-btn-floating .ot-floating-button__back{background-color:#fff;transform:rotateY(-180deg)}#ot-sdk-btn-floating .ot-floating-button__back.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__back svg{width:24px;height:24px}#ot-sdk-btn-floating.ot-floating-button button{padding:0;background-color:rgba(0,0,0,0);border:0;width:100%;height:100%;cursor:pointer}#ot-sdk-btn-floating.ot-floating-button button>*{pointer-events:none}@keyframes otFloatingBtnIntro{0%{opacity:0;left:-75px}100%{opacity:1;left:1%}}@keyframes otFloatingBtnImageIntro{0%{opacity:0;transform:scale(0) rotate(-270deg)}100%{opacity:100%;transform:scale(0.95) rotate(0deg)}}"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
       }
     },
     {
@@ -251,7 +251,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -548,7 +548,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -3131,8 +3131,8 @@
             "concert-film",
             "3d",
             "music",
-            "romantic-comedy",
             "sci-fi",
+            "romantic-comedy",
             "fairytale",
             "melodrama",
             "action",
@@ -3182,8 +3182,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "live",
             "screenx",
+            "live",
             "documentary",
             "horror",
             "original",
@@ -3206,7 +3206,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -4028,8 +4028,8 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "VA",
-        "stateName": "Virginia",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
     },
@@ -4061,6 +4061,39 @@
         "name": "otCookieSettingsButton",
         "html": "PGRpdiBpZD0ib3Qtc2RrLWJ0bi1mbG9hdGluZyIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbiBvdC1oaWRlIj48ZGl2IGNsYXNzPSJvdC1mbG9hdGluZy1idXR0b25fX2Zyb250Ij48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fb3BlbiI+PC9idXR0b24+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uX19iYWNrIj48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fY2xvc2UiPjwhLS0/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8tLT4gPHN2ZyByb2xlPSJwcmVzZW50YXRpb24iIHRhYmluZGV4PSItMSIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgaWQ9IkJhbm5lcl8wMiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fc3ZnLWZpbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTguMDAwMDAwLCAtNzI1LjAwMDAwMCkiIGZpbGw9IiMyOTJCMkUiIGZpbGwtcnVsZT0ibm9uemVybyI+PGcgaWQ9Ikdyb3VwLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwNS4wMDAwMDAsIDcxMi4wMDAwMDApIj48ZyBpZD0iaWNvbi8xNnB4L3doaXRlL2Nsb3NlIj48cG9seWdvbiBpZD0iTGluZTEiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PHBvbHlnb24gaWQ9IkxpbmUyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4wMDAwMDAsIDI1LjAwMDAwMCkgc2NhbGUoLTEsIDEpIHRyYW5zbGF0ZSgtMjUuMDAwMDAwLCAtMjUuMDAwMDAwKSAiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjwvZGl2Pg==",
         "css": "#ot-sdk-btn-floating.ot-floating-button{position:fixed;bottom:10px;opacity:0;width:50px;height:50px;line-height:15px;cursor:pointer;background-color:rgba(0,0,0,0);transition:all 300ms ease;z-index:2147483646;animation:otFloatingBtnIntro 800ms ease 0ms 1 forwards}#ot-sdk-btn-floating.ot-floating-button.ot-hide{display:none}#ot-sdk-btn-floating.ot-floating-button::before,#ot-sdk-btn-floating.ot-floating-button::after{text-transform:none;line-height:1;user-select:none;pointer-events:none;position:absolute;transform:scale(0);opacity:0;transition:all 300ms ease;display:block;height:auto}#ot-sdk-btn-floating.ot-floating-button::before{content:\"\";border:5px solid rgba(0,0,0,0);z-index:1001;top:50%;border-left-width:0;border-right-color:#333;right:calc(0em - 5px);transform:translate(10px, -50%)}#ot-sdk-btn-floating.ot-floating-button::after{content:attr(data-title);position:absolute;text-align:center;top:50%;left:calc(100% + 5px);transform:translate(10px, -50%);font-size:.75rem;min-width:3em;max-width:21em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:5px;border-radius:.3ch;box-shadow:0 1em 2em -0.5em rgba(0,0,0,.35);background:#333;color:#fff;z-index:2147483645}#ot-sdk-btn-floating.ot-floating-button:hover::before,#ot-sdk-btn-floating.ot-floating-button:hover::after{opacity:1}#ot-sdk-btn-floating.ot-floating-button:hover::before{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button:hover::after{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__front{transform:rotateY(-180deg)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__back{transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front,#ot-sdk-btn-floating .ot-floating-button__back{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#6aaae4;border-radius:10px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:transform .6s;transform-style:preserve-3d}#ot-sdk-btn-floating .ot-floating-button__front{background-color:#6aaae4;transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__front svg:not(.ot-source-sprite){width:30px;height:37px}#ot-sdk-btn-floating .ot-floating-button__front svg.ot-source-sprite{width:50px;height:50px}#ot-sdk-btn-floating .ot-floating-button__back{background-color:#fff;transform:rotateY(-180deg)}#ot-sdk-btn-floating .ot-floating-button__back.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__back svg{width:24px;height:24px}#ot-sdk-btn-floating.ot-floating-button button{padding:0;background-color:rgba(0,0,0,0);border:0;width:100%;height:100%;cursor:pointer}#ot-sdk-btn-floating.ot-floating-button button>*{pointer-events:none}@keyframes otFloatingBtnIntro{0%{opacity:0;left:-75px}100%{opacity:1;left:1%}}@keyframes otFloatingBtnImageIntro{0%{opacity:0;transform:scale(0) rotate(-270deg)}100%{opacity:100%;transform:scale(0.95) rotate(0deg)}}"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-03?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "dates": [
+            "2026-09-03",
+            "2026-09-04",
+            "2026-09-05",
+            "2026-09-06",
+            "2026-09-07",
+            "2026-09-08",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-11",
+            "2026-09-12",
+            "2026-09-13",
+            "2026-09-14",
+            "2026-09-15",
+            "2026-09-16",
+            "2026-09-17",
+            "2026-09-18",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26",
+            "2026-09-27",
+            "2026-10-08",
+            "2026-10-10"
+          ]
+        }
       }
     },
     {
@@ -4217,40 +4250,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-02?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "dates": [
-            "2026-09-03",
-            "2026-09-04",
-            "2026-09-05",
-            "2026-09-06",
-            "2026-09-07",
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10",
-            "2026-09-11",
-            "2026-09-12",
-            "2026-09-13",
-            "2026-09-14",
-            "2026-09-15",
-            "2026-09-16",
-            "2026-09-17",
-            "2026-09-18",
-            "2026-09-24",
-            "2026-09-25",
-            "2026-09-26",
-            "2026-09-27",
-            "2026-10-08",
-            "2026-10-10"
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -7114,8 +7114,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "live",
             "screenx",
+            "live",
             "documentary",
             "horror",
             "original",
@@ -7596,7 +7596,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/233336?lang=cs",
               "presentationCode": "233336",
               "soldOut": false,
-              "availabilityRatio": 0.1429,
+              "availabilityRatio": 0.1403,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -12299,8 +12299,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "live",
             "screenx",
+            "live",
             "documentary",
             "horror",
             "original",
@@ -12323,7 +12323,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -12620,7 +12620,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -13111,7 +13111,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/233336?lang=cs",
               "presentationCode": "233336",
               "soldOut": false,
-              "availabilityRatio": 0.1429,
+              "availabilityRatio": 0.1403,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -15150,12 +15150,6 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": []
-    },
-    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events-dates/in-cinema/1052/as-at-date/2026-09-03?attr=&lang=cs_CZ&noAttr=event,marathon,pre",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -15247,13 +15241,19 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": []
+    },
+    {
       "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
       "status": 200,
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "VA",
-        "stateName": "Virginia",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
     },
@@ -18014,8 +18014,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "live",
             "screenx",
+            "live",
             "documentary",
             "horror",
             "original",
@@ -18038,7 +18038,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -18335,7 +18335,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -18826,7 +18826,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/233336?lang=cs",
               "presentationCode": "233336",
               "soldOut": false,
-              "availabilityRatio": 0.1429,
+              "availabilityRatio": 0.1403,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -20865,12 +20865,6 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": []
-    },
-    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events-dates/in-cinema/1052/as-at-date/2026-09-03?attr=&lang=cs_CZ&noAttr=event,marathon,pre",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -20959,6 +20953,23 @@
             ]
           }
         }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": []
+    },
+    {
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "status": 200,
+      "content_type": "application/json",
+      "payload": {
+        "country": "US",
+        "state": "CA",
+        "stateName": "California",
+        "continent": "NA"
       }
     },
     {
@@ -21106,17 +21117,6 @@
             "videoLink": "https://www.youtube.com/watch?v=A7tIMoYvJWk"
           }
         ]
-      }
-    },
-    {
-      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
-      "status": 200,
-      "content_type": "application/json",
-      "payload": {
-        "country": "US",
-        "state": "VA",
-        "stateName": "Virginia",
-        "continent": "NA"
       }
     },
     {
@@ -23723,8 +23723,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "live",
             "screenx",
+            "live",
             "documentary",
             "horror",
             "original",
@@ -23747,7 +23747,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -24049,8 +24049,8 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "VA",
-        "stateName": "Virginia",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
     },
@@ -24082,6 +24082,140 @@
         "name": "otCookieSettingsButton",
         "html": "PGRpdiBpZD0ib3Qtc2RrLWJ0bi1mbG9hdGluZyIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbiBvdC1oaWRlIj48ZGl2IGNsYXNzPSJvdC1mbG9hdGluZy1idXR0b25fX2Zyb250Ij48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fb3BlbiI+PC9idXR0b24+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uX19iYWNrIj48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fY2xvc2UiPjwhLS0/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8tLT4gPHN2ZyByb2xlPSJwcmVzZW50YXRpb24iIHRhYmluZGV4PSItMSIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgaWQ9IkJhbm5lcl8wMiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fc3ZnLWZpbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTguMDAwMDAwLCAtNzI1LjAwMDAwMCkiIGZpbGw9IiMyOTJCMkUiIGZpbGwtcnVsZT0ibm9uemVybyI+PGcgaWQ9Ikdyb3VwLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwNS4wMDAwMDAsIDcxMi4wMDAwMDApIj48ZyBpZD0iaWNvbi8xNnB4L3doaXRlL2Nsb3NlIj48cG9seWdvbiBpZD0iTGluZTEiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PHBvbHlnb24gaWQ9IkxpbmUyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4wMDAwMDAsIDI1LjAwMDAwMCkgc2NhbGUoLTEsIDEpIHRyYW5zbGF0ZSgtMjUuMDAwMDAwLCAtMjUuMDAwMDAwKSAiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjwvZGl2Pg==",
         "css": "#ot-sdk-btn-floating.ot-floating-button{position:fixed;bottom:10px;opacity:0;width:50px;height:50px;line-height:15px;cursor:pointer;background-color:rgba(0,0,0,0);transition:all 300ms ease;z-index:2147483646;animation:otFloatingBtnIntro 800ms ease 0ms 1 forwards}#ot-sdk-btn-floating.ot-floating-button.ot-hide{display:none}#ot-sdk-btn-floating.ot-floating-button::before,#ot-sdk-btn-floating.ot-floating-button::after{text-transform:none;line-height:1;user-select:none;pointer-events:none;position:absolute;transform:scale(0);opacity:0;transition:all 300ms ease;display:block;height:auto}#ot-sdk-btn-floating.ot-floating-button::before{content:\"\";border:5px solid rgba(0,0,0,0);z-index:1001;top:50%;border-left-width:0;border-right-color:#333;right:calc(0em - 5px);transform:translate(10px, -50%)}#ot-sdk-btn-floating.ot-floating-button::after{content:attr(data-title);position:absolute;text-align:center;top:50%;left:calc(100% + 5px);transform:translate(10px, -50%);font-size:.75rem;min-width:3em;max-width:21em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:5px;border-radius:.3ch;box-shadow:0 1em 2em -0.5em rgba(0,0,0,.35);background:#333;color:#fff;z-index:2147483645}#ot-sdk-btn-floating.ot-floating-button:hover::before,#ot-sdk-btn-floating.ot-floating-button:hover::after{opacity:1}#ot-sdk-btn-floating.ot-floating-button:hover::before{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button:hover::after{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__front{transform:rotateY(-180deg)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__back{transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front,#ot-sdk-btn-floating .ot-floating-button__back{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#6aaae4;border-radius:10px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:transform .6s;transform-style:preserve-3d}#ot-sdk-btn-floating .ot-floating-button__front{background-color:#6aaae4;transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__front svg:not(.ot-source-sprite){width:30px;height:37px}#ot-sdk-btn-floating .ot-floating-button__front svg.ot-source-sprite{width:50px;height:50px}#ot-sdk-btn-floating .ot-floating-button__back{background-color:#fff;transform:rotateY(-180deg)}#ot-sdk-btn-floating .ot-floating-button__back.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__back svg{width:24px;height:24px}#ot-sdk-btn-floating.ot-floating-button button{padding:0;background-color:rgba(0,0,0,0);border:0;width:100%;height:100%;cursor:pointer}#ot-sdk-btn-floating.ot-floating-button button>*{pointer-events:none}@keyframes otFloatingBtnIntro{0%{opacity:0;left:-75px}100%{opacity:1;left:1%}}@keyframes otFloatingBtnImageIntro{0%{opacity:0;transform:scale(0) rotate(-270deg)}100%{opacity:100%;transform:scale(0.95) rotate(0deg)}}"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/8183s2r/until/2027-09-03?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1037",
+              "name": "Liberec, Forum Liberec",
+              "cinemaIds": [
+                "1037"
+              ]
+            },
+            {
+              "id": "group-1055",
+              "name": "Ostrava, Nová Karolina",
+              "cinemaIds": [
+                "1055"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            },
+            {
+              "id": "group-1054",
+              "name": "Plzeň, Plzeň Plaza",
+              "cinemaIds": [
+                "1054"
+              ]
+            },
+            {
+              "id": "group-1036",
+              "name": "Ústí nad Labem, Forum Ústí nad Labem",
+              "cinemaIds": [
+                "1036"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/8183s2r/until/2027-09-03?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1037",
+              "name": "Liberec, Forum Liberec",
+              "cinemaIds": [
+                "1037"
+              ]
+            },
+            {
+              "id": "group-1055",
+              "name": "Ostrava, Nová Karolina",
+              "cinemaIds": [
+                "1055"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            },
+            {
+              "id": "group-1054",
+              "name": "Plzeň, Plzeň Plaza",
+              "cinemaIds": [
+                "1054"
+              ]
+            },
+            {
+              "id": "group-1036",
+              "name": "Ústí nad Labem, Forum Ústí nad Labem",
+              "cinemaIds": [
+                "1036"
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24215,141 +24349,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/8183s2r/until/2027-09-02?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1037",
-              "name": "Liberec, Forum Liberec",
-              "cinemaIds": [
-                "1037"
-              ]
-            },
-            {
-              "id": "group-1055",
-              "name": "Ostrava, Nová Karolina",
-              "cinemaIds": [
-                "1055"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
-            },
-            {
-              "id": "group-1054",
-              "name": "Plzeň, Plzeň Plaza",
-              "cinemaIds": [
-                "1054"
-              ]
-            },
-            {
-              "id": "group-1036",
-              "name": "Ústí nad Labem, Forum Ústí nad Labem",
-              "cinemaIds": [
-                "1036"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/8183s2r/until/2027-09-02?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1037",
-              "name": "Liberec, Forum Liberec",
-              "cinemaIds": [
-                "1037"
-              ]
-            },
-            {
-              "id": "group-1055",
-              "name": "Ostrava, Nová Karolina",
-              "cinemaIds": [
-                "1055"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
-            },
-            {
-              "id": "group-1054",
-              "name": "Plzeň, Plzeň Plaza",
-              "cinemaIds": [
-                "1054"
-              ]
-            },
-            {
-              "id": "group-1036",
-              "name": "Ústí nad Labem, Forum Ústí nad Labem",
-              "cinemaIds": [
-                "1036"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -25160,7 +25160,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-group/prague/with-film/8183s2r/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-group/prague/with-film/8183s2r/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -25178,7 +25178,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-group/prague/with-film/8183s2r/until/2027-09-02?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-group/prague/with-film/8183s2r/until/2027-09-03?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -26867,8 +26867,8 @@
       "content_type": "application/json",
       "payload": {
         "country": "US",
-        "state": "VA",
-        "stateName": "Virginia",
+        "state": "CA",
+        "stateName": "California",
         "continent": "NA"
       }
     },
@@ -26907,7 +26907,7 @@
       "status": 200,
       "content_type": "application/json+protobuf; charset=utf-8",
       "payload": [
-        "nHXeGagMZxEqqLvOYOGMZb5JUryk/z8j/FRIhHLlO4zaoXw8NQmN3d8I5jkgCEOEefiSqHjlrKv8TCN03VrMoQ6f",
+        "OsJNT4uncyCmcXNO5aeG9XIEuOyESwO9u0nRzS46cT31cPWT6y0wABPCsOh+2Ro7YOtM4hwpJ2ooeTOIA+FewDa2",
         43200,
         100
       ]
