@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-10T00:45:03.208969",
+  "updated_at": "2026-09-10T05:22:20.660105",
   "minimum_date_exclusive": "2026-08-12",
-  "all_found_count": 65,
-  "relevant_count": 53,
+  "all_found_count": 66,
+  "relevant_count": 54,
   "screening_ids": [
     "2026-08-13|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
     "2026-08-13|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
@@ -56,7 +56,8 @@
     "2026-09-10|20:40|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
     "2026-09-10|20:50|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
     "2026-09-10|21:10|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
-    "2026-09-10|21:30|https://tickets.cinemacity.cz/api/order/241547?lang=cs"
+    "2026-09-10|21:30|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
+    "2026-09-24|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r"
   ],
   "all_found_screenings": [
     {
@@ -85,7 +86,7 @@
       "date": "2026-07-02",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-07-09|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -113,7 +114,7 @@
       "date": "2026-07-16",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-07-30|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -127,7 +128,7 @@
       "date": "2026-07-30",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-08-06|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -169,7 +170,7 @@
       "date": "2026-08-20",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-08-27|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -211,7 +212,7 @@
       "date": "2026-09-09",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-09-10|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -225,7 +226,7 @@
       "date": "2026-09-10",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-09-10|09:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -513,6 +514,13 @@
       "time": "21:30",
       "url": "https://tickets.cinemacity.cz/api/order/241547?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+    },
+    {
+      "id": "2026-09-24|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
+      "date": "2026-09-24",
+      "time": "00:00",
+      "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     }
   ],
   "relevant_screenings": [
@@ -542,7 +550,7 @@
       "date": "2026-08-20",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-08-27|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -584,7 +592,7 @@
       "date": "2026-09-09",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-09-10|00:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -598,7 +606,7 @@
       "date": "2026-09-10",
       "time": "00:00",
       "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     },
     {
       "id": "2026-09-10|09:00|https://tickets.cinemacity.cz/api/order/241547?lang=cs",
@@ -886,6 +894,13 @@
       "time": "21:30",
       "url": "https://tickets.cinemacity.cz/api/order/241547?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-09-10?attr=&lang=cs_CZ"
+    },
+    {
+      "id": "2026-09-24|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
+      "date": "2026-09-24",
+      "time": "00:00",
+      "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
+      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/poster/10101/by-showing-type/SHOWING?lang=cs_CZ&attr=vip&ordering=desc"
     }
   ]
 }
