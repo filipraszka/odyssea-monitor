@@ -8,6 +8,72 @@
       "payload": {}
     },
     {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
       "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/A1WRS51BB4TT7A",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -43,6 +109,16 @@
             "scanConfigDomainRef": "cinemacity.cz"
           }
         ]
+      }
+    },
+    {
+      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {
+        "fedcm": {
+          "default": false
+        }
       }
     },
     {
@@ -968,16 +1044,6 @@
       }
     },
     {
-      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "fedcm": {
-          "default": false
-        }
-      }
-    },
-    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/7268s2r",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -1104,73 +1170,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-09-14?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-09-15?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -1237,7 +1237,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-14?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-15?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -4050,8 +4050,8 @@
             "concert-film",
             "3d",
             "music",
-            "sci-fi",
             "romantic-comedy",
+            "sci-fi",
             "fairytale",
             "melodrama",
             "action",
@@ -4125,7 +4125,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-09-14?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-09-15?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -6122,6 +6122,195 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/trailers/byCinemaId/1052",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": [
+          {
+            "filmId": "8105s2r",
+            "filmName": "Duna: část třetí",
+            "filmLink": "https://www.cinemacity.cz/films/duna-cast-treti/8105s2r",
+            "videoLink": "https://www.youtube.com/watch?v=As8PZIvtKBU"
+          },
+          {
+            "filmId": "8444s2r",
+            "filmName": "Queen Budapest",
+            "filmLink": "https://www.cinemacity.cz/films/queen-budapest/8444s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "3271d2sx2",
+            "filmName": "Avengers: Endgame Special Edition",
+            "filmLink": "https://www.cinemacity.cz/films/avengers-endgame-special-edition/3271d2sx2",
+            "videoLink": "https://www.youtube.com/watch?v=58SZVN-odfc"
+          },
+          {
+            "filmId": "1596o3i1",
+            "filmName": "Na hraně smrti 2: Deadpoint",
+            "filmLink": "https://www.cinemacity.cz/films/na-hrane-smrti-2-deadpoint/1596o3i1",
+            "videoLink": "https://www.youtube.com/watch?v=Y0ySWSXIuSs"
+          },
+          {
+            "filmId": "1674s2x1",
+            "filmName": "Bára Basiková",
+            "filmLink": "https://www.cinemacity.cz/films/bara-basikova/1674s2x1",
+            "videoLink": "https://www.youtube.com/watch?v=Luz5RQJk4_8"
+          },
+          {
+            "filmId": "0274o2sx1",
+            "filmName": "Call",
+            "filmLink": "https://www.cinemacity.cz/films/call/0274o2sx1",
+            "videoLink": "https://www.youtube.com/watch?v=mf_JGVlt6QM"
+          },
+          {
+            "filmId": "8352s2r",
+            "filmName": "Kojot vrací úder",
+            "filmLink": "https://www.cinemacity.cz/films/kojot-vraci-uder/8352s2r",
+            "videoLink": "https://www.youtube.com/watch?v=yz2FHkJnp0Y"
+          },
+          {
+            "filmId": "1865s2sx1",
+            "filmName": "Resident Evil",
+            "filmLink": "https://www.cinemacity.cz/films/resident-evil/1865s2sx1",
+            "videoLink": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+          },
+          {
+            "filmId": "8323s2r",
+            "filmName": "Dívka v oblacích",
+            "filmLink": "https://www.cinemacity.cz/films/divka-v-oblacich/8323s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "8426s2r",
+            "filmName": "Hope",
+            "filmLink": "https://www.cinemacity.cz/films/hope/8426s2r",
+            "videoLink": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
+          },
+          {
+            "filmId": "0632d3sx1",
+            "filmName": "Léčivé účinky sebeklamu",
+            "filmLink": "https://www.cinemacity.cz/films/lecive-ucinky-sebeklamu/0632d3sx1",
+            "videoLink": "https://www.youtube.com/watch?v=5XuKiMGhx7Q"
+          },
+          {
+            "filmId": "8220s2r",
+            "filmName": "Magická posedlost 2",
+            "filmLink": "https://www.cinemacity.cz/films/magicka-posedlost-2/8220s2r",
+            "videoLink": "https://www.youtube.com/watch?v=rvjCoUc5d0o"
+          },
+          {
+            "filmId": "8425s2r",
+            "filmName": "Oasis: Don't Look Back In Anger",
+            "filmLink": "https://www.cinemacity.cz/films/oasis-dont-look-back-in-anger/8425s2r",
+            "videoLink": "https://www.youtube.com/watch?v=vk8j6weBWPU"
+          },
+          {
+            "filmId": "2077s3i1",
+            "filmName": "Auta (20. výročí)",
+            "filmLink": "https://www.cinemacity.cz/films/auta-20-vyroci/2077s3i1",
+            "videoLink": null
+          },
+          {
+            "filmId": "0202d2x1",
+            "filmName": "Dokonalý den",
+            "filmLink": "https://www.cinemacity.cz/films/dokonaly-den/0202d2x1",
+            "videoLink": "https://www.youtube.com/watch?v=QbAdlAaOYro"
+          },
+          {
+            "filmId": "8417s2r",
+            "filmName": "Osm nohou a milion followerů",
+            "filmLink": "https://www.cinemacity.cz/films/osm-nohou-a-milion-followeru/8417s2r",
+            "videoLink": "https://www.youtube.com/watch?v=fmuV_wgnLnc"
+          },
+          {
+            "filmId": "2842o3x1",
+            "filmName": "Osamělý vlk",
+            "filmLink": "https://www.cinemacity.cz/films/osamely-vlk/2842o3x1",
+            "videoLink": null
+          },
+          {
+            "filmId": "7944s2r",
+            "filmName": "Vzhlížet ke hvězdám",
+            "filmLink": "https://www.cinemacity.cz/films/vzhlizet-ke-hvezdam/7944s2r",
+            "videoLink": "https://www.youtube.com/watch?v=P4IcUjrGqTM"
+          },
+          {
+            "filmId": "6699o2sx1",
+            "filmName": "Vzpoura",
+            "filmLink": "https://www.cinemacity.cz/films/vzpoura/6699o2sx1",
+            "videoLink": "https://www.youtube.com/watch?v=awu4amib1Qg"
+          },
+          {
+            "filmId": "8183s2r",
+            "filmName": "Insidious: Jsou mezi námi",
+            "filmLink": "https://www.cinemacity.cz/films/insidious-jsou-mezi-nami/8183s2r",
+            "videoLink": "https://www.youtube.com/watch?v=ZlgOxfwzMxQ"
+          },
+          {
+            "filmId": "8184s2r",
+            "filmName": "Na jednu noc",
+            "filmLink": "https://www.cinemacity.cz/films/na-jednu-noc/8184s2r",
+            "videoLink": "https://www.youtube.com/watch?v=EKfIKG9GuPI"
+          },
+          {
+            "filmId": "8136s2r",
+            "filmName": "Tom a Jerry: Kouzelný kompas",
+            "filmLink": "https://www.cinemacity.cz/films/tom-a-jerry-kouzelny-kompas/8136s2r",
+            "videoLink": "https://www.youtube.com/watch?v=ntM4A_xfhSU"
+          },
+          {
+            "filmId": "8160s2r",
+            "filmName": "Konec Oak Street",
+            "filmLink": "https://www.cinemacity.cz/films/konec-oak-street/8160s2r",
+            "videoLink": "https://www.youtube.com/watch?v=4Y-w33q8Kv8"
+          },
+          {
+            "filmId": "0222s2i1",
+            "filmName": "6 gramů",
+            "filmLink": "https://www.cinemacity.cz/films/6-gramu/0222s2i1",
+            "videoLink": "https://www.youtube.com/watch?v=zNQVQ_2DRZA"
+          },
+          {
+            "filmId": "7760d2ss1",
+            "filmName": "Tlapková patrola: Dinosauří film",
+            "filmLink": "https://www.cinemacity.cz/films/tlapkova-patrola-dinosauri-film/7760d2ss1",
+            "videoLink": "https://www.youtube.com/watch?v=mgUPvFhEsBM"
+          },
+          {
+            "filmId": "8085s2r",
+            "filmName": "Spider-Man: Zbrusu nový den",
+            "filmLink": "https://www.cinemacity.cz/films/spider-man-zbrusu-novy-den/8085s2r",
+            "videoLink": "https://www.youtube.com/watch?v=2brblD_a14w"
+          },
+          {
+            "filmId": "7268s2r",
+            "filmName": "Odyssea",
+            "filmLink": "https://www.cinemacity.cz/films/odyssea/7268s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "1808s2r",
+            "filmName": "Odvážná Vaiana",
+            "filmLink": "https://www.cinemacity.cz/films/odvazna-vaiana/1808s2r",
+            "videoLink": "https://www.youtube.com/watch?v=mlp4sPI4sKY"
+          },
+          {
+            "filmId": "8023s2r",
+            "filmName": "Mimoni a monstra",
+            "filmLink": "https://www.cinemacity.cz/films/mimoni-a-monstra/8023s2r",
+            "videoLink": "https://www.youtube.com/watch?v=ycyOuTQa1iI"
+          },
+          {
+            "filmId": "7784s2r",
+            "filmName": "Toy Story 5: Příběh hraček",
+            "filmLink": "https://www.cinemacity.cz/films/toy-story-5-pribeh-hracek/7784s2r",
+            "videoLink": "https://www.youtube.com/watch?v=A7tIMoYvJWk"
+          }
+        ]
+      }
+    },
+    {
       "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -6193,34 +6382,7 @@
       ]
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-14?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "dates": [
-            "2026-09-15",
-            "2026-09-16",
-            "2026-09-17",
-            "2026-09-18",
-            "2026-09-19",
-            "2026-09-20",
-            "2026-09-21",
-            "2026-09-22",
-            "2026-09-23",
-            "2026-09-24",
-            "2026-09-25",
-            "2026-09-26",
-            "2026-09-27",
-            "2026-10-08",
-            "2026-10-10",
-            "2026-12-15"
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-14?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-09-15?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -6517,192 +6679,30 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/trailers/byCinemaId/1052",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-15?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
-        "body": [
-          {
-            "filmId": "8105s2r",
-            "filmName": "Duna: část třetí",
-            "filmLink": "https://www.cinemacity.cz/films/duna-cast-treti/8105s2r",
-            "videoLink": "https://www.youtube.com/watch?v=As8PZIvtKBU"
-          },
-          {
-            "filmId": "8444s2r",
-            "filmName": "Queen Budapest",
-            "filmLink": "https://www.cinemacity.cz/films/queen-budapest/8444s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "3271d2sx2",
-            "filmName": "Avengers: Endgame Special Edition",
-            "filmLink": "https://www.cinemacity.cz/films/avengers-endgame-special-edition/3271d2sx2",
-            "videoLink": "https://www.youtube.com/watch?v=58SZVN-odfc"
-          },
-          {
-            "filmId": "1596o3i1",
-            "filmName": "Na hraně smrti 2: Deadpoint",
-            "filmLink": "https://www.cinemacity.cz/films/na-hrane-smrti-2-deadpoint/1596o3i1",
-            "videoLink": "https://www.youtube.com/watch?v=Y0ySWSXIuSs"
-          },
-          {
-            "filmId": "1674s2x1",
-            "filmName": "Bára Basiková",
-            "filmLink": "https://www.cinemacity.cz/films/bara-basikova/1674s2x1",
-            "videoLink": "https://www.youtube.com/watch?v=Luz5RQJk4_8"
-          },
-          {
-            "filmId": "0274o2sx1",
-            "filmName": "Call",
-            "filmLink": "https://www.cinemacity.cz/films/call/0274o2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=mf_JGVlt6QM"
-          },
-          {
-            "filmId": "8352s2r",
-            "filmName": "Kojot vrací úder",
-            "filmLink": "https://www.cinemacity.cz/films/kojot-vraci-uder/8352s2r",
-            "videoLink": "https://www.youtube.com/watch?v=yz2FHkJnp0Y"
-          },
-          {
-            "filmId": "1865s2sx1",
-            "filmName": "Resident Evil",
-            "filmLink": "https://www.cinemacity.cz/films/resident-evil/1865s2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=Z61Cn71i-no"
-          },
-          {
-            "filmId": "8323s2r",
-            "filmName": "Dívka v oblacích",
-            "filmLink": "https://www.cinemacity.cz/films/divka-v-oblacich/8323s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "8426s2r",
-            "filmName": "Hope",
-            "filmLink": "https://www.cinemacity.cz/films/hope/8426s2r",
-            "videoLink": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
-          },
-          {
-            "filmId": "0632d3sx1",
-            "filmName": "Léčivé účinky sebeklamu",
-            "filmLink": "https://www.cinemacity.cz/films/lecive-ucinky-sebeklamu/0632d3sx1",
-            "videoLink": "https://www.youtube.com/watch?v=5XuKiMGhx7Q"
-          },
-          {
-            "filmId": "8220s2r",
-            "filmName": "Magická posedlost 2",
-            "filmLink": "https://www.cinemacity.cz/films/magicka-posedlost-2/8220s2r",
-            "videoLink": "https://www.youtube.com/watch?v=rvjCoUc5d0o"
-          },
-          {
-            "filmId": "8425s2r",
-            "filmName": "Oasis: Don't Look Back In Anger",
-            "filmLink": "https://www.cinemacity.cz/films/oasis-dont-look-back-in-anger/8425s2r",
-            "videoLink": "https://www.youtube.com/watch?v=vk8j6weBWPU"
-          },
-          {
-            "filmId": "2077s3i1",
-            "filmName": "Auta (20. výročí)",
-            "filmLink": "https://www.cinemacity.cz/films/auta-20-vyroci/2077s3i1",
-            "videoLink": null
-          },
-          {
-            "filmId": "0202d2x1",
-            "filmName": "Dokonalý den",
-            "filmLink": "https://www.cinemacity.cz/films/dokonaly-den/0202d2x1",
-            "videoLink": "https://www.youtube.com/watch?v=QbAdlAaOYro"
-          },
-          {
-            "filmId": "8417s2r",
-            "filmName": "Osm nohou a milion followerů",
-            "filmLink": "https://www.cinemacity.cz/films/osm-nohou-a-milion-followeru/8417s2r",
-            "videoLink": "https://www.youtube.com/watch?v=fmuV_wgnLnc"
-          },
-          {
-            "filmId": "2842o3x1",
-            "filmName": "Osamělý vlk",
-            "filmLink": "https://www.cinemacity.cz/films/osamely-vlk/2842o3x1",
-            "videoLink": null
-          },
-          {
-            "filmId": "7944s2r",
-            "filmName": "Vzhlížet ke hvězdám",
-            "filmLink": "https://www.cinemacity.cz/films/vzhlizet-ke-hvezdam/7944s2r",
-            "videoLink": "https://www.youtube.com/watch?v=P4IcUjrGqTM"
-          },
-          {
-            "filmId": "6699o2sx1",
-            "filmName": "Vzpoura",
-            "filmLink": "https://www.cinemacity.cz/films/vzpoura/6699o2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=awu4amib1Qg"
-          },
-          {
-            "filmId": "8183s2r",
-            "filmName": "Insidious: Jsou mezi námi",
-            "filmLink": "https://www.cinemacity.cz/films/insidious-jsou-mezi-nami/8183s2r",
-            "videoLink": "https://www.youtube.com/watch?v=ZlgOxfwzMxQ"
-          },
-          {
-            "filmId": "8184s2r",
-            "filmName": "Na jednu noc",
-            "filmLink": "https://www.cinemacity.cz/films/na-jednu-noc/8184s2r",
-            "videoLink": "https://www.youtube.com/watch?v=EKfIKG9GuPI"
-          },
-          {
-            "filmId": "8136s2r",
-            "filmName": "Tom a Jerry: Kouzelný kompas",
-            "filmLink": "https://www.cinemacity.cz/films/tom-a-jerry-kouzelny-kompas/8136s2r",
-            "videoLink": "https://www.youtube.com/watch?v=ntM4A_xfhSU"
-          },
-          {
-            "filmId": "8160s2r",
-            "filmName": "Konec Oak Street",
-            "filmLink": "https://www.cinemacity.cz/films/konec-oak-street/8160s2r",
-            "videoLink": "https://www.youtube.com/watch?v=4Y-w33q8Kv8"
-          },
-          {
-            "filmId": "0222s2i1",
-            "filmName": "6 gramů",
-            "filmLink": "https://www.cinemacity.cz/films/6-gramu/0222s2i1",
-            "videoLink": "https://www.youtube.com/watch?v=zNQVQ_2DRZA"
-          },
-          {
-            "filmId": "7760d2ss1",
-            "filmName": "Tlapková patrola: Dinosauří film",
-            "filmLink": "https://www.cinemacity.cz/films/tlapkova-patrola-dinosauri-film/7760d2ss1",
-            "videoLink": "https://www.youtube.com/watch?v=mgUPvFhEsBM"
-          },
-          {
-            "filmId": "8085s2r",
-            "filmName": "Spider-Man: Zbrusu nový den",
-            "filmLink": "https://www.cinemacity.cz/films/spider-man-zbrusu-novy-den/8085s2r",
-            "videoLink": "https://www.youtube.com/watch?v=2brblD_a14w"
-          },
-          {
-            "filmId": "7268s2r",
-            "filmName": "Odyssea",
-            "filmLink": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "1808s2r",
-            "filmName": "Odvážná Vaiana",
-            "filmLink": "https://www.cinemacity.cz/films/odvazna-vaiana/1808s2r",
-            "videoLink": "https://www.youtube.com/watch?v=mlp4sPI4sKY"
-          },
-          {
-            "filmId": "8023s2r",
-            "filmName": "Mimoni a monstra",
-            "filmLink": "https://www.cinemacity.cz/films/mimoni-a-monstra/8023s2r",
-            "videoLink": "https://www.youtube.com/watch?v=ycyOuTQa1iI"
-          },
-          {
-            "filmId": "7784s2r",
-            "filmName": "Toy Story 5: Příběh hraček",
-            "filmLink": "https://www.cinemacity.cz/films/toy-story-5-pribeh-hracek/7784s2r",
-            "videoLink": "https://www.youtube.com/watch?v=A7tIMoYvJWk"
-          }
-        ]
+        "body": {
+          "dates": [
+            "2026-09-15",
+            "2026-09-16",
+            "2026-09-17",
+            "2026-09-18",
+            "2026-09-19",
+            "2026-09-20",
+            "2026-09-21",
+            "2026-09-22",
+            "2026-09-23",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26",
+            "2026-09-27",
+            "2026-10-08",
+            "2026-10-10",
+            "2026-12-15"
+          ]
+        }
       }
     },
     {
@@ -9273,8 +9273,8 @@
             "ladies-night",
             "event",
             "road-movie",
-            "screenx",
             "live",
+            "screenx",
             "documentary",
             "horror",
             "original",
@@ -11061,7 +11061,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/241569?lang=cs",
               "presentationCode": "241569",
               "soldOut": false,
-              "availabilityRatio": 0.1688,
+              "availabilityRatio": 0.1662,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -11708,7 +11708,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/241570?lang=cs",
               "presentationCode": "241570",
               "soldOut": false,
-              "availabilityRatio": 0.161,
+              "availabilityRatio": 0.1532,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
