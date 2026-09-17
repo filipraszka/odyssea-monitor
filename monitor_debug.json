@@ -23,7 +23,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -56,7 +56,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -71,6 +71,132 @@
         "SYSTEM_ROUTER_ROUTES": "/system/routes",
         "GENERAL_CONTACT": "/contact",
         "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/7268s2r",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "filmDetails": {
+            "id": "7268s2r",
+            "name": "Odyssea",
+            "originalName": "Odyssea",
+            "length": 180,
+            "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
+            "posterLinkLarge": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
+            "videoLink": null,
+            "link": "https://www.cinemacity.cz/films/odyssea/7268s2r",
+            "weight": 0,
+            "releaseYear": "2026",
+            "releaseCountry": "USA",
+            "cast": "Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Zendaya, Charlize Theron, Jon Bernthal, Benny Safdie, John Leguizamo, Himesh Patel, Will Yun Lee, Mia Goth, Jimmy Gonzales, Elliot Page, Bill Irwin, Samantha Morton, Jesse Garcia, Rafi Gavron, Shiloh Fernandez, Corey Hawkins, Nick E. Tarabay, Maurice Compte, Michael Vlamis, Iddo Goldberg, Josh Stewart, Ryan Hurst, Anthony Molinari, Jovan Adepo, Logan Marshall-Green, James Remar, Travis Scott",
+            "directors": "Christopher Nolan",
+            "synopsis": "Odysseus (Matt Damon) byl král řeckého ostrova Ithaka, který dle legend a básníka Homéra vymyslel slavného Trójského koně, jenž výraznou měrou pomohl obelstít obránce Tróji a ukončit tak vyčerpávající dobývání tohoto města. Po skončení bojů netouží Odysseus po ničem jiném než vrátit se domů, za manželkou Pénelopé (Anne Hathaway) a synem Télemachem (Tom Holland). Svými odvážnými činy však dle pověstí rozhněval bohy a ti se mu rozhodli návrat co nejvíc zkomplikovat. I proto se slovo „odysea“ stalo synonymem pro cestu plnou překážek, které poutníka odvádějí od jeho cíle, místo toho, aby ho k němu přibližovaly. Zatímco Odysseus vzdoruje bohům, obrům, svůdné kouzelnici Kirké a dalším nebezpečím, jeho žena Pénelopé vzdoruje mužům, kteří chtějí uchvátit ji a s ní celé ithacké království.",
+            "dateStarted": "2026-07-16T00:00:00",
+            "eventCount": 246,
+            "categoriesAttributes": [
+              "drama",
+              "history"
+            ],
+            "categoryIds": [
+              5,
+              7
+            ],
+            "screeningAttributes": [
+              "2d",
+              "4dx",
+              "70-mm",
+              "dubbed",
+              "laser-barco",
+              "recliners",
+              "subbed",
+              "vip"
+            ],
+            "ageRestrictionId": 3,
+            "ageRestrictionLink": "https://www.cinemacity.cz/xmedia/img/10101/rating/15.png",
+            "ageRestrictionName": "15-plus",
+            "ageRestrictionDescription": null,
+            "showingType": "SHOWING",
+            "languages": {
+              "original": [
+                "en"
+              ],
+              "dubbed": [
+                "cs"
+              ],
+              "voiceover": [],
+              "subtitles": [
+                "cs"
+              ]
+            },
+            "dubbedLanguage": [
+              "dubbed-lang-cs"
+            ],
+            "firstSubbedLanguage": [
+              "first-subbed-lang-cs"
+            ],
+            "secondSubbedLanguage": [],
+            "originalLanguage": [
+              "original-lang-en"
+            ],
+            "contentLabels": [],
+            "mediaList": [
+              {
+                "type": "Image",
+                "subType": "",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
+                "dimensionHeight": "889",
+                "dimensionWidth": "600"
+              },
+              {
+                "type": "Image",
+                "subType": "sm",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm.jpg",
+                "dimensionHeight": "207",
+                "dimensionWidth": "140"
+              },
+              {
+                "type": "Image",
+                "subType": "md",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md.jpg",
+                "dimensionHeight": "326",
+                "dimensionWidth": "220"
+              },
+              {
+                "type": "Image",
+                "subType": "lg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
+                "dimensionHeight": "445",
+                "dimensionWidth": "300"
+              },
+              {
+                "type": "Image",
+                "subType": "sm2x",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm2x.jpg",
+                "dimensionHeight": "415",
+                "dimensionWidth": "280"
+              },
+              {
+                "type": "Image",
+                "subType": "md2x",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md2x.jpg",
+                "dimensionHeight": "652",
+                "dimensionWidth": "440"
+              },
+              {
+                "type": "Image",
+                "subType": "lg2x",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg2x.jpg",
+                "dimensionHeight": "889",
+                "dimensionWidth": "600"
+              }
+            ],
+            "specialMessage": null,
+            "distributorName": null
+          }
+        }
       }
     },
     {
@@ -2887,8 +3013,8 @@
             "concert-film",
             "3d",
             "music",
-            "sci-fi",
             "romantic-comedy",
+            "sci-fi",
             "fairytale",
             "melodrama",
             "action",
@@ -2958,132 +3084,6 @@
             "anime",
             "adult-animation"
           ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/7268s2r",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "filmDetails": {
-            "id": "7268s2r",
-            "name": "Odyssea",
-            "originalName": "Odyssea",
-            "length": 180,
-            "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
-            "posterLinkLarge": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
-            "videoLink": null,
-            "link": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-            "weight": 0,
-            "releaseYear": "2026",
-            "releaseCountry": "USA",
-            "cast": "Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Zendaya, Charlize Theron, Jon Bernthal, Benny Safdie, John Leguizamo, Himesh Patel, Will Yun Lee, Mia Goth, Jimmy Gonzales, Elliot Page, Bill Irwin, Samantha Morton, Jesse Garcia, Rafi Gavron, Shiloh Fernandez, Corey Hawkins, Nick E. Tarabay, Maurice Compte, Michael Vlamis, Iddo Goldberg, Josh Stewart, Ryan Hurst, Anthony Molinari, Jovan Adepo, Logan Marshall-Green, James Remar, Travis Scott",
-            "directors": "Christopher Nolan",
-            "synopsis": "Odysseus (Matt Damon) byl král řeckého ostrova Ithaka, který dle legend a básníka Homéra vymyslel slavného Trójského koně, jenž výraznou měrou pomohl obelstít obránce Tróji a ukončit tak vyčerpávající dobývání tohoto města. Po skončení bojů netouží Odysseus po ničem jiném než vrátit se domů, za manželkou Pénelopé (Anne Hathaway) a synem Télemachem (Tom Holland). Svými odvážnými činy však dle pověstí rozhněval bohy a ti se mu rozhodli návrat co nejvíc zkomplikovat. I proto se slovo „odysea“ stalo synonymem pro cestu plnou překážek, které poutníka odvádějí od jeho cíle, místo toho, aby ho k němu přibližovaly. Zatímco Odysseus vzdoruje bohům, obrům, svůdné kouzelnici Kirké a dalším nebezpečím, jeho žena Pénelopé vzdoruje mužům, kteří chtějí uchvátit ji a s ní celé ithacké království.",
-            "dateStarted": "2026-07-16T00:00:00",
-            "eventCount": 246,
-            "categoriesAttributes": [
-              "drama",
-              "history"
-            ],
-            "categoryIds": [
-              5,
-              7
-            ],
-            "screeningAttributes": [
-              "2d",
-              "4dx",
-              "70-mm",
-              "dubbed",
-              "laser-barco",
-              "recliners",
-              "subbed",
-              "vip"
-            ],
-            "ageRestrictionId": 3,
-            "ageRestrictionLink": "https://www.cinemacity.cz/xmedia/img/10101/rating/15.png",
-            "ageRestrictionName": "15-plus",
-            "ageRestrictionDescription": null,
-            "showingType": "SHOWING",
-            "languages": {
-              "original": [
-                "en"
-              ],
-              "dubbed": [
-                "cs"
-              ],
-              "voiceover": [],
-              "subtitles": [
-                "cs"
-              ]
-            },
-            "dubbedLanguage": [
-              "dubbed-lang-cs"
-            ],
-            "firstSubbedLanguage": [
-              "first-subbed-lang-cs"
-            ],
-            "secondSubbedLanguage": [],
-            "originalLanguage": [
-              "original-lang-en"
-            ],
-            "contentLabels": [],
-            "mediaList": [
-              {
-                "type": "Image",
-                "subType": "",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
-                "dimensionHeight": "889",
-                "dimensionWidth": "600"
-              },
-              {
-                "type": "Image",
-                "subType": "sm",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm.jpg",
-                "dimensionHeight": "207",
-                "dimensionWidth": "140"
-              },
-              {
-                "type": "Image",
-                "subType": "md",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md.jpg",
-                "dimensionHeight": "326",
-                "dimensionWidth": "220"
-              },
-              {
-                "type": "Image",
-                "subType": "lg",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
-                "dimensionHeight": "445",
-                "dimensionWidth": "300"
-              },
-              {
-                "type": "Image",
-                "subType": "sm2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm2x.jpg",
-                "dimensionHeight": "415",
-                "dimensionWidth": "280"
-              },
-              {
-                "type": "Image",
-                "subType": "md2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md2x.jpg",
-                "dimensionHeight": "652",
-                "dimensionWidth": "440"
-              },
-              {
-                "type": "Image",
-                "subType": "lg2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg2x.jpg",
-                "dimensionHeight": "889",
-                "dimensionWidth": "600"
-              }
-            ],
-            "specialMessage": null,
-            "distributorName": null
-          }
         }
       }
     },
@@ -6552,6 +6552,303 @@
       ]
     },
     {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/trailers/byCinemaId/1052",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": [
+          {
+            "filmId": "8105s2r",
+            "filmName": "Duna: část třetí",
+            "filmLink": "https://www.cinemacity.cz/films/duna-cast-treti/8105s2r",
+            "videoLink": "https://www.youtube.com/watch?v=As8PZIvtKBU"
+          },
+          {
+            "filmId": "8444s2r",
+            "filmName": "Queen Budapest",
+            "filmLink": "https://www.cinemacity.cz/films/queen-budapest/8444s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "2097s2r",
+            "filmName": "SLAVTE S NÁMI: Blade Runner 2049",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-blade-runner-2049/2097s2r",
+            "videoLink": "https://www.youtube.com/watch?v=EN3yHcFI2i0"
+          },
+          {
+            "filmId": "2888s2r",
+            "filmName": "SLAVTE S NÁMI: Bohemian Rhapsody",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-bohemian-rhapsody/2888s2r",
+            "videoLink": "https://www.youtube.com/watch?v=3KUUNvkUPuE"
+          },
+          {
+            "filmId": "1857s2r",
+            "filmName": "SLAVTE S NÁMI: Dunkerk",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-dunkerk/1857s2r",
+            "videoLink": "https://www.youtube.com/watch?v=So7df4AloHk"
+          },
+          {
+            "filmId": "0659s2r",
+            "filmName": "SLAVTE S NÁMI: Interstellar",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-interstellar/0659s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "2603o2sx1",
+            "filmName": "SLAVTE S NÁMI: Ledové království",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-ledove-kralovstvi/2603o2sx1",
+            "videoLink": "https://www.youtube.com/watch?v=ydJm0MU-QsA"
+          },
+          {
+            "filmId": "2241s2r",
+            "filmName": "SLAVTE S NÁMI: Liga spravedlnosti",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-liga-spravedlnosti/2241s2r",
+            "videoLink": "https://www.youtube.com/watch?v=UCYIa-OpsE0"
+          },
+          {
+            "filmId": "3666s3sx1",
+            "filmName": "SLAVTE S NÁMI: Matrix",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-matrix/3666s3sx1",
+            "videoLink": null
+          },
+          {
+            "filmId": "8207s2r",
+            "filmName": "SLAVTE S NÁMI: Mlčení jehňátek",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-mlceni-jehnatek/8207s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "2364s2r",
+            "filmName": "SLAVTE S NÁMI: Největší showman",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-nejvetsi-showman/2364s2r",
+            "videoLink": "https://www.youtube.com/watch?v=P0O8dPkp9R0"
+          },
+          {
+            "filmId": "3818s2r",
+            "filmName": "SLAVTE S NÁMI: Není čas zemřít",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-neni-cas-zemrit/3818s2r",
+            "videoLink": "https://www.youtube.com/watch?v=fjB1ZCtSGyY"
+          },
+          {
+            "filmId": "1959s2r",
+            "filmName": "SLAVTE S NÁMI: Nespoutaný Django",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-nespoutany-django/1959s2r",
+            "videoLink": "https://www.youtube.com/watch?v=abwBgdFJ-y8"
+          },
+          {
+            "filmId": "1953s2r",
+            "filmName": "SLAVTE S NÁMI: Piráti z Karibiku: Salaza",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-pirati-z-karibiku-salaza/1953s2r",
+            "videoLink": "https://www.youtube.com/watch?v=03xbL4Ep9xE"
+          },
+          {
+            "filmId": "4127s2r",
+            "filmName": "SLAVTE S NÁMI: Počátek",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-pocatek/4127s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "7020o2ss1",
+            "filmName": "SLAVTE S NÁMI: Samotáři",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-samotari/7020o2ss1",
+            "videoLink": "https://www.youtube.com/watch?v=yumXCgOhNLQ"
+          },
+          {
+            "filmId": "4403s2r",
+            "filmName": "SLAVTE S NÁMI: Sebevražedný oddíl",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-sebevrazedny-oddil/4403s2r",
+            "videoLink": "https://www.youtube.com/watch?v=WlA90k3XxYA"
+          },
+          {
+            "filmId": "3561o2ss1",
+            "filmName": "SLAVTE S NÁMI: Skyfall",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-skyfall/3561o2ss1",
+            "videoLink": null
+          },
+          {
+            "filmId": "0924s2r",
+            "filmName": "SLAVTE S NÁMI: Spectre",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-spectre/0924s2r",
+            "videoLink": "https://www.youtube.com/watch?v=CWgja0wHtVs"
+          },
+          {
+            "filmId": "3391s2r",
+            "filmName": "SLAVTE S NÁMI: Tenkrát v Hollywoodu",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-tenkrat-v-hollywoodu/3391s2r",
+            "videoLink": "https://www.youtube.com/watch?v=-UKPeCf2MG8"
+          },
+          {
+            "filmId": "1842s2ss1",
+            "filmName": "SLAVTE S NÁMI: Trainspotting",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-trainspotting/1842s2ss1",
+            "videoLink": null
+          },
+          {
+            "filmId": "7560s2r",
+            "filmName": "SLAVTE S NÁMI: Velký Gatsby",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-velky-gatsby/7560s2r",
+            "videoLink": "https://www.youtube.com/watch?v=bwEAH53vMTc"
+          },
+          {
+            "filmId": "7141s2r1",
+            "filmName": "SLAVTE S NÁMI: Vlny",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-vlny/7141s2r1",
+            "videoLink": "https://www.youtube.com/watch?v=BLZcKmZQqV8"
+          },
+          {
+            "filmId": "3365o2sx1",
+            "filmName": "SLAVTE S NÁMI: Vykoupení z věznice Shaws",
+            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-vykoupeni-z-veznice-shaws/3365o2sx1",
+            "videoLink": null
+          },
+          {
+            "filmId": "3271d2sx2",
+            "filmName": "Avengers: Endgame Special Edition",
+            "filmLink": "https://www.cinemacity.cz/films/avengers-endgame-special-edition/3271d2sx2",
+            "videoLink": "https://www.youtube.com/watch?v=58SZVN-odfc"
+          },
+          {
+            "filmId": "1596o3i1",
+            "filmName": "Na hraně smrti 2: Deadpoint",
+            "filmLink": "https://www.cinemacity.cz/films/na-hrane-smrti-2-deadpoint/1596o3i1",
+            "videoLink": "https://www.youtube.com/watch?v=Y0ySWSXIuSs"
+          },
+          {
+            "filmId": "1674s2x1",
+            "filmName": "Bára Basiková",
+            "filmLink": "https://www.cinemacity.cz/films/bara-basikova/1674s2x1",
+            "videoLink": "https://www.youtube.com/watch?v=Luz5RQJk4_8"
+          },
+          {
+            "filmId": "0274o2sx1",
+            "filmName": "Call",
+            "filmLink": "https://www.cinemacity.cz/films/call/0274o2sx1",
+            "videoLink": "https://www.youtube.com/watch?v=mf_JGVlt6QM"
+          },
+          {
+            "filmId": "8352s2r",
+            "filmName": "Kojot vrací úder",
+            "filmLink": "https://www.cinemacity.cz/films/kojot-vraci-uder/8352s2r",
+            "videoLink": "https://www.youtube.com/watch?v=yz2FHkJnp0Y"
+          },
+          {
+            "filmId": "1865s2sx1",
+            "filmName": "Resident Evil",
+            "filmLink": "https://www.cinemacity.cz/films/resident-evil/1865s2sx1",
+            "videoLink": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+          },
+          {
+            "filmId": "8323s2r",
+            "filmName": "Dívka v oblacích",
+            "filmLink": "https://www.cinemacity.cz/films/divka-v-oblacich/8323s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "8426s2r",
+            "filmName": "Hope",
+            "filmLink": "https://www.cinemacity.cz/films/hope/8426s2r",
+            "videoLink": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
+          },
+          {
+            "filmId": "0632d3sx1",
+            "filmName": "Léčivé účinky sebeklamu",
+            "filmLink": "https://www.cinemacity.cz/films/lecive-ucinky-sebeklamu/0632d3sx1",
+            "videoLink": "https://www.youtube.com/watch?v=5XuKiMGhx7Q"
+          },
+          {
+            "filmId": "8220s2r",
+            "filmName": "Magická posedlost 2",
+            "filmLink": "https://www.cinemacity.cz/films/magicka-posedlost-2/8220s2r",
+            "videoLink": "https://www.youtube.com/watch?v=rvjCoUc5d0o"
+          },
+          {
+            "filmId": "8425s2r",
+            "filmName": "Oasis: Don't Look Back In Anger",
+            "filmLink": "https://www.cinemacity.cz/films/oasis-dont-look-back-in-anger/8425s2r",
+            "videoLink": "https://www.youtube.com/watch?v=vk8j6weBWPU"
+          },
+          {
+            "filmId": "0202d2x1",
+            "filmName": "Dokonalý den",
+            "filmLink": "https://www.cinemacity.cz/films/dokonaly-den/0202d2x1",
+            "videoLink": "https://www.youtube.com/watch?v=QbAdlAaOYro"
+          },
+          {
+            "filmId": "7944s2r",
+            "filmName": "Vzhlížet ke hvězdám",
+            "filmLink": "https://www.cinemacity.cz/films/vzhlizet-ke-hvezdam/7944s2r",
+            "videoLink": "https://www.youtube.com/watch?v=P4IcUjrGqTM"
+          },
+          {
+            "filmId": "6699o2sx1",
+            "filmName": "Vzpoura",
+            "filmLink": "https://www.cinemacity.cz/films/vzpoura/6699o2sx1",
+            "videoLink": "https://www.youtube.com/watch?v=awu4amib1Qg"
+          },
+          {
+            "filmId": "8183s2r",
+            "filmName": "Insidious: Jsou mezi námi",
+            "filmLink": "https://www.cinemacity.cz/films/insidious-jsou-mezi-nami/8183s2r",
+            "videoLink": "https://www.youtube.com/watch?v=ZlgOxfwzMxQ"
+          },
+          {
+            "filmId": "8136s2r",
+            "filmName": "Tom a Jerry: Kouzelný kompas",
+            "filmLink": "https://www.cinemacity.cz/films/tom-a-jerry-kouzelny-kompas/8136s2r",
+            "videoLink": "https://www.youtube.com/watch?v=ntM4A_xfhSU"
+          },
+          {
+            "filmId": "8160s2r",
+            "filmName": "Konec Oak Street",
+            "filmLink": "https://www.cinemacity.cz/films/konec-oak-street/8160s2r",
+            "videoLink": "https://www.youtube.com/watch?v=4Y-w33q8Kv8"
+          },
+          {
+            "filmId": "0222s2i1",
+            "filmName": "6 gramů",
+            "filmLink": "https://www.cinemacity.cz/films/6-gramu/0222s2i1",
+            "videoLink": "https://www.youtube.com/watch?v=zNQVQ_2DRZA"
+          },
+          {
+            "filmId": "7760d2ss1",
+            "filmName": "Tlapková patrola: Dinosauří film",
+            "filmLink": "https://www.cinemacity.cz/films/tlapkova-patrola-dinosauri-film/7760d2ss1",
+            "videoLink": "https://www.youtube.com/watch?v=mgUPvFhEsBM"
+          },
+          {
+            "filmId": "8085s2r",
+            "filmName": "Spider-Man: Zbrusu nový den",
+            "filmLink": "https://www.cinemacity.cz/films/spider-man-zbrusu-novy-den/8085s2r",
+            "videoLink": "https://www.youtube.com/watch?v=2brblD_a14w"
+          },
+          {
+            "filmId": "7268s2r",
+            "filmName": "Odyssea",
+            "filmLink": "https://www.cinemacity.cz/films/odyssea/7268s2r",
+            "videoLink": null
+          },
+          {
+            "filmId": "1808s2r",
+            "filmName": "Odvážná Vaiana",
+            "filmLink": "https://www.cinemacity.cz/films/odvazna-vaiana/1808s2r",
+            "videoLink": "https://www.youtube.com/watch?v=mlp4sPI4sKY"
+          },
+          {
+            "filmId": "8023s2r",
+            "filmName": "Mimoni a monstra",
+            "filmLink": "https://www.cinemacity.cz/films/mimoni-a-monstra/8023s2r",
+            "videoLink": "https://www.youtube.com/watch?v=ycyOuTQa1iI"
+          },
+          {
+            "filmId": "7784s2r",
+            "filmName": "Toy Story 5: Příběh hraček",
+            "filmLink": "https://www.cinemacity.cz/films/toy-story-5-pribeh-hracek/7784s2r",
+            "videoLink": "https://www.youtube.com/watch?v=A7tIMoYvJWk"
+          }
+        ]
+      }
+    },
+    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-17?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -6889,303 +7186,6 @@
             }
           ]
         }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/trailers/byCinemaId/1052",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": [
-          {
-            "filmId": "8105s2r",
-            "filmName": "Duna: část třetí",
-            "filmLink": "https://www.cinemacity.cz/films/duna-cast-treti/8105s2r",
-            "videoLink": "https://www.youtube.com/watch?v=As8PZIvtKBU"
-          },
-          {
-            "filmId": "8444s2r",
-            "filmName": "Queen Budapest",
-            "filmLink": "https://www.cinemacity.cz/films/queen-budapest/8444s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "2097s2r",
-            "filmName": "SLAVTE S NÁMI: Blade Runner 2049",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-blade-runner-2049/2097s2r",
-            "videoLink": "https://www.youtube.com/watch?v=EN3yHcFI2i0"
-          },
-          {
-            "filmId": "2888s2r",
-            "filmName": "SLAVTE S NÁMI: Bohemian Rhapsody",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-bohemian-rhapsody/2888s2r",
-            "videoLink": "https://www.youtube.com/watch?v=3KUUNvkUPuE"
-          },
-          {
-            "filmId": "1857s2r",
-            "filmName": "SLAVTE S NÁMI: Dunkerk",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-dunkerk/1857s2r",
-            "videoLink": "https://www.youtube.com/watch?v=So7df4AloHk"
-          },
-          {
-            "filmId": "0659s2r",
-            "filmName": "SLAVTE S NÁMI: Interstellar",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-interstellar/0659s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "2603o2sx1",
-            "filmName": "SLAVTE S NÁMI: Ledové království",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-ledove-kralovstvi/2603o2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=ydJm0MU-QsA"
-          },
-          {
-            "filmId": "2241s2r",
-            "filmName": "SLAVTE S NÁMI: Liga spravedlnosti",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-liga-spravedlnosti/2241s2r",
-            "videoLink": "https://www.youtube.com/watch?v=UCYIa-OpsE0"
-          },
-          {
-            "filmId": "3666s3sx1",
-            "filmName": "SLAVTE S NÁMI: Matrix",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-matrix/3666s3sx1",
-            "videoLink": null
-          },
-          {
-            "filmId": "8207s2r",
-            "filmName": "SLAVTE S NÁMI: Mlčení jehňátek",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-mlceni-jehnatek/8207s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "2364s2r",
-            "filmName": "SLAVTE S NÁMI: Největší showman",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-nejvetsi-showman/2364s2r",
-            "videoLink": "https://www.youtube.com/watch?v=P0O8dPkp9R0"
-          },
-          {
-            "filmId": "3818s2r",
-            "filmName": "SLAVTE S NÁMI: Není čas zemřít",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-neni-cas-zemrit/3818s2r",
-            "videoLink": "https://www.youtube.com/watch?v=fjB1ZCtSGyY"
-          },
-          {
-            "filmId": "1959s2r",
-            "filmName": "SLAVTE S NÁMI: Nespoutaný Django",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-nespoutany-django/1959s2r",
-            "videoLink": "https://www.youtube.com/watch?v=abwBgdFJ-y8"
-          },
-          {
-            "filmId": "1953s2r",
-            "filmName": "SLAVTE S NÁMI: Piráti z Karibiku: Salaza",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-pirati-z-karibiku-salaza/1953s2r",
-            "videoLink": "https://www.youtube.com/watch?v=03xbL4Ep9xE"
-          },
-          {
-            "filmId": "4127s2r",
-            "filmName": "SLAVTE S NÁMI: Počátek",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-pocatek/4127s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "7020o2ss1",
-            "filmName": "SLAVTE S NÁMI: Samotáři",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-samotari/7020o2ss1",
-            "videoLink": "https://www.youtube.com/watch?v=yumXCgOhNLQ"
-          },
-          {
-            "filmId": "4403s2r",
-            "filmName": "SLAVTE S NÁMI: Sebevražedný oddíl",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-sebevrazedny-oddil/4403s2r",
-            "videoLink": "https://www.youtube.com/watch?v=WlA90k3XxYA"
-          },
-          {
-            "filmId": "3561o2ss1",
-            "filmName": "SLAVTE S NÁMI: Skyfall",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-skyfall/3561o2ss1",
-            "videoLink": null
-          },
-          {
-            "filmId": "0924s2r",
-            "filmName": "SLAVTE S NÁMI: Spectre",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-spectre/0924s2r",
-            "videoLink": "https://www.youtube.com/watch?v=CWgja0wHtVs"
-          },
-          {
-            "filmId": "3391s2r",
-            "filmName": "SLAVTE S NÁMI: Tenkrát v Hollywoodu",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-tenkrat-v-hollywoodu/3391s2r",
-            "videoLink": "https://www.youtube.com/watch?v=-UKPeCf2MG8"
-          },
-          {
-            "filmId": "1842s2ss1",
-            "filmName": "SLAVTE S NÁMI: Trainspotting",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-trainspotting/1842s2ss1",
-            "videoLink": null
-          },
-          {
-            "filmId": "7560s2r",
-            "filmName": "SLAVTE S NÁMI: Velký Gatsby",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-velky-gatsby/7560s2r",
-            "videoLink": "https://www.youtube.com/watch?v=bwEAH53vMTc"
-          },
-          {
-            "filmId": "7141s2r1",
-            "filmName": "SLAVTE S NÁMI: Vlny",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-vlny/7141s2r1",
-            "videoLink": "https://www.youtube.com/watch?v=BLZcKmZQqV8"
-          },
-          {
-            "filmId": "3365o2sx1",
-            "filmName": "SLAVTE S NÁMI: Vykoupení z věznice Shaws",
-            "filmLink": "https://www.cinemacity.cz/films/slavte-s-nami-vykoupeni-z-veznice-shaws/3365o2sx1",
-            "videoLink": null
-          },
-          {
-            "filmId": "3271d2sx2",
-            "filmName": "Avengers: Endgame Special Edition",
-            "filmLink": "https://www.cinemacity.cz/films/avengers-endgame-special-edition/3271d2sx2",
-            "videoLink": "https://www.youtube.com/watch?v=58SZVN-odfc"
-          },
-          {
-            "filmId": "1596o3i1",
-            "filmName": "Na hraně smrti 2: Deadpoint",
-            "filmLink": "https://www.cinemacity.cz/films/na-hrane-smrti-2-deadpoint/1596o3i1",
-            "videoLink": "https://www.youtube.com/watch?v=Y0ySWSXIuSs"
-          },
-          {
-            "filmId": "1674s2x1",
-            "filmName": "Bára Basiková",
-            "filmLink": "https://www.cinemacity.cz/films/bara-basikova/1674s2x1",
-            "videoLink": "https://www.youtube.com/watch?v=Luz5RQJk4_8"
-          },
-          {
-            "filmId": "0274o2sx1",
-            "filmName": "Call",
-            "filmLink": "https://www.cinemacity.cz/films/call/0274o2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=mf_JGVlt6QM"
-          },
-          {
-            "filmId": "8352s2r",
-            "filmName": "Kojot vrací úder",
-            "filmLink": "https://www.cinemacity.cz/films/kojot-vraci-uder/8352s2r",
-            "videoLink": "https://www.youtube.com/watch?v=yz2FHkJnp0Y"
-          },
-          {
-            "filmId": "1865s2sx1",
-            "filmName": "Resident Evil",
-            "filmLink": "https://www.cinemacity.cz/films/resident-evil/1865s2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=Z61Cn71i-no"
-          },
-          {
-            "filmId": "8323s2r",
-            "filmName": "Dívka v oblacích",
-            "filmLink": "https://www.cinemacity.cz/films/divka-v-oblacich/8323s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "8426s2r",
-            "filmName": "Hope",
-            "filmLink": "https://www.cinemacity.cz/films/hope/8426s2r",
-            "videoLink": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
-          },
-          {
-            "filmId": "0632d3sx1",
-            "filmName": "Léčivé účinky sebeklamu",
-            "filmLink": "https://www.cinemacity.cz/films/lecive-ucinky-sebeklamu/0632d3sx1",
-            "videoLink": "https://www.youtube.com/watch?v=5XuKiMGhx7Q"
-          },
-          {
-            "filmId": "8220s2r",
-            "filmName": "Magická posedlost 2",
-            "filmLink": "https://www.cinemacity.cz/films/magicka-posedlost-2/8220s2r",
-            "videoLink": "https://www.youtube.com/watch?v=rvjCoUc5d0o"
-          },
-          {
-            "filmId": "8425s2r",
-            "filmName": "Oasis: Don't Look Back In Anger",
-            "filmLink": "https://www.cinemacity.cz/films/oasis-dont-look-back-in-anger/8425s2r",
-            "videoLink": "https://www.youtube.com/watch?v=vk8j6weBWPU"
-          },
-          {
-            "filmId": "0202d2x1",
-            "filmName": "Dokonalý den",
-            "filmLink": "https://www.cinemacity.cz/films/dokonaly-den/0202d2x1",
-            "videoLink": "https://www.youtube.com/watch?v=QbAdlAaOYro"
-          },
-          {
-            "filmId": "7944s2r",
-            "filmName": "Vzhlížet ke hvězdám",
-            "filmLink": "https://www.cinemacity.cz/films/vzhlizet-ke-hvezdam/7944s2r",
-            "videoLink": "https://www.youtube.com/watch?v=P4IcUjrGqTM"
-          },
-          {
-            "filmId": "6699o2sx1",
-            "filmName": "Vzpoura",
-            "filmLink": "https://www.cinemacity.cz/films/vzpoura/6699o2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=awu4amib1Qg"
-          },
-          {
-            "filmId": "8183s2r",
-            "filmName": "Insidious: Jsou mezi námi",
-            "filmLink": "https://www.cinemacity.cz/films/insidious-jsou-mezi-nami/8183s2r",
-            "videoLink": "https://www.youtube.com/watch?v=ZlgOxfwzMxQ"
-          },
-          {
-            "filmId": "8136s2r",
-            "filmName": "Tom a Jerry: Kouzelný kompas",
-            "filmLink": "https://www.cinemacity.cz/films/tom-a-jerry-kouzelny-kompas/8136s2r",
-            "videoLink": "https://www.youtube.com/watch?v=ntM4A_xfhSU"
-          },
-          {
-            "filmId": "8160s2r",
-            "filmName": "Konec Oak Street",
-            "filmLink": "https://www.cinemacity.cz/films/konec-oak-street/8160s2r",
-            "videoLink": "https://www.youtube.com/watch?v=4Y-w33q8Kv8"
-          },
-          {
-            "filmId": "0222s2i1",
-            "filmName": "6 gramů",
-            "filmLink": "https://www.cinemacity.cz/films/6-gramu/0222s2i1",
-            "videoLink": "https://www.youtube.com/watch?v=zNQVQ_2DRZA"
-          },
-          {
-            "filmId": "7760d2ss1",
-            "filmName": "Tlapková patrola: Dinosauří film",
-            "filmLink": "https://www.cinemacity.cz/films/tlapkova-patrola-dinosauri-film/7760d2ss1",
-            "videoLink": "https://www.youtube.com/watch?v=mgUPvFhEsBM"
-          },
-          {
-            "filmId": "8085s2r",
-            "filmName": "Spider-Man: Zbrusu nový den",
-            "filmLink": "https://www.cinemacity.cz/films/spider-man-zbrusu-novy-den/8085s2r",
-            "videoLink": "https://www.youtube.com/watch?v=2brblD_a14w"
-          },
-          {
-            "filmId": "7268s2r",
-            "filmName": "Odyssea",
-            "filmLink": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-            "videoLink": null
-          },
-          {
-            "filmId": "1808s2r",
-            "filmName": "Odvážná Vaiana",
-            "filmLink": "https://www.cinemacity.cz/films/odvazna-vaiana/1808s2r",
-            "videoLink": "https://www.youtube.com/watch?v=mlp4sPI4sKY"
-          },
-          {
-            "filmId": "8023s2r",
-            "filmName": "Mimoni a monstra",
-            "filmLink": "https://www.cinemacity.cz/films/mimoni-a-monstra/8023s2r",
-            "videoLink": "https://www.youtube.com/watch?v=ycyOuTQa1iI"
-          },
-          {
-            "filmId": "7784s2r",
-            "filmName": "Toy Story 5: Příběh hraček",
-            "filmLink": "https://www.cinemacity.cz/films/toy-story-5-pribeh-hracek/7784s2r",
-            "videoLink": "https://www.youtube.com/watch?v=A7tIMoYvJWk"
-          }
-        ]
       }
     },
     {
@@ -12179,7 +12179,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/241582?lang=cs",
               "presentationCode": "241582",
               "soldOut": false,
-              "availabilityRatio": 0.0597,
+              "availabilityRatio": 0.0675,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
