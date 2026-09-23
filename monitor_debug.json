@@ -8,69 +8,13 @@
       "payload": {}
     },
     {
-      "url": "https://www.cinemacity.cz/system/routes",
+      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
       "status": 200,
-      "content_type": "application/json;charset=utf-8",
+      "content_type": "application/json; charset=utf-8",
       "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+        "fedcm": {
+          "default": false
+        }
       }
     },
     {
@@ -109,142 +53,6 @@
             "scanConfigDomainRef": "cinemacity.cz"
           }
         ]
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/7268s2r",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "filmDetails": {
-            "id": "7268s2r",
-            "name": "Odyssea",
-            "originalName": "Odyssea",
-            "length": 180,
-            "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
-            "posterLinkLarge": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
-            "videoLink": null,
-            "link": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-            "weight": 0,
-            "releaseYear": "2026",
-            "releaseCountry": "USA",
-            "cast": "Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Zendaya, Charlize Theron, Jon Bernthal, Benny Safdie, John Leguizamo, Himesh Patel, Will Yun Lee, Mia Goth, Jimmy Gonzales, Elliot Page, Bill Irwin, Samantha Morton, Jesse Garcia, Rafi Gavron, Shiloh Fernandez, Corey Hawkins, Nick E. Tarabay, Maurice Compte, Michael Vlamis, Iddo Goldberg, Josh Stewart, Ryan Hurst, Anthony Molinari, Jovan Adepo, Logan Marshall-Green, James Remar, Travis Scott",
-            "directors": "Christopher Nolan",
-            "synopsis": "Odysseus (Matt Damon) byl král řeckého ostrova Ithaka, který dle legend a básníka Homéra vymyslel slavného Trójského koně, jenž výraznou měrou pomohl obelstít obránce Tróji a ukončit tak vyčerpávající dobývání tohoto města. Po skončení bojů netouží Odysseus po ničem jiném než vrátit se domů, za manželkou Pénelopé (Anne Hathaway) a synem Télemachem (Tom Holland). Svými odvážnými činy však dle pověstí rozhněval bohy a ti se mu rozhodli návrat co nejvíc zkomplikovat. I proto se slovo „odysea“ stalo synonymem pro cestu plnou překážek, které poutníka odvádějí od jeho cíle, místo toho, aby ho k němu přibližovaly. Zatímco Odysseus vzdoruje bohům, obrům, svůdné kouzelnici Kirké a dalším nebezpečím, jeho žena Pénelopé vzdoruje mužům, kteří chtějí uchvátit ji a s ní celé ithacké království.",
-            "dateStarted": "2026-07-16T00:00:00",
-            "eventCount": 212,
-            "categoriesAttributes": [
-              "drama",
-              "history"
-            ],
-            "categoryIds": [
-              5,
-              7
-            ],
-            "screeningAttributes": [
-              "2d",
-              "4dx",
-              "70-mm",
-              "dubbed",
-              "laser-barco",
-              "recliners",
-              "subbed",
-              "vip"
-            ],
-            "ageRestrictionId": 3,
-            "ageRestrictionLink": "https://www.cinemacity.cz/xmedia/img/10101/rating/15.png",
-            "ageRestrictionName": "15-plus",
-            "ageRestrictionDescription": null,
-            "showingType": "SHOWING",
-            "languages": {
-              "original": [
-                "en"
-              ],
-              "dubbed": [
-                "cs"
-              ],
-              "voiceover": [],
-              "subtitles": [
-                "cs"
-              ]
-            },
-            "dubbedLanguage": [
-              "dubbed-lang-cs"
-            ],
-            "firstSubbedLanguage": [
-              "first-subbed-lang-cs"
-            ],
-            "secondSubbedLanguage": [],
-            "originalLanguage": [
-              "original-lang-en"
-            ],
-            "contentLabels": [],
-            "mediaList": [
-              {
-                "type": "Image",
-                "subType": "",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
-                "dimensionHeight": "889",
-                "dimensionWidth": "600"
-              },
-              {
-                "type": "Image",
-                "subType": "sm",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm.jpg",
-                "dimensionHeight": "207",
-                "dimensionWidth": "140"
-              },
-              {
-                "type": "Image",
-                "subType": "md",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md.jpg",
-                "dimensionHeight": "326",
-                "dimensionWidth": "220"
-              },
-              {
-                "type": "Image",
-                "subType": "lg",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
-                "dimensionHeight": "445",
-                "dimensionWidth": "300"
-              },
-              {
-                "type": "Image",
-                "subType": "sm2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm2x.jpg",
-                "dimensionHeight": "415",
-                "dimensionWidth": "280"
-              },
-              {
-                "type": "Image",
-                "subType": "md2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md2x.jpg",
-                "dimensionHeight": "652",
-                "dimensionWidth": "440"
-              },
-              {
-                "type": "Image",
-                "subType": "lg2x",
-                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg2x.jpg",
-                "dimensionHeight": "889",
-                "dimensionWidth": "600"
-              }
-            ],
-            "specialMessage": null,
-            "distributorName": null
-          }
-        }
-      }
-    },
-    {
-      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "fedcm": {
-          "default": false
-        }
       }
     },
     {
@@ -1170,6 +978,198 @@
               "deny": "Zamítnout",
               "save": "Uložit nastavení"
             }
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/7268s2r",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "filmDetails": {
+            "id": "7268s2r",
+            "name": "Odyssea",
+            "originalName": "Odyssea",
+            "length": 180,
+            "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
+            "posterLinkLarge": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
+            "videoLink": null,
+            "link": "https://www.cinemacity.cz/films/odyssea/7268s2r",
+            "weight": 0,
+            "releaseYear": "2026",
+            "releaseCountry": "USA",
+            "cast": "Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Zendaya, Charlize Theron, Jon Bernthal, Benny Safdie, John Leguizamo, Himesh Patel, Will Yun Lee, Mia Goth, Jimmy Gonzales, Elliot Page, Bill Irwin, Samantha Morton, Jesse Garcia, Rafi Gavron, Shiloh Fernandez, Corey Hawkins, Nick E. Tarabay, Maurice Compte, Michael Vlamis, Iddo Goldberg, Josh Stewart, Ryan Hurst, Anthony Molinari, Jovan Adepo, Logan Marshall-Green, James Remar, Travis Scott",
+            "directors": "Christopher Nolan",
+            "synopsis": "Odysseus (Matt Damon) byl král řeckého ostrova Ithaka, který dle legend a básníka Homéra vymyslel slavného Trójského koně, jenž výraznou měrou pomohl obelstít obránce Tróji a ukončit tak vyčerpávající dobývání tohoto města. Po skončení bojů netouží Odysseus po ničem jiném než vrátit se domů, za manželkou Pénelopé (Anne Hathaway) a synem Télemachem (Tom Holland). Svými odvážnými činy však dle pověstí rozhněval bohy a ti se mu rozhodli návrat co nejvíc zkomplikovat. I proto se slovo „odysea“ stalo synonymem pro cestu plnou překážek, které poutníka odvádějí od jeho cíle, místo toho, aby ho k němu přibližovaly. Zatímco Odysseus vzdoruje bohům, obrům, svůdné kouzelnici Kirké a dalším nebezpečím, jeho žena Pénelopé vzdoruje mužům, kteří chtějí uchvátit ji a s ní celé ithacké království.",
+            "dateStarted": "2026-07-16T00:00:00",
+            "eventCount": 212,
+            "categoriesAttributes": [
+              "drama",
+              "history"
+            ],
+            "categoryIds": [
+              5,
+              7
+            ],
+            "screeningAttributes": [
+              "2d",
+              "4dx",
+              "70-mm",
+              "dubbed",
+              "laser-barco",
+              "recliners",
+              "subbed",
+              "vip"
+            ],
+            "ageRestrictionId": 3,
+            "ageRestrictionLink": "https://www.cinemacity.cz/xmedia/img/10101/rating/15.png",
+            "ageRestrictionName": "15-plus",
+            "ageRestrictionDescription": null,
+            "showingType": "SHOWING",
+            "languages": {
+              "original": [
+                "en"
+              ],
+              "dubbed": [
+                "cs"
+              ],
+              "voiceover": [],
+              "subtitles": [
+                "cs"
+              ]
+            },
+            "dubbedLanguage": [
+              "dubbed-lang-cs"
+            ],
+            "firstSubbedLanguage": [
+              "first-subbed-lang-cs"
+            ],
+            "secondSubbedLanguage": [],
+            "originalLanguage": [
+              "original-lang-en"
+            ],
+            "contentLabels": [],
+            "mediaList": [
+              {
+                "type": "Image",
+                "subType": "",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
+                "dimensionHeight": "889",
+                "dimensionWidth": "600"
+              },
+              {
+                "type": "Image",
+                "subType": "sm",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm.jpg",
+                "dimensionHeight": "207",
+                "dimensionWidth": "140"
+              },
+              {
+                "type": "Image",
+                "subType": "md",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md.jpg",
+                "dimensionHeight": "326",
+                "dimensionWidth": "220"
+              },
+              {
+                "type": "Image",
+                "subType": "lg",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg.jpg",
+                "dimensionHeight": "445",
+                "dimensionWidth": "300"
+              },
+              {
+                "type": "Image",
+                "subType": "sm2x",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-sm2x.jpg",
+                "dimensionHeight": "415",
+                "dimensionWidth": "280"
+              },
+              {
+                "type": "Image",
+                "subType": "md2x",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-md2x.jpg",
+                "dimensionHeight": "652",
+                "dimensionWidth": "440"
+              },
+              {
+                "type": "Image",
+                "subType": "lg2x",
+                "url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R-lg2x.jpg",
+                "dimensionHeight": "889",
+                "dimensionWidth": "600"
+              }
+            ],
+            "specialMessage": null,
+            "distributorName": null
           }
         }
       }
@@ -7446,55 +7446,6 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-23?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "dates": [
-            "2026-09-23",
-            "2026-09-24",
-            "2026-09-25",
-            "2026-09-26",
-            "2026-09-27",
-            "2026-09-28",
-            "2026-09-29",
-            "2026-09-30",
-            "2026-10-05",
-            "2026-10-06",
-            "2026-10-07",
-            "2026-10-08",
-            "2026-10-09",
-            "2026-10-10",
-            "2026-10-12",
-            "2026-10-13",
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16",
-            "2026-10-19",
-            "2026-10-20",
-            "2026-10-21",
-            "2026-10-22",
-            "2026-10-23",
-            "2026-10-26",
-            "2026-10-27",
-            "2026-10-28",
-            "2026-10-29",
-            "2026-10-30",
-            "2026-11-24",
-            "2026-12-08",
-            "2026-12-15",
-            "2027-03-09",
-            "2027-04-06",
-            "2027-04-27",
-            "2027-05-25",
-            "2027-06-08",
-            "2027-06-22"
-          ]
-        }
-      }
-    },
-    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/attributes?jsonp&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -10011,8 +9962,8 @@
             "concert-film",
             "3d",
             "music",
-            "romantic-comedy",
             "sci-fi",
+            "romantic-comedy",
             "fairytale",
             "melodrama",
             "action",
@@ -10081,6 +10032,55 @@
             "sport",
             "anime",
             "adult-animation"
+          ]
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-09-23?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "dates": [
+            "2026-09-23",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26",
+            "2026-09-27",
+            "2026-09-28",
+            "2026-09-29",
+            "2026-09-30",
+            "2026-10-05",
+            "2026-10-06",
+            "2026-10-07",
+            "2026-10-08",
+            "2026-10-09",
+            "2026-10-10",
+            "2026-10-12",
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21",
+            "2026-10-22",
+            "2026-10-23",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-11-24",
+            "2026-12-08",
+            "2026-12-15",
+            "2027-03-09",
+            "2027-04-06",
+            "2027-04-27",
+            "2027-05-25",
+            "2027-06-08",
+            "2027-06-22"
           ]
         }
       }
@@ -10523,7 +10523,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/248914?lang=cs",
               "presentationCode": "248914",
               "soldOut": false,
-              "availabilityRatio": 0.4078,
+              "availabilityRatio": 0.4052,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -11306,7 +11306,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/252718?lang=cs",
               "presentationCode": "252718",
               "soldOut": false,
-              "availabilityRatio": 0.9721,
+              "availabilityRatio": 0.9665,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
@@ -11402,7 +11402,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/252702?lang=cs",
               "presentationCode": "252702",
               "soldOut": false,
-              "availabilityRatio": 0.9742,
+              "availabilityRatio": 0.9613,
               "auditorium": "Sál 07",
               "auditoriumTinyName": "7"
             },
@@ -11449,7 +11449,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/252726?lang=cs",
               "presentationCode": "252726",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9931,
               "auditorium": "Sál 04",
               "auditoriumTinyName": "4"
             },
@@ -11584,7 +11584,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/252716?lang=cs",
               "presentationCode": "252716",
               "soldOut": false,
-              "availabilityRatio": 0.9832,
+              "availabilityRatio": 0.9777,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
