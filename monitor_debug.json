@@ -23,7 +23,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -56,7 +56,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -71,6 +71,54 @@
         "SYSTEM_ROUTER_ROUTES": "/system/routes",
         "GENERAL_CONTACT": "/contact",
         "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {
+        "fedcm": {
+          "default": false
+        }
+      }
+    },
+    {
+      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/A1WRS51BB4TT7A",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {
+        "id": "A1WRS51BB4TT7A",
+        "version": "5.1.15",
+        "languages": [
+          "cs",
+          "en"
+        ],
+        "crossDomainConsentSharingEnabled": true,
+        "enableBotDetection": true,
+        "allowedDomains": {
+          "list": [
+            "cinemacity.cz",
+            "tickets.cinemacity.cz",
+            "*.usercentrics-sandbox.eu",
+            "*.usercentrics-staging.eu",
+            "*.usercentrics.eu",
+            "*.usercentrics-develop.eu",
+            "storage.googleapis.com/usercentrics-integration-test-browser-ui/*",
+            "usercentrics-integration-test-browser-ui.storage.googleapis.com/*",
+            "*.appetize.io/embed/*"
+          ]
+        },
+        "cmp": {
+          "version": "4.23.0",
+          "type": "gdpr"
+        },
+        "testDomains": [
+          {
+            "testDomain": "stg.cinemacity.cz",
+            "scanConfigDomainRef": "cinemacity.cz"
+          }
+        ]
       }
     },
     {
@@ -201,55 +249,7 @@
       }
     },
     {
-      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "fedcm": {
-          "default": false
-        }
-      }
-    },
-    {
-      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/A1WRS51BB4TT7A",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "id": "A1WRS51BB4TT7A",
-        "version": "5.1.15",
-        "languages": [
-          "cs",
-          "en"
-        ],
-        "crossDomainConsentSharingEnabled": true,
-        "enableBotDetection": true,
-        "allowedDomains": {
-          "list": [
-            "cinemacity.cz",
-            "tickets.cinemacity.cz",
-            "*.usercentrics-sandbox.eu",
-            "*.usercentrics-staging.eu",
-            "*.usercentrics.eu",
-            "*.usercentrics-develop.eu",
-            "storage.googleapis.com/usercentrics-integration-test-browser-ui/*",
-            "usercentrics-integration-test-browser-ui.storage.googleapis.com/*",
-            "*.appetize.io/embed/*"
-          ]
-        },
-        "cmp": {
-          "version": "4.23.0",
-          "type": "gdpr"
-        },
-        "testDomains": [
-          {
-            "testDomain": "stg.cinemacity.cz",
-            "scanConfigDomainRef": "cinemacity.cz"
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-10-17?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-10-18?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -540,73 +540,6 @@
               "blockOnlineSalesUntil": null,
               "latitude": 50.658764,
               "longitude": 14.038765
-            }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-10-17?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1037",
-              "name": "Liberec, Forum Liberec",
-              "cinemaIds": [
-                "1037"
-              ]
-            },
-            {
-              "id": "group-1055",
-              "name": "Ostrava, Nová Karolina",
-              "cinemaIds": [
-                "1055"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
-            },
-            {
-              "id": "group-1054",
-              "name": "Plzeň, Plzeň Plaza",
-              "cinemaIds": [
-                "1054"
-              ]
-            },
-            {
-              "id": "group-1036",
-              "name": "Ústí nad Labem, Forum Ústí nad Labem",
-              "cinemaIds": [
-                "1036"
-              ]
             }
           ]
         }
@@ -4131,7 +4064,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-10-17?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/films/until/2027-10-18?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -5612,6 +5545,73 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-10-18?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1037",
+              "name": "Liberec, Forum Liberec",
+              "cinemaIds": [
+                "1037"
+              ]
+            },
+            {
+              "id": "group-1055",
+              "name": "Ostrava, Nová Karolina",
+              "cinemaIds": [
+                "1055"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            },
+            {
+              "id": "group-1054",
+              "name": "Plzeň, Plzeň Plaza",
+              "cinemaIds": [
+                "1054"
+              ]
+            },
+            {
+              "id": "group-1036",
+              "name": "Ústí nad Labem, Forum Ústí nad Labem",
+              "cinemaIds": [
+                "1036"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -6583,142 +6583,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": [
-        {
-          "itemKey": "288fde00-eb84-499d-8c16-726eb404f934",
-          "itemPath": "/10101/home_page/cinema_page/MKT-banner-",
-          "startDate": {
-            "year": 2026,
-            "month": "JUNE",
-            "dayOfMonth": 5,
-            "dayOfWeek": "FRIDAY",
-            "era": "CE",
-            "monthValue": 6,
-            "leapYear": false,
-            "dayOfYear": 156,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "endDate": {
-            "year": 2027,
-            "month": "JANUARY",
-            "dayOfMonth": 1,
-            "dayOfWeek": "FRIDAY",
-            "era": "CE",
-            "monthValue": 1,
-            "leapYear": false,
-            "dayOfYear": 1,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "label": "25 vyroci",
-          "url": "https://www.cinemacity.cz/static/cs/cz/offers/25let",
-          "urlType": "_self",
-          "showButton": false,
-          "buttonTop": "280",
-          "buttonLeft": "730",
-          "imageDesktop": {
-            "itemKey": "jcr:410a8121-2424-4f82-ba64-a800b490e537",
-            "filename": "2000x390_V3.png",
-            "uri": "/magnoliaPublic/dam/jcr:410a8121-2424-4f82-ba64-a800b490e537",
-            "size": 1085157,
-            "title": "",
-            "description": ""
-          },
-          "imageMobile": {
-            "itemKey": "jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
-            "filename": "768x423_V3.png",
-            "uri": "/magnoliaPublic/dam/jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
-            "size": 479149,
-            "title": "",
-            "description": ""
-          },
-          "imageThumbnail": {
-            "itemKey": "jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
-            "filename": "25let_100x100.png",
-            "uri": "/magnoliaPublic/dam/jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
-            "size": 11411,
-            "title": "",
-            "description": ""
-          },
-          "overlayText": "",
-          "videoUrl": ""
-        },
-        {
-          "itemKey": "816a2df3-758a-4fc7-85ce-6fe72d7625bb",
-          "itemPath": "/10101/home_page/main_area/DN-25-10",
-          "startDate": {
-            "year": 2026,
-            "month": "SEPTEMBER",
-            "dayOfMonth": 24,
-            "dayOfWeek": "THURSDAY",
-            "era": "CE",
-            "monthValue": 9,
-            "leapYear": false,
-            "dayOfYear": 267,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "endDate": {
-            "year": 2026,
-            "month": "OCTOBER",
-            "dayOfMonth": 26,
-            "dayOfWeek": "MONDAY",
-            "era": "CE",
-            "monthValue": 10,
-            "leapYear": false,
-            "dayOfYear": 299,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "label": "DN 25 10",
-          "url": "https://www.cinemacity.cz/films/detska-nedele-ovecka-shaun-ve-filmu-prisera-z-mossy-bottom/8010s2r1#/",
-          "urlType": "_self",
-          "showButton": false,
-          "buttonTop": "280",
-          "buttonLeft": "730",
-          "imageDesktop": {
-            "itemKey": "jcr:2a4df761-c20d-48c1-baff-82af564b9621",
-            "filename": "2000x390_Detska_Nedele_CZ_01.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:2a4df761-c20d-48c1-baff-82af564b9621",
-            "size": 203955,
-            "title": "",
-            "description": ""
-          },
-          "imageMobile": {
-            "itemKey": "jcr:298094c5-1258-44bd-b293-87a53cd2425b",
-            "filename": "768x423_Detska_Nedele_CZ_01.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:298094c5-1258-44bd-b293-87a53cd2425b",
-            "size": 215161,
-            "title": "",
-            "description": ""
-          },
-          "imageThumbnail": {
-            "itemKey": "jcr:527dc013-42d0-47f6-a9cf-7c4dfacfaa0b",
-            "filename": "100x100_Detska_Nedele_CZ_01.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:527dc013-42d0-47f6-a9cf-7c4dfacfaa0b",
-            "size": 13201,
-            "title": "",
-            "description": ""
-          },
-          "overlayText": "",
-          "videoUrl": ""
-        }
-      ]
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-10-17?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-10-18?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -7015,46 +6880,139 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-10-17?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "dates": [
-            "2026-10-18",
-            "2026-10-19",
-            "2026-10-20",
-            "2026-10-21",
-            "2026-10-22",
-            "2026-10-23",
-            "2026-10-25",
-            "2026-10-26",
-            "2026-10-27",
-            "2026-10-28",
-            "2026-10-29",
-            "2026-10-30",
-            "2026-11-03",
-            "2026-11-05",
-            "2026-11-06",
-            "2026-11-07",
-            "2026-11-08",
-            "2026-11-24",
-            "2026-12-08",
-            "2026-12-15",
-            "2026-12-16",
-            "2026-12-17",
-            "2026-12-18",
-            "2026-12-19",
-            "2026-12-20",
-            "2027-03-09",
-            "2027-04-06",
-            "2027-04-27",
-            "2027-05-25",
-            "2027-06-08",
-            "2027-06-22"
-          ]
+      "payload": [
+        {
+          "itemKey": "288fde00-eb84-499d-8c16-726eb404f934",
+          "itemPath": "/10101/home_page/cinema_page/MKT-banner-",
+          "startDate": {
+            "year": 2026,
+            "month": "JUNE",
+            "dayOfMonth": 5,
+            "dayOfWeek": "FRIDAY",
+            "era": "CE",
+            "monthValue": 6,
+            "leapYear": false,
+            "dayOfYear": 156,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "endDate": {
+            "year": 2027,
+            "month": "JANUARY",
+            "dayOfMonth": 1,
+            "dayOfWeek": "FRIDAY",
+            "era": "CE",
+            "monthValue": 1,
+            "leapYear": false,
+            "dayOfYear": 1,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "label": "25 vyroci",
+          "url": "https://www.cinemacity.cz/static/cs/cz/offers/25let",
+          "urlType": "_self",
+          "showButton": false,
+          "buttonTop": "280",
+          "buttonLeft": "730",
+          "imageDesktop": {
+            "itemKey": "jcr:410a8121-2424-4f82-ba64-a800b490e537",
+            "filename": "2000x390_V3.png",
+            "uri": "/magnoliaPublic/dam/jcr:410a8121-2424-4f82-ba64-a800b490e537",
+            "size": 1085157,
+            "title": "",
+            "description": ""
+          },
+          "imageMobile": {
+            "itemKey": "jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
+            "filename": "768x423_V3.png",
+            "uri": "/magnoliaPublic/dam/jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
+            "size": 479149,
+            "title": "",
+            "description": ""
+          },
+          "imageThumbnail": {
+            "itemKey": "jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
+            "filename": "25let_100x100.png",
+            "uri": "/magnoliaPublic/dam/jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
+            "size": 11411,
+            "title": "",
+            "description": ""
+          },
+          "overlayText": "",
+          "videoUrl": ""
+        },
+        {
+          "itemKey": "816a2df3-758a-4fc7-85ce-6fe72d7625bb",
+          "itemPath": "/10101/home_page/main_area/DN-25-10",
+          "startDate": {
+            "year": 2026,
+            "month": "SEPTEMBER",
+            "dayOfMonth": 24,
+            "dayOfWeek": "THURSDAY",
+            "era": "CE",
+            "monthValue": 9,
+            "leapYear": false,
+            "dayOfYear": 267,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "endDate": {
+            "year": 2026,
+            "month": "OCTOBER",
+            "dayOfMonth": 26,
+            "dayOfWeek": "MONDAY",
+            "era": "CE",
+            "monthValue": 10,
+            "leapYear": false,
+            "dayOfYear": 299,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "label": "DN 25 10",
+          "url": "https://www.cinemacity.cz/films/detska-nedele-ovecka-shaun-ve-filmu-prisera-z-mossy-bottom/8010s2r1#/",
+          "urlType": "_self",
+          "showButton": false,
+          "buttonTop": "280",
+          "buttonLeft": "730",
+          "imageDesktop": {
+            "itemKey": "jcr:2a4df761-c20d-48c1-baff-82af564b9621",
+            "filename": "2000x390_Detska_Nedele_CZ_01.jpg",
+            "uri": "/magnoliaPublic/dam/jcr:2a4df761-c20d-48c1-baff-82af564b9621",
+            "size": 203955,
+            "title": "",
+            "description": ""
+          },
+          "imageMobile": {
+            "itemKey": "jcr:298094c5-1258-44bd-b293-87a53cd2425b",
+            "filename": "768x423_Detska_Nedele_CZ_01.jpg",
+            "uri": "/magnoliaPublic/dam/jcr:298094c5-1258-44bd-b293-87a53cd2425b",
+            "size": 215161,
+            "title": "",
+            "description": ""
+          },
+          "imageThumbnail": {
+            "itemKey": "jcr:527dc013-42d0-47f6-a9cf-7c4dfacfaa0b",
+            "filename": "100x100_Detska_Nedele_CZ_01.jpg",
+            "uri": "/magnoliaPublic/dam/jcr:527dc013-42d0-47f6-a9cf-7c4dfacfaa0b",
+            "size": 13201,
+            "title": "",
+            "description": ""
+          },
+          "overlayText": "",
+          "videoUrl": ""
         }
-      }
+      ]
     },
     {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/attributes?jsonp&lang=cs_CZ",
@@ -9573,8 +9531,8 @@
             "concert-film",
             "3d",
             "music",
-            "romantic-comedy",
             "sci-fi",
+            "romantic-comedy",
             "fairytale",
             "melodrama",
             "action",
@@ -9924,6 +9882,48 @@
             "videoLink": null
           }
         ]
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-10-18?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "dates": [
+            "2026-10-18",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21",
+            "2026-10-22",
+            "2026-10-23",
+            "2026-10-25",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-11-03",
+            "2026-11-05",
+            "2026-11-06",
+            "2026-11-07",
+            "2026-11-08",
+            "2026-11-24",
+            "2026-12-08",
+            "2026-12-15",
+            "2026-12-16",
+            "2026-12-17",
+            "2026-12-18",
+            "2026-12-19",
+            "2026-12-20",
+            "2027-03-09",
+            "2027-04-06",
+            "2027-04-27",
+            "2027-05-25",
+            "2027-06-08",
+            "2027-06-22"
+          ]
+        }
       }
     },
     {
@@ -11066,7 +11066,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265654?lang=cs",
               "presentationCode": "265654",
               "soldOut": false,
-              "availabilityRatio": 0.1714,
+              "availabilityRatio": 0.174,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -12054,7 +12054,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265671?lang=cs",
               "presentationCode": "265671",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9871,
               "auditorium": "Sál 07",
               "auditoriumTinyName": "7"
             },
