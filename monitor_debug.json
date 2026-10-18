@@ -46,72 +46,6 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
       "url": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/cs/GDPR/A1WRS51BB4TT7A/5.1.15/5.1.15?isOutsideRegion=true",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -1039,6 +973,82 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {
+        "fedcm": {
+          "default": false
+        }
+      }
+    },
+    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/films/byDistributorCode/7268s2r",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -1060,7 +1070,7 @@
             "directors": "Christopher Nolan",
             "synopsis": "Odysseus (Matt Damon) byl král řeckého ostrova Ithaka, který dle legend a básníka Homéra vymyslel slavného Trójského koně, jenž výraznou měrou pomohl obelstít obránce Tróji a ukončit tak vyčerpávající dobývání tohoto města. Po skončení bojů netouží Odysseus po ničem jiném než vrátit se domů, za manželkou Pénelopé (Anne Hathaway) a synem Télemachem (Tom Holland). Svými odvážnými činy však dle pověstí rozhněval bohy a ti se mu rozhodli návrat co nejvíc zkomplikovat. I proto se slovo „odysea“ stalo synonymem pro cestu plnou překážek, které poutníka odvádějí od jeho cíle, místo toho, aby ho k němu přibližovaly. Zatímco Odysseus vzdoruje bohům, obrům, svůdné kouzelnici Kirké a dalším nebezpečím, jeho žena Pénelopé vzdoruje mužům, kteří chtějí uchvátit ji a s ní celé ithacké království.",
             "dateStarted": "2026-07-16T00:00:00",
-            "eventCount": 74,
+            "eventCount": 73,
             "categoriesAttributes": [
               "drama",
               "history"
@@ -1162,16 +1172,6 @@
             "specialMessage": null,
             "distributorName": null
           }
-        }
-      }
-    },
-    {
-      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "fedcm": {
-          "default": false
         }
       }
     },
@@ -1467,73 +1467,6 @@
               "blockOnlineSalesUntil": null,
               "latitude": 50.658764,
               "longitude": 14.038765
-            }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-10-18?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1037",
-              "name": "Liberec, Forum Liberec",
-              "cinemaIds": [
-                "1037"
-              ]
-            },
-            {
-              "id": "group-1055",
-              "name": "Ostrava, Nová Karolina",
-              "cinemaIds": [
-                "1055"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
-            },
-            {
-              "id": "group-1054",
-              "name": "Plzeň, Plzeň Plaza",
-              "cinemaIds": [
-                "1054"
-              ]
-            },
-            {
-              "id": "group-1036",
-              "name": "Ústí nad Labem, Forum Ústí nad Labem",
-              "cinemaIds": [
-                "1036"
-              ]
             }
           ]
         }
@@ -5612,6 +5545,73 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-10-18?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1037",
+              "name": "Liberec, Forum Liberec",
+              "cinemaIds": [
+                "1037"
+              ]
+            },
+            {
+              "id": "group-1055",
+              "name": "Ostrava, Nová Karolina",
+              "cinemaIds": [
+                "1055"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            },
+            {
+              "id": "group-1054",
+              "name": "Plzeň, Plzeň Plaza",
+              "cinemaIds": [
+                "1054"
+              ]
+            },
+            {
+              "id": "group-1036",
+              "name": "Ústí nad Labem, Forum Ústí nad Labem",
+              "cinemaIds": [
+                "1036"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -7010,48 +7010,6 @@
               "latitude": 50.658764,
               "longitude": 14.038765
             }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-10-18?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "dates": [
-            "2026-10-18",
-            "2026-10-19",
-            "2026-10-20",
-            "2026-10-21",
-            "2026-10-22",
-            "2026-10-23",
-            "2026-10-25",
-            "2026-10-26",
-            "2026-10-27",
-            "2026-10-28",
-            "2026-10-29",
-            "2026-10-30",
-            "2026-11-03",
-            "2026-11-05",
-            "2026-11-06",
-            "2026-11-07",
-            "2026-11-08",
-            "2026-11-24",
-            "2026-12-08",
-            "2026-12-15",
-            "2026-12-16",
-            "2026-12-17",
-            "2026-12-18",
-            "2026-12-19",
-            "2026-12-20",
-            "2027-03-09",
-            "2027-04-06",
-            "2027-04-27",
-            "2027-05-25",
-            "2027-06-08",
-            "2027-06-22"
           ]
         }
       }
@@ -9927,6 +9885,48 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-10-18?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "dates": [
+            "2026-10-18",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21",
+            "2026-10-22",
+            "2026-10-23",
+            "2026-10-25",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-11-03",
+            "2026-11-05",
+            "2026-11-06",
+            "2026-11-07",
+            "2026-11-08",
+            "2026-11-24",
+            "2026-12-08",
+            "2026-12-15",
+            "2026-12-16",
+            "2026-12-17",
+            "2026-12-18",
+            "2026-12-19",
+            "2026-12-20",
+            "2027-03-09",
+            "2027-04-06",
+            "2027-04-27",
+            "2027-05-25",
+            "2027-06-08",
+            "2027-06-22"
+          ]
+        }
+      }
+    },
+    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -10067,28 +10067,6 @@
                 "first-subbed-lang-cs",
                 "subbed",
                 "thriller"
-              ]
-            },
-            {
-              "id": "1808s2r",
-              "name": "Odvážná Vaiana",
-              "length": 115,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1808S2R.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=mlp4sPI4sKY",
-              "link": "https://www.cinemacity.cz/films/odvazna-vaiana/1808s2r",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-07-09T00:00:00",
-              "attributeIds": [
-                "2d",
-                "adventure",
-                "comedy",
-                "dubbed",
-                "dubbed-lang-cs",
-                "family",
-                "fantasy",
-                "musical",
-                "suitable-for-all"
               ]
             },
             {
@@ -10345,324 +10323,6 @@
           ],
           "events": [
             {
-              "id": "265655",
-              "filmId": "7268s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-10-18",
-              "eventDateTime": "2026-10-18T10:00:00",
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "70-mm",
-                "drama",
-                "first-subbed-lang-cs",
-                "history",
-                "subbed"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/265655",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265655?lang=cs",
-              "presentationCode": "265655",
-              "soldOut": false,
-              "availabilityRatio": 0.2805,
-              "auditorium": "IMAX VOLVO",
-              "auditoriumTinyName": "IMAX"
-            },
-            {
-              "id": "265666",
-              "filmId": "7784s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-10-18",
-              "eventDateTime": "2026-10-18T10:00:00",
-              "attributeIds": [
-                "2d",
-                "adventure",
-                "animation",
-                "dubbed",
-                "dubbed-lang-cs",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [
-                  "cs"
-                ],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/265666?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/265666",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/265666?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265666?lang=cs",
-              "presentationCode": "265666",
-              "soldOut": false,
-              "availabilityRatio": 1.0,
-              "auditorium": "Sál 06",
-              "auditoriumTinyName": "6"
-            },
-            {
-              "id": "265694",
-              "filmId": "0604o2sx1",
-              "cinemaId": "1052",
-              "businessDay": "2026-10-18",
-              "eventDateTime": "2026-10-18T10:00:00",
-              "attributeIds": [
-                "2d",
-                "adventure",
-                "animation",
-                "comedy",
-                "dubbed",
-                "dubbed-lang-cs",
-                "family",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "fr"
-                ],
-                "dubbed": [
-                  "cs"
-                ],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/265694?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/265694",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/265694?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265694?lang=cs",
-              "presentationCode": "265694",
-              "soldOut": false,
-              "availabilityRatio": 1.0,
-              "auditorium": "Sál 04",
-              "auditoriumTinyName": "4"
-            },
-            {
-              "id": "265661",
-              "filmId": "1808s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-10-18",
-              "eventDateTime": "2026-10-18T10:30:00",
-              "attributeIds": [
-                "2d",
-                "adventure",
-                "comedy",
-                "dubbed",
-                "dubbed-lang-cs",
-                "family",
-                "fantasy",
-                "musical",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [
-                  "cs"
-                ],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/265661?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/265661",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/265661?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265661?lang=cs",
-              "presentationCode": "265661",
-              "soldOut": false,
-              "availabilityRatio": 1.0,
-              "auditorium": "Sál 05",
-              "auditoriumTinyName": "5"
-            },
-            {
-              "id": "265682",
-              "filmId": "1616s3sx1",
-              "cinemaId": "1052",
-              "businessDay": "2026-10-18",
-              "eventDateTime": "2026-10-18T10:30:00",
-              "attributeIds": [
-                "2d",
-                "animation",
-                "original",
-                "original-lang-cs",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "cs"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/265682?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/265682",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/265682?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265682?lang=cs",
-              "presentationCode": "265682",
-              "soldOut": false,
-              "availabilityRatio": 0.9793,
-              "auditorium": "Sál 02",
-              "auditoriumTinyName": "2"
-            },
-            {
-              "id": "265693",
-              "filmId": "8095s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-10-18",
-              "eventDateTime": "2026-10-18T10:40:00",
-              "attributeIds": [
-                "2d",
-                "animation",
-                "comedy",
-                "dubbed",
-                "dubbed-lang-cs",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [
-                  "cs"
-                ],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/265693?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/265693",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/265693?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265693?lang=cs",
-              "presentationCode": "265693",
-              "soldOut": false,
-              "availabilityRatio": 1.0,
-              "auditorium": "Sál 03",
-              "auditoriumTinyName": "3"
-            },
-            {
-              "id": "265681",
-              "filmId": "8023s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-10-18",
-              "eventDateTime": "2026-10-18T11:00:00",
-              "attributeIds": [
-                "2d",
-                "animation",
-                "comedy",
-                "dubbed",
-                "dubbed-lang-cs",
-                "suitable-for-all"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [
-                  "cs"
-                ],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/265681?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/265681",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/265681?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265681?lang=cs",
-              "presentationCode": "265681",
-              "soldOut": false,
-              "availabilityRatio": 0.9932,
-              "auditorium": "Sál 01",
-              "auditoriumTinyName": "1"
-            },
-            {
               "id": "265668",
               "filmId": "8352s2r",
               "cinemaId": "1052",
@@ -10705,7 +10365,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265668?lang=cs",
               "presentationCode": "265668",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9806,
               "auditorium": "Sál 07",
               "auditoriumTinyName": "7"
             },
@@ -10794,7 +10454,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265683?lang=cs",
               "presentationCode": "265683",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9862,
               "auditorium": "Sál 02",
               "auditoriumTinyName": "2"
             },
@@ -10839,7 +10499,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265667?lang=cs",
               "presentationCode": "265667",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9867,
               "auditorium": "Sál 06",
               "auditoriumTinyName": "6"
             },
@@ -10930,7 +10590,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265656?lang=cs",
               "presentationCode": "265656",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9944,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
@@ -10975,7 +10635,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265680?lang=cs",
               "presentationCode": "265680",
               "soldOut": false,
-              "availabilityRatio": 0.9829,
+              "availabilityRatio": 0.9726,
               "auditorium": "Sál 01",
               "auditoriumTinyName": "1"
             },
@@ -11066,7 +10726,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265654?lang=cs",
               "presentationCode": "265654",
               "soldOut": false,
-              "availabilityRatio": 0.1714,
+              "availabilityRatio": 0.1584,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -11113,7 +10773,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265669?lang=cs",
               "presentationCode": "265669",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9742,
               "auditorium": "Sál 07",
               "auditoriumTinyName": "7"
             },
@@ -11203,7 +10863,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265696?lang=cs",
               "presentationCode": "265696",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9896,
               "auditorium": "Sál 04",
               "auditoriumTinyName": "4"
             },
@@ -11336,7 +10996,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265679?lang=cs",
               "presentationCode": "265679",
               "soldOut": false,
-              "availabilityRatio": 0.9795,
+              "availabilityRatio": 0.9692,
               "auditorium": "Sál 01",
               "auditoriumTinyName": "1"
             },
@@ -11468,7 +11128,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265670?lang=cs",
               "presentationCode": "265670",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9871,
               "auditorium": "Sál 07",
               "auditoriumTinyName": "7"
             },
@@ -11557,7 +11217,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265697?lang=cs",
               "presentationCode": "265697",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9931,
               "auditorium": "Sál 04",
               "auditoriumTinyName": "4"
             },
@@ -11871,7 +11531,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265659?lang=cs",
               "presentationCode": "265659",
               "soldOut": false,
-              "availabilityRatio": 0.9944,
+              "availabilityRatio": 0.9888,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
@@ -12054,7 +11714,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265671?lang=cs",
               "presentationCode": "265671",
               "soldOut": false,
-              "availabilityRatio": 0.9871,
+              "availabilityRatio": 0.9742,
               "auditorium": "Sál 07",
               "auditoriumTinyName": "7"
             },
@@ -12189,7 +11849,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/265686?lang=cs",
               "presentationCode": "265686",
               "soldOut": false,
-              "availabilityRatio": 1.0,
+              "availabilityRatio": 0.9931,
               "auditorium": "Sál 02",
               "auditoriumTinyName": "2"
             },
@@ -12757,10 +12417,10 @@
   ],
   "extracted_screenings": [
     {
-      "id": "2026-06-18|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-06-18|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-06-18",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12771,10 +12431,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-07-02|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-07-02|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-07-02",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12785,24 +12445,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-07-09|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "date": "2026-07-09",
-      "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-07-09|00:00|https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "date": "2026-07-09",
-      "time": "00:00",
-      "url": "https://www.cinemacity.cz/films/odyssea/7268s2r",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-07-16|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-07-16|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-07-16",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12813,10 +12459,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-09-17|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-09-17|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-09-17",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12827,10 +12473,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-09-24|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-09-24|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-09-24",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12841,10 +12487,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-01|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-01|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-01",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12855,10 +12501,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-08|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-08|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-08",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12869,10 +12515,10 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-15|00:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-15|00:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-15",
       "time": "00:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
@@ -12883,234 +12529,206 @@
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|10:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "date": "2026-10-18",
-      "time": "10:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-10-18|10:30|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "date": "2026-10-18",
-      "time": "10:30",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-10-18|10:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "date": "2026-10-18",
-      "time": "10:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-10-18|11:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "date": "2026-10-18",
-      "time": "11:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
-      "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
-    },
-    {
-      "id": "2026-10-18|11:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|11:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "11:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|12:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|12:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "12:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|12:10|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|12:10|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "12:10",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|12:20|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|12:20|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "12:20",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|13:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|13:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "13:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|13:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|13:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "13:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|13:50|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|13:50|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "13:50",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|14:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|14:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "14:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|14:30|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|14:30|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "14:30",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|15:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|15:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "15:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|15:20|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|15:20|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "15:20",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|15:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|15:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "15:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|16:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|16:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "16:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|16:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|16:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "16:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|16:50|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|16:50|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "16:50",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|17:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|17:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "17:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|17:30|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|17:30|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "17:30",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|17:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|17:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "17:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|18:20|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|18:20|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "18:20",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|18:30|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|18:30|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "18:30",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|19:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|19:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "19:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|19:10|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|19:10|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "19:10",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|19:30|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|19:30|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "19:30",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|19:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|19:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "19:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|20:20|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|20:20|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "20:20",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|20:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|20:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "20:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|21:00|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|21:00|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "21:00",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|21:30|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|21:30|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "21:30",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     },
     {
-      "id": "2026-10-18|21:40|https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "id": "2026-10-18|21:40|https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "date": "2026-10-18",
       "time": "21:40",
-      "url": "https://tickets.cinemacity.cz/api/order/265655?lang=cs",
+      "url": "https://tickets.cinemacity.cz/api/order/265668?lang=cs",
       "source": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-10-18?attr=&lang=cs_CZ"
     }
   ]
