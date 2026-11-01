@@ -992,6 +992,72 @@
       }
     },
     {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
       "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -999,72 +1065,6 @@
         "fedcm": {
           "default": false
         }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
       }
     },
     {
@@ -6393,141 +6393,6 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": [
-        {
-          "itemKey": "288fde00-eb84-499d-8c16-726eb404f934",
-          "itemPath": "/10101/home_page/cinema_page/MKT-banner-",
-          "startDate": {
-            "year": 2026,
-            "month": "JUNE",
-            "dayOfMonth": 5,
-            "dayOfWeek": "FRIDAY",
-            "era": "CE",
-            "monthValue": 6,
-            "leapYear": false,
-            "dayOfYear": 156,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "endDate": {
-            "year": 2027,
-            "month": "JANUARY",
-            "dayOfMonth": 1,
-            "dayOfWeek": "FRIDAY",
-            "era": "CE",
-            "monthValue": 1,
-            "leapYear": false,
-            "dayOfYear": 1,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "label": "25 vyroci",
-          "url": "https://www.cinemacity.cz/static/cs/cz/offers/25let",
-          "urlType": "_self",
-          "showButton": false,
-          "buttonTop": "280",
-          "buttonLeft": "730",
-          "imageDesktop": {
-            "itemKey": "jcr:410a8121-2424-4f82-ba64-a800b490e537",
-            "filename": "2000x390_V3.png",
-            "uri": "/magnoliaPublic/dam/jcr:410a8121-2424-4f82-ba64-a800b490e537",
-            "size": 1085157,
-            "title": "",
-            "description": ""
-          },
-          "imageMobile": {
-            "itemKey": "jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
-            "filename": "768x423_V3.png",
-            "uri": "/magnoliaPublic/dam/jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
-            "size": 479149,
-            "title": "",
-            "description": ""
-          },
-          "imageThumbnail": {
-            "itemKey": "jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
-            "filename": "25let_100x100.png",
-            "uri": "/magnoliaPublic/dam/jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
-            "size": 11411,
-            "title": "",
-            "description": ""
-          },
-          "overlayText": "",
-          "videoUrl": ""
-        },
-        {
-          "itemKey": "a9988445-4ca9-49d8-80f0-096b656ddeba",
-          "itemPath": "/10101/home_page/main_area/LN-drevorubec",
-          "startDate": {
-            "year": 2026,
-            "month": "OCTOBER",
-            "dayOfMonth": 22,
-            "dayOfWeek": "THURSDAY",
-            "era": "CE",
-            "monthValue": 10,
-            "leapYear": false,
-            "dayOfYear": 295,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "endDate": {
-            "year": 2026,
-            "month": "NOVEMBER",
-            "dayOfMonth": 10,
-            "dayOfWeek": "TUESDAY",
-            "era": "CE",
-            "monthValue": 11,
-            "leapYear": false,
-            "dayOfYear": 314,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "label": "LN drevorubec",
-          "url": "https://www.cinemacity.cz/films/ladies-night-drevorubec/3836s2r1#/",
-          "urlType": "_self",
-          "showButton": false,
-          "buttonTop": "280",
-          "buttonLeft": "730",
-          "imageDesktop": {
-            "itemKey": "jcr:1ae8c024-144d-429c-8360-0e95cd303f18",
-            "filename": "2000x390_LADIES_NIGHT_CZ_01.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:1ae8c024-144d-429c-8360-0e95cd303f18",
-            "size": 188406,
-            "title": "",
-            "description": ""
-          },
-          "imageMobile": {
-            "itemKey": "jcr:8ac48a82-eb52-4ffd-bac7-e155c0abe20a",
-            "filename": "768x423_LADIES_NIGHT_CZ_01.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:8ac48a82-eb52-4ffd-bac7-e155c0abe20a",
-            "size": 164315,
-            "title": "",
-            "description": ""
-          },
-          "imageThumbnail": {
-            "itemKey": "jcr:8d58c170-53ef-4d20-8557-b21f6454982c",
-            "filename": "100x100_LADIES_NIGHT_CZ_01.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:8d58c170-53ef-4d20-8557-b21f6454982c",
-            "size": 9932,
-            "title": "",
-            "description": ""
-          },
-          "overlayText": "",
-          "videoUrl": ""
-        }
-      ]
-    },
-    {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-11-01?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -6823,6 +6688,141 @@
           ]
         }
       }
+    },
+    {
+      "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": [
+        {
+          "itemKey": "288fde00-eb84-499d-8c16-726eb404f934",
+          "itemPath": "/10101/home_page/cinema_page/MKT-banner-",
+          "startDate": {
+            "year": 2026,
+            "month": "JUNE",
+            "dayOfMonth": 5,
+            "dayOfWeek": "FRIDAY",
+            "era": "CE",
+            "monthValue": 6,
+            "leapYear": false,
+            "dayOfYear": 156,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "endDate": {
+            "year": 2027,
+            "month": "JANUARY",
+            "dayOfMonth": 1,
+            "dayOfWeek": "FRIDAY",
+            "era": "CE",
+            "monthValue": 1,
+            "leapYear": false,
+            "dayOfYear": 1,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "label": "25 vyroci",
+          "url": "https://www.cinemacity.cz/static/cs/cz/offers/25let",
+          "urlType": "_self",
+          "showButton": false,
+          "buttonTop": "280",
+          "buttonLeft": "730",
+          "imageDesktop": {
+            "itemKey": "jcr:410a8121-2424-4f82-ba64-a800b490e537",
+            "filename": "2000x390_V3.png",
+            "uri": "/magnoliaPublic/dam/jcr:410a8121-2424-4f82-ba64-a800b490e537",
+            "size": 1085157,
+            "title": "",
+            "description": ""
+          },
+          "imageMobile": {
+            "itemKey": "jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
+            "filename": "768x423_V3.png",
+            "uri": "/magnoliaPublic/dam/jcr:8dea2578-d1b8-43c7-a2cd-59e0687148da",
+            "size": 479149,
+            "title": "",
+            "description": ""
+          },
+          "imageThumbnail": {
+            "itemKey": "jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
+            "filename": "25let_100x100.png",
+            "uri": "/magnoliaPublic/dam/jcr:0e104661-615b-4d1d-a9a2-83eb3a10e21a",
+            "size": 11411,
+            "title": "",
+            "description": ""
+          },
+          "overlayText": "",
+          "videoUrl": ""
+        },
+        {
+          "itemKey": "a9988445-4ca9-49d8-80f0-096b656ddeba",
+          "itemPath": "/10101/home_page/main_area/LN-drevorubec",
+          "startDate": {
+            "year": 2026,
+            "month": "OCTOBER",
+            "dayOfMonth": 22,
+            "dayOfWeek": "THURSDAY",
+            "era": "CE",
+            "monthValue": 10,
+            "leapYear": false,
+            "dayOfYear": 295,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "endDate": {
+            "year": 2026,
+            "month": "NOVEMBER",
+            "dayOfMonth": 10,
+            "dayOfWeek": "TUESDAY",
+            "era": "CE",
+            "monthValue": 11,
+            "leapYear": false,
+            "dayOfYear": 314,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            }
+          },
+          "label": "LN drevorubec",
+          "url": "https://www.cinemacity.cz/films/ladies-night-drevorubec/3836s2r1#/",
+          "urlType": "_self",
+          "showButton": false,
+          "buttonTop": "280",
+          "buttonLeft": "730",
+          "imageDesktop": {
+            "itemKey": "jcr:1ae8c024-144d-429c-8360-0e95cd303f18",
+            "filename": "2000x390_LADIES_NIGHT_CZ_01.jpg",
+            "uri": "/magnoliaPublic/dam/jcr:1ae8c024-144d-429c-8360-0e95cd303f18",
+            "size": 188406,
+            "title": "",
+            "description": ""
+          },
+          "imageMobile": {
+            "itemKey": "jcr:8ac48a82-eb52-4ffd-bac7-e155c0abe20a",
+            "filename": "768x423_LADIES_NIGHT_CZ_01.jpg",
+            "uri": "/magnoliaPublic/dam/jcr:8ac48a82-eb52-4ffd-bac7-e155c0abe20a",
+            "size": 164315,
+            "title": "",
+            "description": ""
+          },
+          "imageThumbnail": {
+            "itemKey": "jcr:8d58c170-53ef-4d20-8557-b21f6454982c",
+            "filename": "100x100_LADIES_NIGHT_CZ_01.jpg",
+            "uri": "/magnoliaPublic/dam/jcr:8d58c170-53ef-4d20-8557-b21f6454982c",
+            "size": 9932,
+            "title": "",
+            "description": ""
+          },
+          "overlayText": "",
+          "videoUrl": ""
+        }
+      ]
     },
     {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/10101/trailers/byCinemaId/1052",
@@ -9590,8 +9590,8 @@
             "concert-film",
             "3d",
             "music",
-            "sci-fi",
             "romantic-comedy",
+            "sci-fi",
             "fairytale",
             "melodrama",
             "action",
@@ -10548,7 +10548,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/276028?lang=cs",
               "presentationCode": "276028",
               "soldOut": false,
-              "availabilityRatio": 0.9806,
+              "availabilityRatio": 1.0,
               "auditorium": "Sál 07",
               "auditoriumTinyName": "7"
             },
@@ -10594,7 +10594,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/276158?lang=cs",
               "presentationCode": "276158",
               "soldOut": false,
-              "availabilityRatio": 0.4701,
+              "availabilityRatio": 0.4597,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -11822,7 +11822,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/276166?lang=cs",
               "presentationCode": "276166",
               "soldOut": false,
-              "availabilityRatio": 0.5662,
+              "availabilityRatio": 0.561,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
