@@ -2,6 +2,12 @@
   "captured_json_response_count": 21,
   "captured_responses": [
     {
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {}
+    },
+    {
       "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/A1WRS51BB4TT7A",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -986,12 +992,6 @@
       }
     },
     {
-      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {}
-    },
-    {
       "url": "https://www.cinemacity.cz/system/routes",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
@@ -1007,7 +1007,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -1040,7 +1040,7 @@
         "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
         "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookLogin",
         "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
         "STATIC_PAGE": "/staticpages/**",
         "LOGIN_PROCESS_LOGOUT": "/account#/logout",
@@ -1191,6 +1191,45 @@
             "specialMessage": null,
             "distributorName": null
           }
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-11-16?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "groups": [
+            {
+              "id": "brno",
+              "name": "Brno",
+              "cinemaIds": [
+                "1034",
+                "1035"
+              ]
+            },
+            {
+              "id": "prague",
+              "name": "Praha",
+              "cinemaIds": [
+                "1030",
+                "1031",
+                "1033",
+                "1050",
+                "1051",
+                "1052",
+                "1056"
+              ]
+            },
+            {
+              "id": "group-1053",
+              "name": "Pardubice, Palác Pardubice",
+              "cinemaIds": [
+                "1053"
+              ]
+            }
+          ]
         }
       }
     },
@@ -1486,45 +1525,6 @@
               "blockOnlineSalesUntil": null,
               "latitude": 50.658764,
               "longitude": 14.038765
-            }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/groups/with-film/7268s2r/until/2027-11-16?attr=&lang=cs_CZ",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "groups": [
-            {
-              "id": "brno",
-              "name": "Brno",
-              "cinemaIds": [
-                "1034",
-                "1035"
-              ]
-            },
-            {
-              "id": "prague",
-              "name": "Praha",
-              "cinemaIds": [
-                "1030",
-                "1031",
-                "1033",
-                "1050",
-                "1051",
-                "1052",
-                "1056"
-              ]
-            },
-            {
-              "id": "group-1053",
-              "name": "Pardubice, Palác Pardubice",
-              "cinemaIds": [
-                "1053"
-              ]
             }
           ]
         }
@@ -4047,8 +4047,8 @@
             "concert-film",
             "3d",
             "music",
-            "sci-fi",
             "romantic-comedy",
+            "sci-fi",
             "fairytale",
             "melodrama",
             "action",
@@ -10247,8 +10247,8 @@
             "concert-film",
             "3d",
             "music",
-            "sci-fi",
             "romantic-comedy",
+            "sci-fi",
             "fairytale",
             "melodrama",
             "action",
@@ -11361,7 +11361,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/282906?lang=cs",
               "presentationCode": "282906",
               "soldOut": false,
-              "availabilityRatio": 0.9944,
+              "availabilityRatio": 1.0,
               "auditorium": "Sál 05",
               "auditoriumTinyName": "5"
             },
@@ -11454,7 +11454,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/280565?lang=cs",
               "presentationCode": "280565",
               "soldOut": false,
-              "availabilityRatio": 0.5013,
+              "availabilityRatio": 0.4987,
               "auditorium": "IMAX VOLVO",
               "auditoriumTinyName": "IMAX"
             },
@@ -11943,7 +11943,7 @@
               "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/282956?lang=cs",
               "presentationCode": "282956",
               "soldOut": false,
-              "availabilityRatio": 0.9724,
+              "availabilityRatio": 0.9586,
               "auditorium": "Sál 02",
               "auditoriumTinyName": "2"
             },
