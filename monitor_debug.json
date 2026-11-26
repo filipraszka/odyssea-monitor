@@ -8,88 +8,12 @@
       "payload": {}
     },
     {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/system/routes",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "LOGIN_FORM": "/account#/login",
-        "LOGIN_PROCESS_LOCAL": "/presLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
-        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
-        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
-        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
-        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
-        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
-        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
-        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
-        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
-        "STATIC_PAGE": "/staticpages/**",
-        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
-        "MOVIE_BY_NAME": "/films/{film-name}",
-        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
-        "REGISTRATION_PROCESS": "/presEnroll",
-        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
-        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
-        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
-        "CINEMA_WHATSON": "/whatson",
-        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
-        "SYSTEM_ROUTER_ROUTES": "/system/routes",
-        "GENERAL_CONTACT": "/contact",
-        "LOGIN_QUERY_STATUS": "/isLoggedIn"
-      }
-    },
-    {
-      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "fedcm": {
-          "default": false
-        }
-      }
-    },
-    {
       "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/A1WRS51BB4TT7A",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "payload": {
         "id": "A1WRS51BB4TT7A",
-        "version": "6.1.24",
+        "version": "6.1.25",
         "languages": [
           "cs",
           "en"
@@ -122,7 +46,73 @@
       }
     },
     {
-      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/cs/GDPR/A1WRS51BB4TT7A/6.1.24/6.1.24?isOutsideRegion=true",
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/system/routes",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "LOGIN_FORM": "/account#/login",
+        "LOGIN_PROCESS_LOCAL": "/presLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_PARTIALS": "/mycineworld/account/edit/{formName}",
+        "ACCOUNT_MANAGEMENT_CHANGE_PASSWORD": "/mycineworld/account/change-password",
+        "ACCOUNT_MANAGEMENT_UPDATE_PASSWORD": "/account#/update-password",
+        "ACCOUNT_MANAGEMENT_PROCESS_UPGRADE": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_RESET_PASSWORD": "/account#/password-reset",
+        "ACCOUNT_MANAGEMENT_MMA_PAGE": "/account",
+        "MOVIE_BY_ID": "/films/{film-name}/{film-id}",
+        "ACCOUNT_MANAGEMENT_UPGRADE_FORM": "/account/upgrade",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_ACTION": "/mycineworld/account/change-details",
+        "LOGIN_PROCESS_FACEBOOK": "/presFacebookAccessTokenLogin",
+        "ACCOUNT_MANAGEMENT_CHANGE_DETAILS_FORM": "/mycineworld/account/edit",
+        "STATIC_PAGE": "/staticpages/**",
+        "LOGIN_PROCESS_LOGOUT": "/account#/logout",
+        "MOVIE_BY_NAME": "/films/{film-name}",
+        "REGISTRATION_FORM": "/account#/signup/my-cinema-city",
+        "REGISTRATION_PROCESS": "/presEnroll",
+        "CINEMA_BY_NAME": "/cinemas/{cinema-key}",
+        "ACCOUNT_MANAGEMENT_RESEND_VOUCHERS": "/mycineworld/resend-vouchers",
+        "CINEMA_BY_ID": "/cinemas/{cinema-key}/{cinema-id}",
+        "CINEMA_WHATSON": "/whatson",
+        "REGISTRATION_DISCOUNT_MODAL": "/presEnroll/discountModal",
+        "SYSTEM_ROUTER_ROUTES": "/system/routes",
+        "GENERAL_CONTACT": "/contact",
+        "LOGIN_QUERY_STATUS": "/isLoggedIn"
+      }
+    },
+    {
+      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/cs/GDPR/A1WRS51BB4TT7A/6.1.25/6.1.25?isOutsideRegion=true",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "payload": {
@@ -156,7 +146,7 @@
         },
         "setting": {
           "id": "A1WRS51BB4TT7A",
-          "version": "6.1.24",
+          "version": "6.1.25",
           "type": "GDPR"
         },
         "ageVerification": {
@@ -443,7 +433,7 @@
             },
             "BJz7qNsdj-7": {
               "name": "YouTube Video",
-              "version": "15.8.21",
+              "version": "15.8.22",
               "category": "functional",
               "essential": false,
               "consent": {
@@ -632,7 +622,7 @@
           "required": true,
           "setting": {
             "id": "A1WRS51BB4TT7A",
-            "version": "6.1.24",
+            "version": "6.1.25",
             "type": "GDPR"
           },
           "updatedAt": 0,
@@ -1070,10 +1060,1006 @@
       }
     },
     {
+      "url": "https://connect.facebook.net/app_config/json/2377565425667553/",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {
+        "fedcm": {
+          "default": false
+        }
+      }
+    },
+    {
       "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "payload": {}
+    },
+    {
+      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/A1WRS51BB4TT7A",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {
+        "id": "A1WRS51BB4TT7A",
+        "version": "6.1.25",
+        "languages": [
+          "cs",
+          "en"
+        ],
+        "crossDomainConsentSharingEnabled": true,
+        "enableBotDetection": true,
+        "allowedDomains": {
+          "list": [
+            "cinemacity.cz",
+            "tickets.cinemacity.cz",
+            "*.usercentrics-sandbox.eu",
+            "*.usercentrics-staging.eu",
+            "*.usercentrics.eu",
+            "*.usercentrics-develop.eu",
+            "storage.googleapis.com/usercentrics-integration-test-browser-ui/*",
+            "usercentrics-integration-test-browser-ui.storage.googleapis.com/*",
+            "*.appetize.io/embed/*"
+          ]
+        },
+        "cmp": {
+          "version": "4.35.0",
+          "type": "gdpr"
+        },
+        "testDomains": [
+          {
+            "testDomain": "stg.cinemacity.cz",
+            "scanConfigDomainRef": "cinemacity.cz"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/cs/GDPR/A1WRS51BB4TT7A/6.1.25/6.1.25?isOutsideRegion=true",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "payload": {
+        "ui": {
+          "closedView": "none",
+          "theme": "cb",
+          "language": "cs",
+          "reshowAfterDays": 366,
+          "dpsDisplayFormat": "ALL",
+          "poweredByLogo": "UC",
+          "lifecycleStatus": "active",
+          "gpcSignalHonoured": false
+        },
+        "languages": {
+          "languages": {
+            "cs": {
+              "name": "Čeština"
+            },
+            "en": {
+              "name": "English"
+            }
+          }
+        },
+        "core": {
+          "dataLayers": [
+            "dataLayer"
+          ],
+          "analyticsEnabled": true,
+          "googleConsentModeEnabled": true,
+          "advertiserConsentModeEnabled": true
+        },
+        "setting": {
+          "id": "A1WRS51BB4TT7A",
+          "version": "6.1.25",
+          "type": "GDPR"
+        },
+        "ageVerification": {
+          "enabled": false,
+          "ageThreshold": 18,
+          "verificationMethod": "yesno",
+          "backgroundColor": "",
+          "backgroundOpacity": 70,
+          "aboveAgeBackgroundColor": "",
+          "aboveAgeTextColor": "",
+          "underAgeBackgroundColor": "",
+          "underAgeTextColor": "",
+          "redirectUrl": "",
+          "logoUrl": "",
+          "logoSize": 32,
+          "logoAltTag": "",
+          "contentTitle": "Musíme ověřit váš věk",
+          "contentText": "Pro přístup k obsahu tohoto webu musíte splňovat požadavek na minimální věk.",
+          "buttonOverAgeText": "Je mi 18 nebo více let",
+          "buttonUnderAgeText": "Je mi méně než 18 let"
+        },
+        "dps": {
+          "categories": {
+            "marketing": {
+              "name": "Marketing",
+              "dps": {
+                "XYQZBUojc": false,
+                "9V8bg4D63": false,
+                "S1_9Vsuj-Q": false,
+                "LykAT-gy": false,
+                "ko1w5PpFl": false
+              },
+              "state": "ALL_DENIED"
+            },
+            "functional": {
+              "name": "Funkční",
+              "dps": {
+                "HkIVcNiuoZX": false,
+                "S1pcEj_jZX": false,
+                "BJ59EidsWQ": false,
+                "SkPc5EjOsWm": false,
+                "BJz7qNsdj-7": false,
+                "HkPBYFofN": false,
+                "Hko_qNsui-Q": false,
+                "H1PKqNodoWQ": false,
+                "J39GyuWQq": false
+              },
+              "state": "ALL_DENIED"
+            },
+            "essential": {
+              "name": "Nezbytné",
+              "dps": {
+                "H1Vl5NidjWX": true,
+                "rJJjcVouoZ7": true
+              },
+              "essential": true,
+              "state": "ALL_ACCEPTED"
+            },
+            "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0": {
+              "name": "Analytics",
+              "dps": {
+                "HkocEodjb7": false,
+                "H1RKcVjuo-X": false
+              },
+              "state": "ALL_DENIED"
+            }
+          },
+          "services": {
+            "rJJjcVouoZ7": {
+              "name": "gstatic.com",
+              "version": "8.3.7",
+              "category": "essential",
+              "essential": true,
+              "consent": {
+                "given": true,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "a8d0aadbb9c340197362e670095e694c50d28beee1605603442fbce10fb7b7d7"
+            },
+            "H1Vl5NidjWX": {
+              "name": "Usercentrics Consent Management Platform",
+              "version": "40.18.47",
+              "category": "essential",
+              "essential": true,
+              "consent": {
+                "given": true,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "b371eb2fc592043cb547bb8467db686ad5ec44b873a9c71196e042a7889b482f"
+            },
+            "J39GyuWQq": {
+              "name": "Amazon Web Services",
+              "version": "12.4.7",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "9cdcf10ad68db8f1b814b4cad505eb59ed88cbabdf1b075841429996bcb9c69b"
+            },
+            "HkIVcNiuoZX": {
+              "name": "Cloudflare",
+              "version": "6.3.16",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "b7e68996590ca0a6e88ee95ab29b0ef870f57eba750d06cf17799510896f8f84"
+            },
+            "LykAT-gy": {
+              "name": "Conversion Linker",
+              "version": "3.4.6",
+              "category": "marketing",
+              "essential": false,
+              "gcm": {
+                "adStorage": true
+              },
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "eef54601e70605c81b922aeaae53cd47f3e8672d6d9a815c0a6f37fb80120152"
+            },
+            "H1RKcVjuo-X": {
+              "name": "Crazy Egg",
+              "version": "5.1.3",
+              "category": "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "f3ccead7cef6d51de3c837c17b8dbb510e65cecdef4beabb95f3dd921cba9695"
+            },
+            "9V8bg4D63": {
+              "name": "DoubleClick Ad",
+              "version": "9.6.18",
+              "category": "marketing",
+              "essential": false,
+              "gcm": {
+                "adStorage": true
+              },
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "ae1a21e7a2ebdd1123a15edf1642421dfcb6eb6f28dd4b2a496d173765c3da0d"
+            },
+            "ko1w5PpFl": {
+              "name": "Facebook Pixel",
+              "version": "23.12.23",
+              "category": "marketing",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "b647d8a9a87cf75f5653dabba2440f992e49592ba45d9def576c2be19398955d"
+            },
+            "XYQZBUojc": {
+              "name": "Facebook Social Plugins",
+              "version": "9.6.4",
+              "category": "marketing",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "87d6f603c5b3069ed90edbdb07f22617d4f6611568cf3acfce61cc071b39e480"
+            },
+            "S1_9Vsuj-Q": {
+              "name": "Google Ads",
+              "version": "15.8.33",
+              "category": "marketing",
+              "essential": false,
+              "gcm": {
+                "adStorage": true
+              },
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "eddb301294bbbbb9ab7ece96b8e925222a3e5f118072c12006581b7d176f11fa"
+            },
+            "H1PKqNodoWQ": {
+              "name": "Google AJAX",
+              "version": "6.4.3",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "a10a3c27625ceb0229eea80bb63fea298f95b89e5204ca362a484dd6df6d8d93"
+            },
+            "HkocEodjb7": {
+              "name": "Google Analytics",
+              "version": "52.11.46",
+              "category": "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0",
+              "essential": false,
+              "gcm": {
+                "analyticsStorage": true
+              },
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "19204a3fc4ee51d4470c25deea050311a4ee22393bf16f1ea341e4216f1176dd"
+            },
+            "HkPBYFofN": {
+              "name": "Google Fonts",
+              "version": "10.3.2",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "dd659e6d8e059f50fabdd723aa71f2cf6e562f8dd2e53d3b4ceea5710ea207b3"
+            },
+            "S1pcEj_jZX": {
+              "name": "Google Maps",
+              "version": "21.10.11",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "7074e9fddd7317e3df950ca1d05a022033706727bd11fd228b4b6981a65e39ca"
+            },
+            "SkPc5EjOsWm": {
+              "name": "Google Syndication",
+              "version": "6.2.3",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "94ae5251785cadded9fb28ca825d7d2c168cf492f312489c9e94abd6330a1375"
+            },
+            "BJ59EidsWQ": {
+              "name": "Google Tag Manager",
+              "version": "25.7.30",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "e94ccc0e93693c8e8954ee9c3b5257d0ee1a1c4e878cfebb206657ad26314479"
+            },
+            "Hko_qNsui-Q": {
+              "name": "reCAPTCHA",
+              "version": "14.5.16",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "c554d5495abf2487fa7459df56d0c4ee7faa8a8054061b38c557c12699920943"
+            },
+            "BJz7qNsdj-7": {
+              "name": "YouTube Video",
+              "version": "15.8.22",
+              "category": "functional",
+              "essential": false,
+              "consent": {
+                "given": false,
+                "type": "IMPLICIT"
+              },
+              "subservices": {},
+              "processorId": "68631717e005c28cefa69d51a8ce877f325be1640dd285200b0f11fdf29af6cd"
+            }
+          },
+          "granularConsentDisabled": false
+        },
+        "gcm": {
+          "developerId": "developer_id.dOThhZD"
+        },
+        "theme": {
+          "privacyButton": {
+            "default": {
+              "position": "left",
+              "size": 64,
+              "pages": [],
+              "icon": {
+                "url": "https://img.usercentrics.eu/misc/icon-fingerprint.svg",
+                "type": "fingerprint"
+              }
+            },
+            "screens": {
+              "mobile": {
+                "size": 44
+              }
+            }
+          },
+          "cmp": {
+            "default": {
+              "layout": {
+                "template": "BAR",
+                "position": "bottom"
+              },
+              "elements": {
+                "logo": {
+                  "url": "https://www.cinemacity.cz/xmedia/img/10101/logo.png",
+                  "alt": "Cinema City Czechia"
+                },
+                "buttons": {
+                  "borderRadius": "50px",
+                  "order": [
+                    [
+                      "deny",
+                      "save",
+                      "accept"
+                    ]
+                  ]
+                }
+              },
+              "visibility": {
+                "showCategoriesToggles": true,
+                "showMoreInformationLink": true
+              },
+              "typography": {
+                "font": "Roboto"
+              },
+              "colors": {
+                "light": {
+                  "main": {
+                    "primary": "#0045A5",
+                    "neutral": "#ffffff",
+                    "text": "#696969",
+                    "border": "#DDDDDD"
+                  },
+                  "links": {
+                    "anchor": "#f5821e",
+                    "icon": "#f5821e"
+                  },
+                  "buttons": {
+                    "accept": {
+                      "background": "#f5821e",
+                      "text": "#FFFFFF"
+                    },
+                    "deny": {
+                      "background": "#FFFFFF",
+                      "text": "#696969"
+                    },
+                    "save": {
+                      "background": "#FFFFFF",
+                      "text": "#696969"
+                    },
+                    "ok": {
+                      "background": "#F5F5F5",
+                      "text": "#303030"
+                    }
+                  },
+                  "cmp": {
+                    "background": "#FFFFFF",
+                    "overlay": "#333333",
+                    "scrollbarThumb": "#c3c3c3"
+                  },
+                  "tabs": {
+                    "containerBackground": "#fff",
+                    "tabInactive": "#696969",
+                    "tabActive": "#696969"
+                  },
+                  "toggle": {
+                    "background": {
+                      "active": "#f5821e",
+                      "inactive": "#d5d5d5"
+                    }
+                  }
+                }
+              }
+            },
+            "screens": {
+              "desktop": {
+                "first": {
+                  "features": {
+                    "denyConsentsOnClose": false
+                  }
+                },
+                "second": {
+                  "layout": {
+                    "position": "center"
+                  },
+                  "elements": {
+                    "buttons": {
+                      "order": [
+                        [
+                          "deny",
+                          "save",
+                          "accept"
+                        ]
+                      ]
+                    }
+                  },
+                  "visibility": {
+                    "hideDataProcessingServices": false,
+                    "hideServicesToggles": false,
+                    "hideLanguageSwitch": false
+                  }
+                }
+              },
+              "mobile": {
+                "base": {
+                  "elements": {
+                    "buttons": {
+                      "order": [
+                        [
+                          "deny"
+                        ],
+                        [
+                          "save"
+                        ],
+                        [
+                          "accept"
+                        ]
+                      ]
+                    }
+                  }
+                },
+                "second": {
+                  "elements": {
+                    "buttons": {
+                      "order": [
+                        [
+                          "deny"
+                        ],
+                        [
+                          "save"
+                        ],
+                        [
+                          "accept"
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "custom": {
+            "css": ".cmp.cb.bottom.desktop .main-wrapper #center-container .cb-toggles {\r\n  margin-top: 2em;\r\n}\r\n\r\n.buttons .save.uc-save-button,\r\n.buttons .deny.uc-deny-button {\r\n  border: solid 2px #f5821e;\r\n}"
+          }
+        },
+        "consent": {
+          "controllerId": "",
+          "createdAt": 0,
+          "language": "cs",
+          "required": true,
+          "setting": {
+            "id": "A1WRS51BB4TT7A",
+            "version": "6.1.25",
+            "type": "GDPR"
+          },
+          "updatedAt": 0,
+          "updatedBy": "onInitialPageLoad",
+          "type": "IMPLICIT",
+          "version": 1,
+          "status": "ALL_DENIED",
+          "hash": "",
+          "serviceIds": []
+        },
+        "i18n": {
+          "categories": {
+            "marketing": {
+              "description": "Tyto technologie používají inzerenti k zobrazování cílených reklam.",
+              "name": "Marketing",
+              "id": "marketing"
+            },
+            "functional": {
+              "description": "Tyto technologie nám umožňují analyzovat chování uživatelů za účelem měření a zlepšování výkonu.",
+              "name": "Funkční",
+              "id": "functional"
+            },
+            "essential": {
+              "description": "Tyto technologie jsou nezbytné pro aktivaci základních funkcí našich služeb.",
+              "name": "Nezbytné",
+              "id": "essential"
+            },
+            "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0": {
+              "description": "",
+              "name": "Analytics",
+              "id": "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0"
+            }
+          },
+          "services": {
+            "H1Vl5NidjWX": {
+              "description": "",
+              "id": "H1Vl5NidjWX",
+              "legalBasis": [],
+              "name": "Usercentrics Consent Management Platform"
+            },
+            "HkIVcNiuoZX": {
+              "description": "",
+              "id": "HkIVcNiuoZX",
+              "legalBasis": [],
+              "name": "Cloudflare"
+            },
+            "S1pcEj_jZX": {
+              "description": "",
+              "id": "S1pcEj_jZX",
+              "legalBasis": [],
+              "name": "Google Maps"
+            },
+            "BJ59EidsWQ": {
+              "description": "",
+              "id": "BJ59EidsWQ",
+              "legalBasis": [],
+              "name": "Google Tag Manager"
+            },
+            "XYQZBUojc": {
+              "description": "",
+              "id": "XYQZBUojc",
+              "legalBasis": [],
+              "name": "Facebook Social Plugins"
+            },
+            "SkPc5EjOsWm": {
+              "description": "",
+              "id": "SkPc5EjOsWm",
+              "legalBasis": [],
+              "name": "Google Syndication"
+            },
+            "BJz7qNsdj-7": {
+              "description": "",
+              "id": "BJz7qNsdj-7",
+              "legalBasis": [],
+              "name": "YouTube Video"
+            },
+            "HkocEodjb7": {
+              "description": "",
+              "id": "HkocEodjb7",
+              "legalBasis": [],
+              "name": "Google Analytics"
+            },
+            "HkPBYFofN": {
+              "description": "",
+              "id": "HkPBYFofN",
+              "legalBasis": [],
+              "name": "Google Fonts"
+            },
+            "Hko_qNsui-Q": {
+              "description": "",
+              "id": "Hko_qNsui-Q",
+              "legalBasis": [],
+              "name": "reCAPTCHA"
+            },
+            "H1PKqNodoWQ": {
+              "description": "",
+              "id": "H1PKqNodoWQ",
+              "legalBasis": [],
+              "name": "Google AJAX"
+            },
+            "rJJjcVouoZ7": {
+              "description": "",
+              "id": "rJJjcVouoZ7",
+              "legalBasis": [],
+              "name": "gstatic.com"
+            },
+            "9V8bg4D63": {
+              "description": "",
+              "id": "9V8bg4D63",
+              "legalBasis": [],
+              "name": "DoubleClick Ad"
+            },
+            "S1_9Vsuj-Q": {
+              "description": "",
+              "id": "S1_9Vsuj-Q",
+              "legalBasis": [],
+              "name": "Google Ads"
+            },
+            "LykAT-gy": {
+              "description": "",
+              "id": "LykAT-gy",
+              "legalBasis": [],
+              "name": "Conversion Linker"
+            },
+            "ko1w5PpFl": {
+              "description": "",
+              "id": "ko1w5PpFl",
+              "legalBasis": [],
+              "name": "Facebook Pixel"
+            },
+            "H1RKcVjuo-X": {
+              "description": "",
+              "id": "H1RKcVjuo-X",
+              "legalBasis": [],
+              "name": "Crazy Egg"
+            },
+            "J39GyuWQq": {
+              "description": "",
+              "id": "J39GyuWQq",
+              "legalBasis": [],
+              "name": "Amazon Web Services"
+            }
+          },
+          "base": {
+            "ariaLabels": {
+              "acceptAllButton": "Accepta-ho tot",
+              "app_collapse": "Sbalit",
+              "app_copyControllerId": "Kopírovat ID správce",
+              "app_expand": "Roztáhnout",
+              "app_languageSelector": "Vybrat jazyk",
+              "app_serviceInCategoryDetails": "Zobrazit detail služby",
+              "ccpaButton": "Souhlas s CCPA",
+              "ccpaMoreInformation": "Més Informació",
+              "closeButton": "Zavřít vrstvu",
+              "collapse": "Sbalit",
+              "cookiePolicyButton": "Otevřít adresa URL zásad používání souborů cookie",
+              "copyControllerId": "Kopírovat ID správce",
+              "denyAllButton": "Rebutja-ho tot",
+              "dsrButton": "Otevřít formulář žádosti subjektu údajů",
+              "expand": "Roztáhnout",
+              "fullscreenButton": "Spustit režim celé obrazovky",
+              "imprintButton": "Otevřít otisk",
+              "languageSelector": "Vybrat jazyk",
+              "privacyButton": "Otevřít",
+              "privacyPolicyButton": "Otevřít zásady ochrany osobních údajů",
+              "saveButton": "Uložit",
+              "serviceInCategoryDetails": "Zobrazit detail služby",
+              "servicesInCategory": "Seznam služby v této kategorii",
+              "tabButton": "Záložka",
+              "tv_collapse": "Sbalit",
+              "tv_copyControllerId": "Kopírovat ID správce",
+              "tv_expand": "Roztáhnout",
+              "tv_languageSelector": "Vybrat jazyk",
+              "tv_serviceInCategoryDetails": "Zobrazit detail služby",
+              "usercentricsCMPButtons": "Zápatí včetně tlačítek",
+              "usercentricsCMPContent": "Obsah",
+              "usercentricsCMPHeader": "Záhlaví včetně výběru jazyka a externích odkazů",
+              "usercentricsCMPUI": "Rozhraní platformy pro správu souhlasu",
+              "usercentricsCard": "Karta",
+              "usercentricsList": "Seznam",
+              "vendorConsentToggle": "Consentiment",
+              "vendorDetailedStorageInformation": "Informació detallada d'emmagatzematge",
+              "vendorLegIntToggle": "Interès legítim"
+            },
+            "cookieInformation": {
+              "anyDomain": "libovolná doména (např. cookie první strany)",
+              "cookieRefresh": "Obnovení souborů cookie",
+              "cookieStorage": "Ukládání souborů cookie",
+              "day": "den",
+              "days": "dnů",
+              "description": "Níže vidíte nejdelší možnou dobu uložení informací na zařízení, jak je nastavena při použití jakékoliv metody ukládání.",
+              "domain": "Doména",
+              "duration": "Trvání",
+              "error": "Litujeme, nemohli jsme načíst požadované informace.",
+              "hour": "hod",
+              "hours": "hod",
+              "identifier": "Identifikátor",
+              "loading": "Načítám informace o uchovávání",
+              "maximumAge": "Maximální doba uchovávání souborů cookie",
+              "minute": "min",
+              "minutes": "min",
+              "month": "měsíc",
+              "months": "měsíce",
+              "multipleDomains": "může existovat více subdomén",
+              "name": "Název",
+              "disclosureDescription": "Description",
+              "no": "ne",
+              "nonCookieStorage": "Uchovávání souborů jiných než cookie",
+              "disclosureOptOut": "Opt-out",
+              "purposes": "Purposes",
+              "specialPurposes": "Special Purposes",
+              "second": "sekunda",
+              "seconds": "s",
+              "session": "Relace",
+              "storedInformation": "Uložené informace",
+              "storedInformationDescription": "Tato služba používá různé způsoby ukládání informací na zařízení uživatele, jak je uvedeno níže.",
+              "title": "Informace o uchovávání",
+              "titleDetailed": "Podrobné informace o uchovávání",
+              "tryAgain": "Chcete akci opakovat?",
+              "type": "Typ",
+              "year": "rok",
+              "years": "roky",
+              "yes": "ano"
+            },
+            "links": {},
+            "poweredBy": {
+              "isEnabled": true,
+              "labels": {
+                "prefix": "Powered by",
+                "uc": "Usercentrics Consent Management",
+                "cb": "Usercentrics Cookiebot",
+                "partner": ""
+              },
+              "links": {
+                "uc": "https://usercentrics.com/consent-management-platform-powered-by-usercentrics/",
+                "partner": ""
+              }
+            },
+            "serviceDetail": {
+              "dataCollected": {
+                "description": "Tento seznam představuje všechny (osobní) údaje, které jsou shromažďovány touto službou nebo jejím prostřednictvím.",
+                "title": "Shromážděné údaje"
+              },
+              "dataDistribution": {
+                "processingLocationDescription": "Toto je primární místo, kde jsou shromážděné údaje zpracovávány. Pokud jsou údaje zpracovávány také v jiných zemích, budete o této skutečnosti informováni samostatně.",
+                "processingLocationTitle": "Místo zpracování",
+                "thirdPartyCountriesDescription": "Tato služba může předávat shromážděné osobní údaje do jiné země. Upozorňujeme, že tato služba může přenášet osobní údaje do země bez požadovaných standardů ochrany osobních údajů. Níže naleznete seznam zemí, do kterých jsou údaje přenášeny. Další informace o zárukách naleznete v zásadách ochrany osobních údajů poskytovatele nebo se můžete obrátit přímo na poskytovatele.",
+                "thirdPartyCountriesTitle": "Předávání do třetích zemí"
+              },
+              "dataProtectionOfficer": {
+                "description": "Níže naleznete e-mailovou adresu pověřence pro ochranu osobních údajů zpracovatelské společnosti.",
+                "title": "Pověřenec pro ochranu osobních údajů zpracovatelské společnosti"
+              },
+              "dataPurposes": {
+                "description": "Tento seznam představuje účely shromažďování a zpracování údajů.",
+                "title": "Účely údajů"
+              },
+              "dataRecipients": {
+                "description": "Následující obsahuje příjemce shromážděných údajů.",
+                "title": "Příjemci údajů"
+              },
+              "descriptionTitle": "Popis služby",
+              "history": {
+                "description": null,
+                "title": "Historie"
+              },
+              "legalBasis": {
+                "description": "Níže je popsán požadovaný právní základ pro zpracování údajů.",
+                "title": "Právní základ"
+              },
+              "retentionPeriod": {
+                "description": "Doba uchovávání je čas, po který jsou shromáždě údaje uloženy pro účely zpracování. Jakmile již údaje nebudou pro uvedené účely zpracování zapotřebí, musí být vymazány.",
+                "title": "Doba uchovávání"
+              },
+              "technologiesUsed": {
+                "description": "Tento seznam představuje všechny technologie, které tato služba používá ke shromažďování údajů.",
+                "title": "Použité technologie"
+              },
+              "urls": {
+                "cookiePolicyTitle": "Klikněte sem a přečtěte si zásady souborů cookie zpracovatele údajů",
+                "optOutTitle": "Klikněte sem pro odhlášení od tohoto zpracovatele na všech doménách",
+                "privacyPolicyTitle": "Klikněte sem a přečtěte si zásady ochrany osobních údajů zpracovatele údajů"
+              }
+            },
+            "back": "Zpět",
+            "consentGiven": "ano",
+            "consentNotGiven": "ne",
+            "consentType": "Typ souhlasu",
+            "controllerId": "ID pro vyžádání údajů o souhlasu",
+            "copied": "zkopírováno",
+            "copy": "kopírovat",
+            "date": "Datum",
+            "decision": "Rozhodnutí",
+            "details": "Podrobnosti",
+            "explicit": "Explicitní",
+            "gpcSignalHonored": "Nastavení GPC je respektováno",
+            "implicit": "Implicitní",
+            "implicitNo": "Ne (výchozí)",
+            "implicitYes": "Ano (výchozí)",
+            "privacyButton": "Nastavení ochrany osobních údajů",
+            "showLess": "Méně informací",
+            "showMore": "Více informací",
+            "subservice": "Dílčí služba",
+            "subservices": "Dílčí služby",
+            "subservicesDescription": "Níže naleznete všechny služby podřízené této službě. Aktuální stav souhlasu této služby se vztahuje na na všechny dílčí služby.",
+            "accepted": "ano",
+            "anyDomain": "libovolná doména (např. cookie první strany)",
+            "btnBannerReadMore": "Více informací",
+            "cookiePolicyInfo": "Klikněte sem a přečtěte si zásady souborů cookie zpracovatele údajů",
+            "cookiePolicyLinkText": "Zásady používání souborů cookie",
+            "cookiePolicyUrl": "",
+            "dataCollectedInfo": "Tento seznam představuje všechny (osobní) údaje, které jsou shromažďovány touto službou nebo jejím prostřednictvím.",
+            "dataCollectedList": "Shromážděné údaje",
+            "dataProtectionOfficer": "Pověřenec pro ochranu osobních údajů zpracovatelské společnosti",
+            "dataProtectionOfficerInfo": "Níže naleznete e-mailovou adresu pověřence pro ochranu osobních údajů zpracovatelské společnosti.",
+            "dataPurposes": "Účely údajů",
+            "dataPurposesInfo": "Tento seznam představuje účely shromažďování a zpracování údajů.",
+            "dataRecipientsList": "Příjemci údajů",
+            "dataRecipientsListInfo": "Následující obsahuje příjemce shromážděných údajů.",
+            "day": "den",
+            "days": "dnů",
+            "denied": "ne",
+            "descriptionOfService": "Popis služby",
+            "detailedStorageInformation": "Podrobné informace o uchovávání",
+            "domain": "Doména",
+            "duration": "Trvání",
+            "history": "Historie",
+            "hour": "hod",
+            "hours": "hod",
+            "identifier": "Identifikátor",
+            "imprintLinkText": "Právní upozornění",
+            "imprintUrl": "",
+            "informationLoadingNotPossible": "Litujeme, nemohli jsme načíst požadované informace.",
+            "legalBasisInfo": "Níže je popsán požadovaný právní základ pro zpracování údajů.",
+            "legalBasisList": "Právní základ",
+            "loadingStorageInformation": "Načítám informace o uchovávání",
+            "locationOfProcessing": "Místo zpracování",
+            "locationofProcessingInfo": "Toto je primární místo, kde jsou shromážděné údaje zpracovávány. Pokud jsou údaje zpracovávány také v jiných zemích, budete o této skutečnosti informováni samostatně.",
+            "maximumAgeCookieStorage": "Maximální doba uchovávání souborů cookie",
+            "minute": "min",
+            "minutes": "min",
+            "month": "měsíc",
+            "months": "měsíce",
+            "multipleDomains": "může existovat více subdomén",
+            "name": "Název",
+            "no": "ne",
+            "noImplicit": "Ne (výchozí)",
+            "nonCookieStorage": "Uchovávání souborů jiných než cookie",
+            "optOut": "Klikněte sem pro odhlášení od tohoto zpracovatele na všech doménách",
+            "policyOf": "Klikněte sem a přečtěte si zásady ochrany osobních údajů zpracovatele údajů",
+            "processingCompany": "Zpracovatelská společnost",
+            "privacyPolicyLinkText": "Zásady ochrany osobních údajů",
+            "privacyPolicyUrl": "",
+            "readLess": "Méně informací",
+            "retentionPeriod": "Doba uchovávání",
+            "retentionPeriodInfo": "Doba uchovávání je čas, po který jsou shromáždě údaje uloženy pro účely zpracování. Jakmile již údaje nebudou pro uvedené účely zpracování zapotřebí, musí být vymazány.",
+            "second": "sekunda",
+            "seconds": "s",
+            "session": "Relace",
+            "storageInformation": "Informace o uchovávání",
+            "storageInformationDescription": "Níže vidíte nejdelší možnou dobu uložení informací na zařízení, jak je nastavena při použití jakékoliv metody ukládání.",
+            "storedInformation": "Uložené informace",
+            "storedInformationDescription": "Tato služba používá různé způsoby ukládání informací na zařízení uživatele, jak je uvedeno níže.",
+            "tabs": {
+              "categories": "Kategorie",
+              "services": "Služby",
+              "about": "O",
+              "details": "Podrobnosti",
+              "consent": "Souhlas"
+            },
+            "technologiesUsed": "Použité technologie",
+            "technologiesUsedInfo": "Tento seznam představuje všechny technologie, které tato služba používá ke shromažďování údajů.",
+            "transferToThirdCountries": "Předávání do třetích zemí",
+            "transferToThirdCountriesInfo": "Tato služba může předávat shromážděné osobní údaje do jiné země. Upozorňujeme, že tato služba může přenášet osobní údaje do země bez požadovaných standardů ochrany osobních údajů. Níže naleznete seznam zemí, do kterých jsou údaje přenášeny. Další informace o zárukách naleznete v zásadách ochrany osobních údajů poskytovatele nebo se můžete obrátit přímo na poskytovatele.",
+            "tryAgain": "Chcete akci opakovat?",
+            "type": "Typ",
+            "year": "rok",
+            "years": "roky",
+            "yes": "ano",
+            "yesImplicit": "Ano (výchozí)",
+            "ageVerificationTitle": "Musíme ověřit váš věk",
+            "ageVerificationDescription": "Pro přístup k obsahu tohoto webu musíte splňovat požadavek na minimální věk.",
+            "ageVerificationYes": "Je mi 18 nebo více let",
+            "ageVerificationNo": "Je mi méně než 18 let",
+            "dataTransferFilter": {
+              "all": "Vše",
+              "thirdCountry": "Předávání do třetích zemí"
+            },
+            "crossDomainConsent": {
+              "title": "Souhlas napříč doménami",
+              "appliesTo": "Váš souhlas se vztahuje na následující domény:",
+              "listOfDomains": "Seznam domén, na které se váš souhlas vztahuje:"
+            },
+            "dsr": "Neprodávejte ani nesdílejte mé osobní údaje",
+            "unsupportedBrowserMessage": "Aby tento banner fungoval správně, je nutné aktualizovat váš prohlížeč na aktuální verzi.",
+            "dsrFormLinkPrefix": "Můžete",
+            "dsrFormLink": "spravovat své údaje v tomto formuláři."
+          },
+          "gdpr": {
+            "continueWithoutAccept": "Pokračujte bez přijetí",
+            "addVendorCount": false,
+            "dutchThirdPartyText": "Spolupracujeme s třetími stranami (celkem %THIRD_PARTY_COUNT%), které mohou přijímat a°zpracovávat vaše údaje.",
+            "copMandatoryBadgeLabel": "Mandatory",
+            "exemptedBadgeLabel": "Vyňato",
+            "exemptedServicesHeading": "Povolit vyňaté služby",
+            "exemptedServicesLabel": "%EXEMPTED_SERVICE_COUNT% služby momentálně označené jako vyňaté",
+            "exemptedServicesOptOutAllLabel": "Odmítnout všechny vyňaté",
+            "exemptedServicesOptInAllLabel": "Povolit všechny vyňaté"
+          },
+          "firstLayer": {
+            "privacy": {
+              "title": "Nastavení ochrany osobních údajů",
+              "description": "Tento web využívá sledovací technologie webových stránek třetích stran k poskytování a neustálému zlepšování našich služeb, stejně jako k zobrazování reklam na základě zájmů uživatelů. Souhlasím a svůj souhlas mohu kdykoliv odvolat nebo změnit s účinkem do budoucna.",
+              "about": "Cookies jsou malé textové soubory, které mohou být používány webovými stránkami, aby učinily uživatelský zážitek více efektivní.<br/><br/>\nZákon uvádí, že můžeme ukládat cookies na vašem zařízení, pokud jsou nezbytně nutné pro provoz této stránky. Pro všechny ostatní typy cookies potřebujeme vaše povolení.\n\nTato stránka používá různé typy cookies. Některé cookies jsou umístěny službami třetích stran, které se objevují na našich stránkách."
+            },
+            "buttons": {
+              "accept": "Přijmout vše",
+              "deny": "Zamítnout",
+              "more": "Další informace",
+              "save": "Uložit nastavení"
+            }
+          },
+          "secondLayer": {
+            "privacy": {
+              "title": "Nastavení ochrany osobních údajů",
+              "description": "Cookies jsou malé textové soubory, které mohou být používány webovými stránkami, aby učinily uživatelský zážitek více efektivní. Zákon uvádí, že můžeme ukládat cookies na vašem zařízení, pokud jsou nezbytně nutné pro provoz této stránky. Pro všechny ostatní typy cookies potřebujeme vaše povolení. Tato stránka používá různé typy cookies. Některé cookies jsou umístěny službami třetích stran, které se objevují na našich stránkách."
+            },
+            "buttons": {
+              "accept": "Přijmout vše",
+              "deny": "Zamítnout",
+              "save": "Uložit nastavení"
+            }
+          }
+        }
+      }
     },
     {
       "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/attributes?jsonp&lang=cs_CZ",
@@ -3592,8 +4578,8 @@
             "concert-film",
             "3d",
             "music",
-            "romantic-comedy",
             "sci-fi",
+            "romantic-comedy",
             "fairytale",
             "melodrama",
             "action",
@@ -3667,7 +4653,7 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-11-25?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/cinemas/with-event/until/2027-11-26?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
@@ -3964,1070 +4950,18 @@
       }
     },
     {
-      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/A1WRS51BB4TT7A",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "id": "A1WRS51BB4TT7A",
-        "version": "6.1.24",
-        "languages": [
-          "cs",
-          "en"
-        ],
-        "crossDomainConsentSharingEnabled": true,
-        "enableBotDetection": true,
-        "allowedDomains": {
-          "list": [
-            "cinemacity.cz",
-            "tickets.cinemacity.cz",
-            "*.usercentrics-sandbox.eu",
-            "*.usercentrics-staging.eu",
-            "*.usercentrics.eu",
-            "*.usercentrics-develop.eu",
-            "storage.googleapis.com/usercentrics-integration-test-browser-ui/*",
-            "usercentrics-integration-test-browser-ui.storage.googleapis.com/*",
-            "*.appetize.io/embed/*"
-          ]
-        },
-        "cmp": {
-          "version": "4.35.0",
-          "type": "gdpr"
-        },
-        "testDomains": [
-          {
-            "testDomain": "stg.cinemacity.cz",
-            "scanConfigDomainRef": "cinemacity.cz"
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/cs/GDPR/A1WRS51BB4TT7A/6.1.24/6.1.24?isOutsideRegion=true",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "payload": {
-        "ui": {
-          "closedView": "none",
-          "theme": "cb",
-          "language": "cs",
-          "reshowAfterDays": 366,
-          "dpsDisplayFormat": "ALL",
-          "poweredByLogo": "UC",
-          "lifecycleStatus": "active",
-          "gpcSignalHonoured": false
-        },
-        "languages": {
-          "languages": {
-            "cs": {
-              "name": "Čeština"
-            },
-            "en": {
-              "name": "English"
-            }
-          }
-        },
-        "core": {
-          "dataLayers": [
-            "dataLayer"
-          ],
-          "analyticsEnabled": true,
-          "googleConsentModeEnabled": true,
-          "advertiserConsentModeEnabled": true
-        },
-        "setting": {
-          "id": "A1WRS51BB4TT7A",
-          "version": "6.1.24",
-          "type": "GDPR"
-        },
-        "ageVerification": {
-          "enabled": false,
-          "ageThreshold": 18,
-          "verificationMethod": "yesno",
-          "backgroundColor": "",
-          "backgroundOpacity": 70,
-          "aboveAgeBackgroundColor": "",
-          "aboveAgeTextColor": "",
-          "underAgeBackgroundColor": "",
-          "underAgeTextColor": "",
-          "redirectUrl": "",
-          "logoUrl": "",
-          "logoSize": 32,
-          "logoAltTag": "",
-          "contentTitle": "Musíme ověřit váš věk",
-          "contentText": "Pro přístup k obsahu tohoto webu musíte splňovat požadavek na minimální věk.",
-          "buttonOverAgeText": "Je mi 18 nebo více let",
-          "buttonUnderAgeText": "Je mi méně než 18 let"
-        },
-        "dps": {
-          "categories": {
-            "marketing": {
-              "name": "Marketing",
-              "dps": {
-                "XYQZBUojc": false,
-                "9V8bg4D63": false,
-                "S1_9Vsuj-Q": false,
-                "LykAT-gy": false,
-                "ko1w5PpFl": false
-              },
-              "state": "ALL_DENIED"
-            },
-            "functional": {
-              "name": "Funkční",
-              "dps": {
-                "HkIVcNiuoZX": false,
-                "S1pcEj_jZX": false,
-                "BJ59EidsWQ": false,
-                "SkPc5EjOsWm": false,
-                "BJz7qNsdj-7": false,
-                "HkPBYFofN": false,
-                "Hko_qNsui-Q": false,
-                "H1PKqNodoWQ": false,
-                "J39GyuWQq": false
-              },
-              "state": "ALL_DENIED"
-            },
-            "essential": {
-              "name": "Nezbytné",
-              "dps": {
-                "H1Vl5NidjWX": true,
-                "rJJjcVouoZ7": true
-              },
-              "essential": true,
-              "state": "ALL_ACCEPTED"
-            },
-            "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0": {
-              "name": "Analytics",
-              "dps": {
-                "HkocEodjb7": false,
-                "H1RKcVjuo-X": false
-              },
-              "state": "ALL_DENIED"
-            }
-          },
-          "services": {
-            "rJJjcVouoZ7": {
-              "name": "gstatic.com",
-              "version": "8.3.7",
-              "category": "essential",
-              "essential": true,
-              "consent": {
-                "given": true,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "a8d0aadbb9c340197362e670095e694c50d28beee1605603442fbce10fb7b7d7"
-            },
-            "H1Vl5NidjWX": {
-              "name": "Usercentrics Consent Management Platform",
-              "version": "40.18.47",
-              "category": "essential",
-              "essential": true,
-              "consent": {
-                "given": true,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "b371eb2fc592043cb547bb8467db686ad5ec44b873a9c71196e042a7889b482f"
-            },
-            "J39GyuWQq": {
-              "name": "Amazon Web Services",
-              "version": "12.4.7",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "9cdcf10ad68db8f1b814b4cad505eb59ed88cbabdf1b075841429996bcb9c69b"
-            },
-            "HkIVcNiuoZX": {
-              "name": "Cloudflare",
-              "version": "6.3.16",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "b7e68996590ca0a6e88ee95ab29b0ef870f57eba750d06cf17799510896f8f84"
-            },
-            "LykAT-gy": {
-              "name": "Conversion Linker",
-              "version": "3.4.6",
-              "category": "marketing",
-              "essential": false,
-              "gcm": {
-                "adStorage": true
-              },
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "eef54601e70605c81b922aeaae53cd47f3e8672d6d9a815c0a6f37fb80120152"
-            },
-            "H1RKcVjuo-X": {
-              "name": "Crazy Egg",
-              "version": "5.1.3",
-              "category": "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "f3ccead7cef6d51de3c837c17b8dbb510e65cecdef4beabb95f3dd921cba9695"
-            },
-            "9V8bg4D63": {
-              "name": "DoubleClick Ad",
-              "version": "9.6.18",
-              "category": "marketing",
-              "essential": false,
-              "gcm": {
-                "adStorage": true
-              },
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "ae1a21e7a2ebdd1123a15edf1642421dfcb6eb6f28dd4b2a496d173765c3da0d"
-            },
-            "ko1w5PpFl": {
-              "name": "Facebook Pixel",
-              "version": "23.12.23",
-              "category": "marketing",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "b647d8a9a87cf75f5653dabba2440f992e49592ba45d9def576c2be19398955d"
-            },
-            "XYQZBUojc": {
-              "name": "Facebook Social Plugins",
-              "version": "9.6.4",
-              "category": "marketing",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "87d6f603c5b3069ed90edbdb07f22617d4f6611568cf3acfce61cc071b39e480"
-            },
-            "S1_9Vsuj-Q": {
-              "name": "Google Ads",
-              "version": "15.8.33",
-              "category": "marketing",
-              "essential": false,
-              "gcm": {
-                "adStorage": true
-              },
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "eddb301294bbbbb9ab7ece96b8e925222a3e5f118072c12006581b7d176f11fa"
-            },
-            "H1PKqNodoWQ": {
-              "name": "Google AJAX",
-              "version": "6.4.3",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "a10a3c27625ceb0229eea80bb63fea298f95b89e5204ca362a484dd6df6d8d93"
-            },
-            "HkocEodjb7": {
-              "name": "Google Analytics",
-              "version": "52.11.46",
-              "category": "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0",
-              "essential": false,
-              "gcm": {
-                "analyticsStorage": true
-              },
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "19204a3fc4ee51d4470c25deea050311a4ee22393bf16f1ea341e4216f1176dd"
-            },
-            "HkPBYFofN": {
-              "name": "Google Fonts",
-              "version": "10.3.2",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "dd659e6d8e059f50fabdd723aa71f2cf6e562f8dd2e53d3b4ceea5710ea207b3"
-            },
-            "S1pcEj_jZX": {
-              "name": "Google Maps",
-              "version": "21.10.11",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "7074e9fddd7317e3df950ca1d05a022033706727bd11fd228b4b6981a65e39ca"
-            },
-            "SkPc5EjOsWm": {
-              "name": "Google Syndication",
-              "version": "6.2.3",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "94ae5251785cadded9fb28ca825d7d2c168cf492f312489c9e94abd6330a1375"
-            },
-            "BJ59EidsWQ": {
-              "name": "Google Tag Manager",
-              "version": "25.7.30",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "e94ccc0e93693c8e8954ee9c3b5257d0ee1a1c4e878cfebb206657ad26314479"
-            },
-            "Hko_qNsui-Q": {
-              "name": "reCAPTCHA",
-              "version": "14.5.16",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "c554d5495abf2487fa7459df56d0c4ee7faa8a8054061b38c557c12699920943"
-            },
-            "BJz7qNsdj-7": {
-              "name": "YouTube Video",
-              "version": "15.8.21",
-              "category": "functional",
-              "essential": false,
-              "consent": {
-                "given": false,
-                "type": "IMPLICIT"
-              },
-              "subservices": {},
-              "processorId": "68631717e005c28cefa69d51a8ce877f325be1640dd285200b0f11fdf29af6cd"
-            }
-          },
-          "granularConsentDisabled": false
-        },
-        "gcm": {
-          "developerId": "developer_id.dOThhZD"
-        },
-        "theme": {
-          "privacyButton": {
-            "default": {
-              "position": "left",
-              "size": 64,
-              "pages": [],
-              "icon": {
-                "url": "https://img.usercentrics.eu/misc/icon-fingerprint.svg",
-                "type": "fingerprint"
-              }
-            },
-            "screens": {
-              "mobile": {
-                "size": 44
-              }
-            }
-          },
-          "cmp": {
-            "default": {
-              "layout": {
-                "template": "BAR",
-                "position": "bottom"
-              },
-              "elements": {
-                "logo": {
-                  "url": "https://www.cinemacity.cz/xmedia/img/10101/logo.png",
-                  "alt": "Cinema City Czechia"
-                },
-                "buttons": {
-                  "borderRadius": "50px",
-                  "order": [
-                    [
-                      "deny",
-                      "save",
-                      "accept"
-                    ]
-                  ]
-                }
-              },
-              "visibility": {
-                "showCategoriesToggles": true,
-                "showMoreInformationLink": true
-              },
-              "typography": {
-                "font": "Roboto"
-              },
-              "colors": {
-                "light": {
-                  "main": {
-                    "primary": "#0045A5",
-                    "neutral": "#ffffff",
-                    "text": "#696969",
-                    "border": "#DDDDDD"
-                  },
-                  "links": {
-                    "anchor": "#f5821e",
-                    "icon": "#f5821e"
-                  },
-                  "buttons": {
-                    "accept": {
-                      "background": "#f5821e",
-                      "text": "#FFFFFF"
-                    },
-                    "deny": {
-                      "background": "#FFFFFF",
-                      "text": "#696969"
-                    },
-                    "save": {
-                      "background": "#FFFFFF",
-                      "text": "#696969"
-                    },
-                    "ok": {
-                      "background": "#F5F5F5",
-                      "text": "#303030"
-                    }
-                  },
-                  "cmp": {
-                    "background": "#FFFFFF",
-                    "overlay": "#333333",
-                    "scrollbarThumb": "#c3c3c3"
-                  },
-                  "tabs": {
-                    "containerBackground": "#fff",
-                    "tabInactive": "#696969",
-                    "tabActive": "#696969"
-                  },
-                  "toggle": {
-                    "background": {
-                      "active": "#f5821e",
-                      "inactive": "#d5d5d5"
-                    }
-                  }
-                }
-              }
-            },
-            "screens": {
-              "desktop": {
-                "first": {
-                  "features": {
-                    "denyConsentsOnClose": false
-                  }
-                },
-                "second": {
-                  "layout": {
-                    "position": "center"
-                  },
-                  "elements": {
-                    "buttons": {
-                      "order": [
-                        [
-                          "deny",
-                          "save",
-                          "accept"
-                        ]
-                      ]
-                    }
-                  },
-                  "visibility": {
-                    "hideDataProcessingServices": false,
-                    "hideServicesToggles": false,
-                    "hideLanguageSwitch": false
-                  }
-                }
-              },
-              "mobile": {
-                "base": {
-                  "elements": {
-                    "buttons": {
-                      "order": [
-                        [
-                          "deny"
-                        ],
-                        [
-                          "save"
-                        ],
-                        [
-                          "accept"
-                        ]
-                      ]
-                    }
-                  }
-                },
-                "second": {
-                  "elements": {
-                    "buttons": {
-                      "order": [
-                        [
-                          "deny"
-                        ],
-                        [
-                          "save"
-                        ],
-                        [
-                          "accept"
-                        ]
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "custom": {
-            "css": ".cmp.cb.bottom.desktop .main-wrapper #center-container .cb-toggles {\r\n  margin-top: 2em;\r\n}\r\n\r\n.buttons .save.uc-save-button,\r\n.buttons .deny.uc-deny-button {\r\n  border: solid 2px #f5821e;\r\n}"
-          }
-        },
-        "consent": {
-          "controllerId": "",
-          "createdAt": 0,
-          "language": "cs",
-          "required": true,
-          "setting": {
-            "id": "A1WRS51BB4TT7A",
-            "version": "6.1.24",
-            "type": "GDPR"
-          },
-          "updatedAt": 0,
-          "updatedBy": "onInitialPageLoad",
-          "type": "IMPLICIT",
-          "version": 1,
-          "status": "ALL_DENIED",
-          "hash": "",
-          "serviceIds": []
-        },
-        "i18n": {
-          "categories": {
-            "marketing": {
-              "description": "Tyto technologie používají inzerenti k zobrazování cílených reklam.",
-              "name": "Marketing",
-              "id": "marketing"
-            },
-            "functional": {
-              "description": "Tyto technologie nám umožňují analyzovat chování uživatelů za účelem měření a zlepšování výkonu.",
-              "name": "Funkční",
-              "id": "functional"
-            },
-            "essential": {
-              "description": "Tyto technologie jsou nezbytné pro aktivaci základních funkcí našich služeb.",
-              "name": "Nezbytné",
-              "id": "essential"
-            },
-            "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0": {
-              "description": "",
-              "name": "Analytics",
-              "id": "customcategory-8ee90b89-c618-44a4-b4b5-f0d7a8e26cf0"
-            }
-          },
-          "services": {
-            "H1Vl5NidjWX": {
-              "description": "",
-              "id": "H1Vl5NidjWX",
-              "legalBasis": [],
-              "name": "Usercentrics Consent Management Platform"
-            },
-            "HkIVcNiuoZX": {
-              "description": "",
-              "id": "HkIVcNiuoZX",
-              "legalBasis": [],
-              "name": "Cloudflare"
-            },
-            "S1pcEj_jZX": {
-              "description": "",
-              "id": "S1pcEj_jZX",
-              "legalBasis": [],
-              "name": "Google Maps"
-            },
-            "BJ59EidsWQ": {
-              "description": "",
-              "id": "BJ59EidsWQ",
-              "legalBasis": [],
-              "name": "Google Tag Manager"
-            },
-            "XYQZBUojc": {
-              "description": "",
-              "id": "XYQZBUojc",
-              "legalBasis": [],
-              "name": "Facebook Social Plugins"
-            },
-            "SkPc5EjOsWm": {
-              "description": "",
-              "id": "SkPc5EjOsWm",
-              "legalBasis": [],
-              "name": "Google Syndication"
-            },
-            "BJz7qNsdj-7": {
-              "description": "",
-              "id": "BJz7qNsdj-7",
-              "legalBasis": [],
-              "name": "YouTube Video"
-            },
-            "HkocEodjb7": {
-              "description": "",
-              "id": "HkocEodjb7",
-              "legalBasis": [],
-              "name": "Google Analytics"
-            },
-            "HkPBYFofN": {
-              "description": "",
-              "id": "HkPBYFofN",
-              "legalBasis": [],
-              "name": "Google Fonts"
-            },
-            "Hko_qNsui-Q": {
-              "description": "",
-              "id": "Hko_qNsui-Q",
-              "legalBasis": [],
-              "name": "reCAPTCHA"
-            },
-            "H1PKqNodoWQ": {
-              "description": "",
-              "id": "H1PKqNodoWQ",
-              "legalBasis": [],
-              "name": "Google AJAX"
-            },
-            "rJJjcVouoZ7": {
-              "description": "",
-              "id": "rJJjcVouoZ7",
-              "legalBasis": [],
-              "name": "gstatic.com"
-            },
-            "9V8bg4D63": {
-              "description": "",
-              "id": "9V8bg4D63",
-              "legalBasis": [],
-              "name": "DoubleClick Ad"
-            },
-            "S1_9Vsuj-Q": {
-              "description": "",
-              "id": "S1_9Vsuj-Q",
-              "legalBasis": [],
-              "name": "Google Ads"
-            },
-            "LykAT-gy": {
-              "description": "",
-              "id": "LykAT-gy",
-              "legalBasis": [],
-              "name": "Conversion Linker"
-            },
-            "ko1w5PpFl": {
-              "description": "",
-              "id": "ko1w5PpFl",
-              "legalBasis": [],
-              "name": "Facebook Pixel"
-            },
-            "H1RKcVjuo-X": {
-              "description": "",
-              "id": "H1RKcVjuo-X",
-              "legalBasis": [],
-              "name": "Crazy Egg"
-            },
-            "J39GyuWQq": {
-              "description": "",
-              "id": "J39GyuWQq",
-              "legalBasis": [],
-              "name": "Amazon Web Services"
-            }
-          },
-          "base": {
-            "ariaLabels": {
-              "acceptAllButton": "Accepta-ho tot",
-              "app_collapse": "Sbalit",
-              "app_copyControllerId": "Kopírovat ID správce",
-              "app_expand": "Roztáhnout",
-              "app_languageSelector": "Vybrat jazyk",
-              "app_serviceInCategoryDetails": "Zobrazit detail služby",
-              "ccpaButton": "Souhlas s CCPA",
-              "ccpaMoreInformation": "Més Informació",
-              "closeButton": "Zavřít vrstvu",
-              "collapse": "Sbalit",
-              "cookiePolicyButton": "Otevřít adresa URL zásad používání souborů cookie",
-              "copyControllerId": "Kopírovat ID správce",
-              "denyAllButton": "Rebutja-ho tot",
-              "dsrButton": "Otevřít formulář žádosti subjektu údajů",
-              "expand": "Roztáhnout",
-              "fullscreenButton": "Spustit režim celé obrazovky",
-              "imprintButton": "Otevřít otisk",
-              "languageSelector": "Vybrat jazyk",
-              "privacyButton": "Otevřít",
-              "privacyPolicyButton": "Otevřít zásady ochrany osobních údajů",
-              "saveButton": "Uložit",
-              "serviceInCategoryDetails": "Zobrazit detail služby",
-              "servicesInCategory": "Seznam služby v této kategorii",
-              "tabButton": "Záložka",
-              "tv_collapse": "Sbalit",
-              "tv_copyControllerId": "Kopírovat ID správce",
-              "tv_expand": "Roztáhnout",
-              "tv_languageSelector": "Vybrat jazyk",
-              "tv_serviceInCategoryDetails": "Zobrazit detail služby",
-              "usercentricsCMPButtons": "Zápatí včetně tlačítek",
-              "usercentricsCMPContent": "Obsah",
-              "usercentricsCMPHeader": "Záhlaví včetně výběru jazyka a externích odkazů",
-              "usercentricsCMPUI": "Rozhraní platformy pro správu souhlasu",
-              "usercentricsCard": "Karta",
-              "usercentricsList": "Seznam",
-              "vendorConsentToggle": "Consentiment",
-              "vendorDetailedStorageInformation": "Informació detallada d'emmagatzematge",
-              "vendorLegIntToggle": "Interès legítim"
-            },
-            "cookieInformation": {
-              "anyDomain": "libovolná doména (např. cookie první strany)",
-              "cookieRefresh": "Obnovení souborů cookie",
-              "cookieStorage": "Ukládání souborů cookie",
-              "day": "den",
-              "days": "dnů",
-              "description": "Níže vidíte nejdelší možnou dobu uložení informací na zařízení, jak je nastavena při použití jakékoliv metody ukládání.",
-              "domain": "Doména",
-              "duration": "Trvání",
-              "error": "Litujeme, nemohli jsme načíst požadované informace.",
-              "hour": "hod",
-              "hours": "hod",
-              "identifier": "Identifikátor",
-              "loading": "Načítám informace o uchovávání",
-              "maximumAge": "Maximální doba uchovávání souborů cookie",
-              "minute": "min",
-              "minutes": "min",
-              "month": "měsíc",
-              "months": "měsíce",
-              "multipleDomains": "může existovat více subdomén",
-              "name": "Název",
-              "disclosureDescription": "Description",
-              "no": "ne",
-              "nonCookieStorage": "Uchovávání souborů jiných než cookie",
-              "disclosureOptOut": "Opt-out",
-              "purposes": "Purposes",
-              "specialPurposes": "Special Purposes",
-              "second": "sekunda",
-              "seconds": "s",
-              "session": "Relace",
-              "storedInformation": "Uložené informace",
-              "storedInformationDescription": "Tato služba používá různé způsoby ukládání informací na zařízení uživatele, jak je uvedeno níže.",
-              "title": "Informace o uchovávání",
-              "titleDetailed": "Podrobné informace o uchovávání",
-              "tryAgain": "Chcete akci opakovat?",
-              "type": "Typ",
-              "year": "rok",
-              "years": "roky",
-              "yes": "ano"
-            },
-            "links": {},
-            "poweredBy": {
-              "isEnabled": true,
-              "labels": {
-                "prefix": "Powered by",
-                "uc": "Usercentrics Consent Management",
-                "cb": "Usercentrics Cookiebot",
-                "partner": ""
-              },
-              "links": {
-                "uc": "https://usercentrics.com/consent-management-platform-powered-by-usercentrics/",
-                "partner": ""
-              }
-            },
-            "serviceDetail": {
-              "dataCollected": {
-                "description": "Tento seznam představuje všechny (osobní) údaje, které jsou shromažďovány touto službou nebo jejím prostřednictvím.",
-                "title": "Shromážděné údaje"
-              },
-              "dataDistribution": {
-                "processingLocationDescription": "Toto je primární místo, kde jsou shromážděné údaje zpracovávány. Pokud jsou údaje zpracovávány také v jiných zemích, budete o této skutečnosti informováni samostatně.",
-                "processingLocationTitle": "Místo zpracování",
-                "thirdPartyCountriesDescription": "Tato služba může předávat shromážděné osobní údaje do jiné země. Upozorňujeme, že tato služba může přenášet osobní údaje do země bez požadovaných standardů ochrany osobních údajů. Níže naleznete seznam zemí, do kterých jsou údaje přenášeny. Další informace o zárukách naleznete v zásadách ochrany osobních údajů poskytovatele nebo se můžete obrátit přímo na poskytovatele.",
-                "thirdPartyCountriesTitle": "Předávání do třetích zemí"
-              },
-              "dataProtectionOfficer": {
-                "description": "Níže naleznete e-mailovou adresu pověřence pro ochranu osobních údajů zpracovatelské společnosti.",
-                "title": "Pověřenec pro ochranu osobních údajů zpracovatelské společnosti"
-              },
-              "dataPurposes": {
-                "description": "Tento seznam představuje účely shromažďování a zpracování údajů.",
-                "title": "Účely údajů"
-              },
-              "dataRecipients": {
-                "description": "Následující obsahuje příjemce shromážděných údajů.",
-                "title": "Příjemci údajů"
-              },
-              "descriptionTitle": "Popis služby",
-              "history": {
-                "description": null,
-                "title": "Historie"
-              },
-              "legalBasis": {
-                "description": "Níže je popsán požadovaný právní základ pro zpracování údajů.",
-                "title": "Právní základ"
-              },
-              "retentionPeriod": {
-                "description": "Doba uchovávání je čas, po který jsou shromáždě údaje uloženy pro účely zpracování. Jakmile již údaje nebudou pro uvedené účely zpracování zapotřebí, musí být vymazány.",
-                "title": "Doba uchovávání"
-              },
-              "technologiesUsed": {
-                "description": "Tento seznam představuje všechny technologie, které tato služba používá ke shromažďování údajů.",
-                "title": "Použité technologie"
-              },
-              "urls": {
-                "cookiePolicyTitle": "Klikněte sem a přečtěte si zásady souborů cookie zpracovatele údajů",
-                "optOutTitle": "Klikněte sem pro odhlášení od tohoto zpracovatele na všech doménách",
-                "privacyPolicyTitle": "Klikněte sem a přečtěte si zásady ochrany osobních údajů zpracovatele údajů"
-              }
-            },
-            "back": "Zpět",
-            "consentGiven": "ano",
-            "consentNotGiven": "ne",
-            "consentType": "Typ souhlasu",
-            "controllerId": "ID pro vyžádání údajů o souhlasu",
-            "copied": "zkopírováno",
-            "copy": "kopírovat",
-            "date": "Datum",
-            "decision": "Rozhodnutí",
-            "details": "Podrobnosti",
-            "explicit": "Explicitní",
-            "gpcSignalHonored": "Nastavení GPC je respektováno",
-            "implicit": "Implicitní",
-            "implicitNo": "Ne (výchozí)",
-            "implicitYes": "Ano (výchozí)",
-            "privacyButton": "Nastavení ochrany osobních údajů",
-            "showLess": "Méně informací",
-            "showMore": "Více informací",
-            "subservice": "Dílčí služba",
-            "subservices": "Dílčí služby",
-            "subservicesDescription": "Níže naleznete všechny služby podřízené této službě. Aktuální stav souhlasu této služby se vztahuje na na všechny dílčí služby.",
-            "accepted": "ano",
-            "anyDomain": "libovolná doména (např. cookie první strany)",
-            "btnBannerReadMore": "Více informací",
-            "cookiePolicyInfo": "Klikněte sem a přečtěte si zásady souborů cookie zpracovatele údajů",
-            "cookiePolicyLinkText": "Zásady používání souborů cookie",
-            "cookiePolicyUrl": "",
-            "dataCollectedInfo": "Tento seznam představuje všechny (osobní) údaje, které jsou shromažďovány touto službou nebo jejím prostřednictvím.",
-            "dataCollectedList": "Shromážděné údaje",
-            "dataProtectionOfficer": "Pověřenec pro ochranu osobních údajů zpracovatelské společnosti",
-            "dataProtectionOfficerInfo": "Níže naleznete e-mailovou adresu pověřence pro ochranu osobních údajů zpracovatelské společnosti.",
-            "dataPurposes": "Účely údajů",
-            "dataPurposesInfo": "Tento seznam představuje účely shromažďování a zpracování údajů.",
-            "dataRecipientsList": "Příjemci údajů",
-            "dataRecipientsListInfo": "Následující obsahuje příjemce shromážděných údajů.",
-            "day": "den",
-            "days": "dnů",
-            "denied": "ne",
-            "descriptionOfService": "Popis služby",
-            "detailedStorageInformation": "Podrobné informace o uchovávání",
-            "domain": "Doména",
-            "duration": "Trvání",
-            "history": "Historie",
-            "hour": "hod",
-            "hours": "hod",
-            "identifier": "Identifikátor",
-            "imprintLinkText": "Právní upozornění",
-            "imprintUrl": "",
-            "informationLoadingNotPossible": "Litujeme, nemohli jsme načíst požadované informace.",
-            "legalBasisInfo": "Níže je popsán požadovaný právní základ pro zpracování údajů.",
-            "legalBasisList": "Právní základ",
-            "loadingStorageInformation": "Načítám informace o uchovávání",
-            "locationOfProcessing": "Místo zpracování",
-            "locationofProcessingInfo": "Toto je primární místo, kde jsou shromážděné údaje zpracovávány. Pokud jsou údaje zpracovávány také v jiných zemích, budete o této skutečnosti informováni samostatně.",
-            "maximumAgeCookieStorage": "Maximální doba uchovávání souborů cookie",
-            "minute": "min",
-            "minutes": "min",
-            "month": "měsíc",
-            "months": "měsíce",
-            "multipleDomains": "může existovat více subdomén",
-            "name": "Název",
-            "no": "ne",
-            "noImplicit": "Ne (výchozí)",
-            "nonCookieStorage": "Uchovávání souborů jiných než cookie",
-            "optOut": "Klikněte sem pro odhlášení od tohoto zpracovatele na všech doménách",
-            "policyOf": "Klikněte sem a přečtěte si zásady ochrany osobních údajů zpracovatele údajů",
-            "processingCompany": "Zpracovatelská společnost",
-            "privacyPolicyLinkText": "Zásady ochrany osobních údajů",
-            "privacyPolicyUrl": "",
-            "readLess": "Méně informací",
-            "retentionPeriod": "Doba uchovávání",
-            "retentionPeriodInfo": "Doba uchovávání je čas, po který jsou shromáždě údaje uloženy pro účely zpracování. Jakmile již údaje nebudou pro uvedené účely zpracování zapotřebí, musí být vymazány.",
-            "second": "sekunda",
-            "seconds": "s",
-            "session": "Relace",
-            "storageInformation": "Informace o uchovávání",
-            "storageInformationDescription": "Níže vidíte nejdelší možnou dobu uložení informací na zařízení, jak je nastavena při použití jakékoliv metody ukládání.",
-            "storedInformation": "Uložené informace",
-            "storedInformationDescription": "Tato služba používá různé způsoby ukládání informací na zařízení uživatele, jak je uvedeno níže.",
-            "tabs": {
-              "categories": "Kategorie",
-              "services": "Služby",
-              "about": "O",
-              "details": "Podrobnosti",
-              "consent": "Souhlas"
-            },
-            "technologiesUsed": "Použité technologie",
-            "technologiesUsedInfo": "Tento seznam představuje všechny technologie, které tato služba používá ke shromažďování údajů.",
-            "transferToThirdCountries": "Předávání do třetích zemí",
-            "transferToThirdCountriesInfo": "Tato služba může předávat shromážděné osobní údaje do jiné země. Upozorňujeme, že tato služba může přenášet osobní údaje do země bez požadovaných standardů ochrany osobních údajů. Níže naleznete seznam zemí, do kterých jsou údaje přenášeny. Další informace o zárukách naleznete v zásadách ochrany osobních údajů poskytovatele nebo se můžete obrátit přímo na poskytovatele.",
-            "tryAgain": "Chcete akci opakovat?",
-            "type": "Typ",
-            "year": "rok",
-            "years": "roky",
-            "yes": "ano",
-            "yesImplicit": "Ano (výchozí)",
-            "ageVerificationTitle": "Musíme ověřit váš věk",
-            "ageVerificationDescription": "Pro přístup k obsahu tohoto webu musíte splňovat požadavek na minimální věk.",
-            "ageVerificationYes": "Je mi 18 nebo více let",
-            "ageVerificationNo": "Je mi méně než 18 let",
-            "dataTransferFilter": {
-              "all": "Vše",
-              "thirdCountry": "Předávání do třetích zemí"
-            },
-            "crossDomainConsent": {
-              "title": "Souhlas napříč doménami",
-              "appliesTo": "Váš souhlas se vztahuje na následující domény:",
-              "listOfDomains": "Seznam domén, na které se váš souhlas vztahuje:"
-            },
-            "dsr": "Neprodávejte ani nesdílejte mé osobní údaje",
-            "unsupportedBrowserMessage": "Aby tento banner fungoval správně, je nutné aktualizovat váš prohlížeč na aktuální verzi.",
-            "dsrFormLinkPrefix": "Můžete",
-            "dsrFormLink": "spravovat své údaje v tomto formuláři."
-          },
-          "gdpr": {
-            "continueWithoutAccept": "Pokračujte bez přijetí",
-            "addVendorCount": false,
-            "dutchThirdPartyText": "Spolupracujeme s třetími stranami (celkem %THIRD_PARTY_COUNT%), které mohou přijímat a°zpracovávat vaše údaje.",
-            "copMandatoryBadgeLabel": "Mandatory",
-            "exemptedBadgeLabel": "Vyňato",
-            "exemptedServicesHeading": "Povolit vyňaté služby",
-            "exemptedServicesLabel": "%EXEMPTED_SERVICE_COUNT% služby momentálně označené jako vyňaté",
-            "exemptedServicesOptOutAllLabel": "Odmítnout všechny vyňaté",
-            "exemptedServicesOptInAllLabel": "Povolit všechny vyňaté"
-          },
-          "firstLayer": {
-            "privacy": {
-              "title": "Nastavení ochrany osobních údajů",
-              "description": "Tento web využívá sledovací technologie webových stránek třetích stran k poskytování a neustálému zlepšování našich služeb, stejně jako k zobrazování reklam na základě zájmů uživatelů. Souhlasím a svůj souhlas mohu kdykoliv odvolat nebo změnit s účinkem do budoucna.",
-              "about": "Cookies jsou malé textové soubory, které mohou být používány webovými stránkami, aby učinily uživatelský zážitek více efektivní.<br/><br/>\nZákon uvádí, že můžeme ukládat cookies na vašem zařízení, pokud jsou nezbytně nutné pro provoz této stránky. Pro všechny ostatní typy cookies potřebujeme vaše povolení.\n\nTato stránka používá různé typy cookies. Některé cookies jsou umístěny službami třetích stran, které se objevují na našich stránkách."
-            },
-            "buttons": {
-              "accept": "Přijmout vše",
-              "deny": "Zamítnout",
-              "more": "Další informace",
-              "save": "Uložit nastavení"
-            }
-          },
-          "secondLayer": {
-            "privacy": {
-              "title": "Nastavení ochrany osobních údajů",
-              "description": "Cookies jsou malé textové soubory, které mohou být používány webovými stránkami, aby učinily uživatelský zážitek více efektivní. Zákon uvádí, že můžeme ukládat cookies na vašem zařízení, pokud jsou nezbytně nutné pro provoz této stránky. Pro všechny ostatní typy cookies potřebujeme vaše povolení. Tato stránka používá různé typy cookies. Některé cookies jsou umístěny službami třetích stran, které se objevují na našich stránkách."
-            },
-            "buttons": {
-              "accept": "Přijmout vše",
-              "deny": "Zamítnout",
-              "save": "Uložit nastavení"
-            }
-          }
-        }
-      }
-    },
-    {
       "url": "https://www.cinemacity.cz/mrest/heros/v1/hero/cinema-page?tenantId=10101&cinemaId=1052&locale=cs",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
-      "payload": [
-        {
-          "itemKey": "ad3bf0b4-0b83-482d-b1a9-b34a499b0482",
-          "itemPath": "/10101/home_page/main_area/Hunger-Games-FLORA",
-          "startDate": {
-            "year": 2026,
-            "month": "NOVEMBER",
-            "dayOfMonth": 19,
-            "dayOfWeek": "THURSDAY",
-            "era": "CE",
-            "monthValue": 11,
-            "leapYear": false,
-            "dayOfYear": 323,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "endDate": {
-            "year": 2026,
-            "month": "NOVEMBER",
-            "dayOfMonth": 26,
-            "dayOfWeek": "THURSDAY",
-            "era": "CE",
-            "monthValue": 11,
-            "leapYear": false,
-            "dayOfYear": 330,
-            "chronology": {
-              "id": "ISO",
-              "calendarType": "iso8601"
-            }
-          },
-          "label": "Hunger Games",
-          "url": "https://www.cinemacity.cz/films/hunger-games-usvit-sklizne/7803s2r#/",
-          "urlType": "_self",
-          "showButton": false,
-          "buttonTop": "280",
-          "buttonLeft": "730",
-          "imageDesktop": {
-            "itemKey": "jcr:03c09e1f-cef1-4080-8ca5-0494ebe69a50",
-            "filename": "HG6_IMAX_CC_2000x390px_CZ.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:03c09e1f-cef1-4080-8ca5-0494ebe69a50",
-            "size": 200360,
-            "title": "",
-            "description": ""
-          },
-          "imageMobile": {
-            "itemKey": "jcr:e081b11d-a258-4285-9474-127cd150d38d",
-            "filename": "HG6action_CC_768x423px_CZ.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:e081b11d-a258-4285-9474-127cd150d38d",
-            "size": 138309,
-            "title": "",
-            "description": ""
-          },
-          "imageThumbnail": {
-            "itemKey": "jcr:69fbeece-585c-4345-9160-b814d344d08c",
-            "filename": "HG6action_CC_300x250px_CZ.jpg",
-            "uri": "/magnoliaPublic/dam/jcr:69fbeece-585c-4345-9160-b814d344d08c",
-            "size": 37523,
-            "title": "",
-            "description": ""
-          },
-          "overlayText": "",
-          "videoUrl": ""
-        }
-      ]
+      "payload": []
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-11-25?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/dates/in-cinema/1052/until/2027-11-26?attr=&lang=cs_CZ",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
         "body": {
           "dates": [
-            "2026-11-25",
             "2026-11-26",
             "2026-11-27",
             "2026-11-28",
@@ -5060,6 +4994,1931 @@
             "2027-05-25",
             "2027-06-08",
             "2027-06-22"
+          ]
+        }
+      }
+    },
+    {
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-11-26?attr=&lang=cs_CZ",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "payload": {
+        "body": {
+          "films": [
+            {
+              "id": "8161s2r",
+              "name": "Divoký kůň Devítka",
+              "length": 118,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8161S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=2s4WCFgtC1Q",
+              "link": "https://www.cinemacity.cz/films/divoky-kun-devitka/8161s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-05T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "15-plus",
+                "2d",
+                "adventure",
+                "comedy",
+                "drama",
+                "first-subbed-lang-cs",
+                "subbed",
+                "thriller"
+              ]
+            },
+            {
+              "id": "8217s2r",
+              "name": "Dobré vibrace",
+              "length": 90,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8217S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=HQx_fAeCelU",
+              "link": "https://www.cinemacity.cz/films/dobre-vibrace/8217s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-26T00:00:00",
+              "languages": {
+                "original": [
+                  "fr"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "15-plus",
+                "2d",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "romance"
+              ]
+            },
+            {
+              "id": "3836s2r2",
+              "name": "Dřevorubec",
+              "length": 98,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/3836S2R2.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=WxpNcBp73Rs",
+              "link": "https://www.cinemacity.cz/films/drevorubec/3836s2r2",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-12T00:00:00",
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "original",
+                "original-lang-cs",
+                "romance",
+                "suitable-for-all"
+              ]
+            },
+            {
+              "id": "8344s2r",
+              "name": "Ebenezer: Vánoční koleda",
+              "length": 116,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8344S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=4W_pfj-NYoA",
+              "link": "https://www.cinemacity.cz/films/ebenezer-vanocni-koleda/8344s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-12T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ]
+            },
+            {
+              "id": "8297s2r",
+              "name": "Hexe: Magický svět",
+              "length": 110,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8297S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=t6wFhSIJiyE",
+              "link": "https://www.cinemacity.cz/films/hexe-magicky-svet/8297s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-25T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "2d",
+                "adventure",
+                "animation",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "fantasy",
+                "suitable-for-all"
+              ]
+            },
+            {
+              "id": "7803s2r",
+              "name": "Hunger Games: Úsvit sklizně",
+              "length": 159,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7803S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=1UcYfRYGZyY",
+              "link": "https://www.cinemacity.cz/films/hunger-games-usvit-sklizne/7803s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-19T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "dubbed",
+                "dubbed-lang-cs",
+                "first-subbed-lang-cs",
+                "imax",
+                "sci-fi",
+                "subbed"
+              ]
+            },
+            {
+              "id": "8531s2r",
+              "name": "Já, Rocky",
+              "length": 128,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8531S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=S9Pg-UwNOhI",
+              "link": "https://www.cinemacity.cz/films/ja-rocky/8531s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-19T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "biography",
+                "comedy",
+                "drama",
+                "first-subbed-lang-cs",
+                "subbed"
+              ]
+            },
+            {
+              "id": "1203s2sx2",
+              "name": "Máma a táta jsou boží",
+              "length": 103,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1203S2SX2.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=mdopL06g1B8",
+              "link": "https://www.cinemacity.cz/films/mama-a-tata-jsou-bozi/1203s2sx2",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-19T00:00:00",
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "attributeIds": [
+                "2d",
+                "adventure",
+                "comedy",
+                "family",
+                "fantasy",
+                "original",
+                "original-lang-cs",
+                "suitable-for-all"
+              ]
+            },
+            {
+              "id": "5822s2r1",
+              "name": "Můj pes Barry",
+              "length": 97,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/5822S2R1.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=w18FGwWGQVo",
+              "link": "https://www.cinemacity.cz/films/muj-pes-barry/5822s2r1",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-12T00:00:00",
+              "languages": {
+                "original": [
+                  "de"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "attributeIds": [
+                "2d",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "suitable-for-all"
+              ]
+            },
+            {
+              "id": "6464s2sx1",
+              "name": "Něco jako rodina",
+              "length": 97,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6464S2SX1.jpg",
+              "videoLink": null,
+              "link": "https://www.cinemacity.cz/films/neco-jako-rodina/6464s2sx1",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-26T00:00:00",
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "comedy",
+                "original",
+                "original-lang-cs"
+              ]
+            },
+            {
+              "id": "8566s2r",
+              "name": "Rámájana: Zrození legendy",
+              "length": 156,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8566S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=J6RpT80Fhpc",
+              "link": "https://www.cinemacity.cz/films/ramajana-zrozeni-legendy/8566s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-26T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ]
+            },
+            {
+              "id": "1865s2sx1",
+              "name": "Resident Evil",
+              "length": 89,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1865S2SX1.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=Z61Cn71i-no",
+              "link": "https://www.cinemacity.cz/films/resident-evil/1865s2sx1",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-09-17T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "15-plus",
+                "2d",
+                "action",
+                "first-subbed-lang-cs",
+                "horror",
+                "sci-fi",
+                "subbed"
+              ]
+            },
+            {
+              "id": "1093s3sx1",
+              "name": "Santova kouzelná dílna",
+              "length": 73,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1093S3SX1.jpg",
+              "videoLink": null,
+              "link": "https://www.cinemacity.cz/films/santova-kouzelna-dilna/1093s3sx1",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-05T00:00:00",
+              "languages": {
+                "original": [
+                  "no"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "attributeIds": [
+                "2d",
+                "animation",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "suitable-for-all"
+              ]
+            },
+            {
+              "id": "0434s3sx2",
+              "name": "Thankskilling Day",
+              "length": 90,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0434S3SX2.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=3mwY3g6X9pc",
+              "link": "https://www.cinemacity.cz/films/thankskilling-day/0434s3sx2",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-26T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "first-subbed-lang-cs",
+                "horror",
+                "subbed"
+              ]
+            },
+            {
+              "id": "8661s2r",
+              "name": "Uvidíš všechno",
+              "length": 174,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8661S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=9Mp0KI0BItI",
+              "link": "https://www.cinemacity.cz/films/uvidis-vsechno/8661s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-10-29T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "documentary",
+                "first-subbed-lang-cs",
+                "subbed"
+              ]
+            },
+            {
+              "id": "8181s2r",
+              "name": "Všichni fotři jsou lotři",
+              "length": 105,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8181S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=kvJCZyzcmLQ",
+              "link": "https://www.cinemacity.cz/films/vsichni-fotri-jsou-lotri/8181s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-26T00:00:00",
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "first-subbed-lang-cs",
+                "subbed",
+                "suitable-for-all"
+              ]
+            },
+            {
+              "id": "7239d3sx1",
+              "name": "Ženy v lihu",
+              "length": 93,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7239D3SX1.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=Py0QKeesPlM",
+              "link": "https://www.cinemacity.cz/films/zeny-v-lihu/7239d3sx1",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-11-12T00:00:00",
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "family",
+                "original",
+                "original-lang-cs",
+                "suitable-for-all"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "id": "290600",
+              "filmId": "8297s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:00:00",
+              "attributeIds": [
+                "2d",
+                "adventure",
+                "animation",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "fantasy",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/290600?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/290600",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/290600?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/290600?lang=cs",
+              "presentationCode": "290600",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 01",
+              "auditoriumTinyName": "1"
+            },
+            {
+              "id": "291178",
+              "filmId": "8566s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:00:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291178?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291178",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291178?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291178?lang=cs",
+              "presentationCode": "291178",
+              "soldOut": false,
+              "availabilityRatio": 0.9867,
+              "auditorium": "Sál 06",
+              "auditoriumTinyName": "6"
+            },
+            {
+              "id": "291201",
+              "filmId": "1203s2sx2",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:00:00",
+              "attributeIds": [
+                "2d",
+                "adventure",
+                "comedy",
+                "family",
+                "fantasy",
+                "original",
+                "original-lang-cs",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291201?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291201",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291201?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291201?lang=cs",
+              "presentationCode": "291201",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 07",
+              "auditoriumTinyName": "7"
+            },
+            {
+              "id": "291153",
+              "filmId": "1093s3sx1",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:20:00",
+              "attributeIds": [
+                "2d",
+                "animation",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "no"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291153?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291153",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291153?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291153?lang=cs",
+              "presentationCode": "291153",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 05",
+              "auditoriumTinyName": "5"
+            },
+            {
+              "id": "291254",
+              "filmId": "7803s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:20:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "first-subbed-lang-cs",
+                "imax",
+                "sci-fi",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291254?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291254",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291254?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291254?lang=cs",
+              "presentationCode": "291254",
+              "soldOut": false,
+              "availabilityRatio": 0.9688,
+              "auditorium": "IMAX VOLVO",
+              "auditoriumTinyName": "IMAX"
+            },
+            {
+              "id": "291231",
+              "filmId": "8661s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:30:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "documentary",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291231?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291231",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291231?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291231?lang=cs",
+              "presentationCode": "291231",
+              "soldOut": false,
+              "availabilityRatio": 0.9877,
+              "auditorium": "Sál 08",
+              "auditoriumTinyName": "8"
+            },
+            {
+              "id": "291096",
+              "filmId": "5822s2r1",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:40:00",
+              "attributeIds": [
+                "2d",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "de"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291096?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291096",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291096?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291096?lang=cs",
+              "presentationCode": "291096",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 03",
+              "auditoriumTinyName": "3"
+            },
+            {
+              "id": "291067",
+              "filmId": "8297s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T14:50:00",
+              "attributeIds": [
+                "2d",
+                "adventure",
+                "animation",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "fantasy",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291067?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291067",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291067?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291067?lang=cs",
+              "presentationCode": "291067",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 02",
+              "auditoriumTinyName": "2"
+            },
+            {
+              "id": "291128",
+              "filmId": "8344s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T15:30:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291128?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291128",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291128?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291128?lang=cs",
+              "presentationCode": "291128",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 04",
+              "auditoriumTinyName": "4"
+            },
+            {
+              "id": "291154",
+              "filmId": "7803s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T16:10:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "dubbed",
+                "dubbed-lang-cs",
+                "sci-fi"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291154?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291154",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291154?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291154?lang=cs",
+              "presentationCode": "291154",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 05",
+              "auditoriumTinyName": "5"
+            },
+            {
+              "id": "291202",
+              "filmId": "6464s2sx1",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T16:20:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "comedy",
+                "original",
+                "original-lang-cs"
+              ],
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291202?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291202",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291202?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291202?lang=cs",
+              "presentationCode": "291202",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 07",
+              "auditoriumTinyName": "7"
+            },
+            {
+              "id": "291033",
+              "filmId": "8181s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T16:30:00",
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291033?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291033",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291033?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291033?lang=cs",
+              "presentationCode": "291033",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 01",
+              "auditoriumTinyName": "1"
+            },
+            {
+              "id": "291097",
+              "filmId": "3836s2r2",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T16:50:00",
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "original",
+                "original-lang-cs",
+                "romance",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291097?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291097",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291097?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291097?lang=cs",
+              "presentationCode": "291097",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 03",
+              "auditoriumTinyName": "3"
+            },
+            {
+              "id": "291068",
+              "filmId": "8297s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T17:10:00",
+              "attributeIds": [
+                "2d",
+                "adventure",
+                "animation",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "fantasy",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291068?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291068",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291068?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291068?lang=cs",
+              "presentationCode": "291068",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 02",
+              "auditoriumTinyName": "2"
+            },
+            {
+              "id": "291179",
+              "filmId": "8566s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T17:10:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291179?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291179",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291179?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291179?lang=cs",
+              "presentationCode": "291179",
+              "soldOut": false,
+              "availabilityRatio": 0.9779,
+              "auditorium": "Sál 06",
+              "auditoriumTinyName": "6"
+            },
+            {
+              "id": "291255",
+              "filmId": "7803s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T17:40:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "first-subbed-lang-cs",
+                "imax",
+                "sci-fi",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291255?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291255",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291255?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291255?lang=cs",
+              "presentationCode": "291255",
+              "soldOut": false,
+              "availabilityRatio": 0.7558,
+              "auditorium": "IMAX VOLVO",
+              "auditoriumTinyName": "IMAX"
+            },
+            {
+              "id": "291129",
+              "filmId": "8344s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T18:00:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291129?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291129",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291129?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291129?lang=cs",
+              "presentationCode": "291129",
+              "soldOut": false,
+              "availabilityRatio": 0.9861,
+              "auditorium": "Sál 04",
+              "auditoriumTinyName": "4"
+            },
+            {
+              "id": "291232",
+              "filmId": "8217s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T18:00:00",
+              "attributeIds": [
+                "15-plus",
+                "2d",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "romance"
+              ],
+              "languages": {
+                "original": [
+                  "fr"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291232?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291232",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291232?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291232?lang=cs",
+              "presentationCode": "291232",
+              "soldOut": false,
+              "availabilityRatio": 0.9938,
+              "auditorium": "Sál 08",
+              "auditoriumTinyName": "8"
+            },
+            {
+              "id": "291203",
+              "filmId": "6464s2sx1",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T18:30:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "comedy",
+                "original",
+                "original-lang-cs"
+              ],
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291203?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291203",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291203?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291203?lang=cs",
+              "presentationCode": "291203",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 07",
+              "auditoriumTinyName": "7"
+            },
+            {
+              "id": "291035",
+              "filmId": "8181s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T18:50:00",
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "first-subbed-lang-cs",
+                "subbed",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291035?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291035",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291035?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291035?lang=cs",
+              "presentationCode": "291035",
+              "soldOut": false,
+              "availabilityRatio": 0.9966,
+              "auditorium": "Sál 01",
+              "auditoriumTinyName": "1"
+            },
+            {
+              "id": "291098",
+              "filmId": "0434s3sx2",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T19:00:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "first-subbed-lang-cs",
+                "horror",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291098?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291098",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291098?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291098?lang=cs",
+              "presentationCode": "291098",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 03",
+              "auditoriumTinyName": "3"
+            },
+            {
+              "id": "291155",
+              "filmId": "7803s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T19:20:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "first-subbed-lang-cs",
+                "sci-fi",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291155?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291155",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291155?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291155?lang=cs",
+              "presentationCode": "291155",
+              "soldOut": false,
+              "availabilityRatio": 0.9553,
+              "auditorium": "Sál 05",
+              "auditoriumTinyName": "5"
+            },
+            {
+              "id": "291069",
+              "filmId": "8181s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T19:30:00",
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "first-subbed-lang-cs",
+                "subbed",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291069?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291069",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291069?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291069?lang=cs",
+              "presentationCode": "291069",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 02",
+              "auditoriumTinyName": "2"
+            },
+            {
+              "id": "291233",
+              "filmId": "8531s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T20:00:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "biography",
+                "comedy",
+                "drama",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291233?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291233",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291233?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291233?lang=cs",
+              "presentationCode": "291233",
+              "soldOut": false,
+              "availabilityRatio": 0.9753,
+              "auditorium": "Sál 08",
+              "auditoriumTinyName": "8"
+            },
+            {
+              "id": "291180",
+              "filmId": "8566s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T20:20:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291180?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291180",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291180?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291180?lang=cs",
+              "presentationCode": "291180",
+              "soldOut": false,
+              "availabilityRatio": 0.9823,
+              "auditorium": "Sál 06",
+              "auditoriumTinyName": "6"
+            },
+            {
+              "id": "291130",
+              "filmId": "8344s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T20:30:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "drama",
+                "fantasy",
+                "first-subbed-lang-cs",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291130?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291130",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291130?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291130?lang=cs",
+              "presentationCode": "291130",
+              "soldOut": false,
+              "availabilityRatio": 0.9861,
+              "auditorium": "Sál 04",
+              "auditoriumTinyName": "4"
+            },
+            {
+              "id": "291204",
+              "filmId": "7239d3sx1",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T20:40:00",
+              "attributeIds": [
+                "2d",
+                "comedy",
+                "family",
+                "original",
+                "original-lang-cs",
+                "suitable-for-all"
+              ],
+              "languages": {
+                "original": [
+                  "cs"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291204?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291204",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291204?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291204?lang=cs",
+              "presentationCode": "291204",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 07",
+              "auditoriumTinyName": "7"
+            },
+            {
+              "id": "291099",
+              "filmId": "0434s3sx2",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T21:00:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "first-subbed-lang-cs",
+                "horror",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291099?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291099",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291099?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291099?lang=cs",
+              "presentationCode": "291099",
+              "soldOut": false,
+              "availabilityRatio": 1.0,
+              "auditorium": "Sál 03",
+              "auditoriumTinyName": "3"
+            },
+            {
+              "id": "291256",
+              "filmId": "7803s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T21:00:00",
+              "attributeIds": [
+                "12-plus",
+                "2d",
+                "action",
+                "adventure",
+                "first-subbed-lang-cs",
+                "imax",
+                "sci-fi",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291256?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291256",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291256?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291256?lang=cs",
+              "presentationCode": "291256",
+              "soldOut": false,
+              "availabilityRatio": 0.8442,
+              "auditorium": "IMAX VOLVO",
+              "auditoriumTinyName": "IMAX"
+            },
+            {
+              "id": "291036",
+              "filmId": "8161s2r",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T21:10:00",
+              "attributeIds": [
+                "15-plus",
+                "2d",
+                "adventure",
+                "comedy",
+                "drama",
+                "first-subbed-lang-cs",
+                "subbed",
+                "thriller"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291036?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291036",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291036?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291036?lang=cs",
+              "presentationCode": "291036",
+              "soldOut": false,
+              "availabilityRatio": 0.9863,
+              "auditorium": "Sál 01",
+              "auditoriumTinyName": "1"
+            },
+            {
+              "id": "291070",
+              "filmId": "1865s2sx1",
+              "cinemaId": "1052",
+              "businessDay": "2026-11-26",
+              "eventDateTime": "2026-11-26T21:50:00",
+              "attributeIds": [
+                "15-plus",
+                "2d",
+                "action",
+                "first-subbed-lang-cs",
+                "horror",
+                "sci-fi",
+                "subbed"
+              ],
+              "languages": {
+                "original": [
+                  "en"
+                ],
+                "dubbed": [],
+                "voiceover": [],
+                "subtitles": [
+                  "cs"
+                ]
+              },
+              "bookingLink": "https://tickets.cinemacity.cz/api/order/291070?lang=cs",
+              "compositeBookingLink": {
+                "type": "PG",
+                "bookingUrl": {
+                  "url": "https://tickets.cinemacity.cz/api/order/291070",
+                  "params": {
+                    "lang": "cs-CZ"
+                  }
+                },
+                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/291070?lang=cs",
+                "blockOnlineSales": false,
+                "blockOnlineSalesUntil": null,
+                "serviceUrl": "https://www.cinemacity.cz/booking"
+              },
+              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/291070?lang=cs",
+              "presentationCode": "291070",
+              "soldOut": false,
+              "availabilityRatio": 0.9724,
+              "auditorium": "Sál 02",
+              "auditoriumTinyName": "2"
+            }
           ]
         }
       }
@@ -5227,12 +7086,6 @@
             "videoLink": "https://www.youtube.com/watch?v=oOwmrAO0aiY"
           },
           {
-            "filmId": "0182o2sx1",
-            "filmName": "Villeneuve: Zrození šampiona",
-            "filmLink": "https://www.cinemacity.cz/films/villeneuve-zrozeni-sampiona/0182o2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=yE4_vZSPGLM"
-          },
-          {
             "filmId": "3836s2r2",
             "filmName": "Dřevorubec",
             "filmLink": "https://www.cinemacity.cz/films/drevorubec/3836s2r2",
@@ -5293,12 +7146,6 @@
             "videoLink": "https://www.youtube.com/watch?v=cm_QbKRSNbg"
           },
           {
-            "filmId": "5679s2sx1",
-            "filmName": "Kluci to vidí jinak než holky",
-            "filmLink": "https://www.cinemacity.cz/films/kluci-to-vidi-jinak-nez-holky/5679s2sx1",
-            "videoLink": "https://www.youtube.com/watch?v=MMUR9tcVn6U"
-          },
-          {
             "filmId": "8010s2r",
             "filmName": "Ovečka Shaun ve filmu Příšera z Mossy Bottom",
             "filmLink": "https://www.cinemacity.cz/films/ovecka-shaun-ve-filmu-prisera-z-mossy-bottom/8010s2r",
@@ -5326,247 +7173,12 @@
       }
     },
     {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events/in-cinema/1052/at-date/2026-11-25?attr=&lang=cs_CZ",
+      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events-dates/in-cinema/1052/as-at-date/2026-11-26?attr=&lang=cs_CZ&noAttr=event,marathon,pre",
       "status": 200,
       "content_type": "application/json;charset=utf-8",
       "payload": {
         "body": {
           "films": [
-            {
-              "id": "8222s2r",
-              "name": "Clayface",
-              "length": 108,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8222S2R.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=cm_QbKRSNbg",
-              "link": "https://www.cinemacity.cz/films/clayface/8222s2r",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-10-22T00:00:00",
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "action",
-                "adventure",
-                "fantasy",
-                "first-subbed-lang-cs",
-                "horror",
-                "sci-fi",
-                "subbed",
-                "thriller"
-              ]
-            },
-            {
-              "id": "1865s2sx1",
-              "name": "Resident Evil",
-              "length": 89,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1865S2SX1.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=Z61Cn71i-no",
-              "link": "https://www.cinemacity.cz/films/resident-evil/1865s2sx1",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-09-17T00:00:00",
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "action",
-                "first-subbed-lang-cs",
-                "horror",
-                "sci-fi",
-                "subbed"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "id": "287720",
-              "filmId": "1865s2sx1",
-              "cinemaId": "1052",
-              "businessDay": "2026-11-25",
-              "eventDateTime": "2026-11-25T21:10:00",
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "action",
-                "first-subbed-lang-cs",
-                "horror",
-                "sci-fi",
-                "subbed"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/287720?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/287720",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/287720?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/287720?lang=cs",
-              "presentationCode": "287720",
-              "soldOut": false,
-              "availabilityRatio": 0.9931,
-              "auditorium": "Sál 04",
-              "auditoriumTinyName": "4"
-            },
-            {
-              "id": "287739",
-              "filmId": "8222s2r",
-              "cinemaId": "1052",
-              "businessDay": "2026-11-25",
-              "eventDateTime": "2026-11-25T21:40:00",
-              "attributeIds": [
-                "15-plus",
-                "2d",
-                "action",
-                "adventure",
-                "fantasy",
-                "first-subbed-lang-cs",
-                "horror",
-                "sci-fi",
-                "subbed",
-                "thriller"
-              ],
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [],
-                "voiceover": [],
-                "subtitles": [
-                  "cs"
-                ]
-              },
-              "bookingLink": "https://tickets.cinemacity.cz/api/order/287739?lang=cs",
-              "compositeBookingLink": {
-                "type": "PG",
-                "bookingUrl": {
-                  "url": "https://tickets.cinemacity.cz/api/order/287739",
-                  "params": {
-                    "lang": "cs-CZ"
-                  }
-                },
-                "obsoleteBookingUrl": "https://tickets.cinemacity.cz/api/order/287739?lang=cs",
-                "blockOnlineSales": false,
-                "blockOnlineSalesUntil": null,
-                "serviceUrl": "https://www.cinemacity.cz/booking"
-              },
-              "bookingRouterLaunchLink": "https://www.cinemacity.cz/cz/booking-router/launch/1052/287739?lang=cs",
-              "presentationCode": "287739",
-              "soldOut": false,
-              "availabilityRatio": 0.9944,
-              "auditorium": "Sál 05",
-              "auditoriumTinyName": "5"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "url": "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101/film-events-dates/in-cinema/1052/as-at-date/2026-11-25?attr=&lang=cs_CZ&noAttr=event,marathon,pre",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "payload": {
-        "body": {
-          "films": [
-            {
-              "id": "8297s2r1",
-              "name": "Dětská neděle - Hexe: Magický svět",
-              "length": 110,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8297S2R1.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=t6wFhSIJiyE",
-              "link": "https://www.cinemacity.cz/films/detska-nedele-hexe-magicky-svet/8297s2r1",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-11-29T00:00:00",
-              "languages": {
-                "original": [
-                  "en"
-                ],
-                "dubbed": [
-                  "cs"
-                ],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "attributeIds": [
-                "2d",
-                "adventure",
-                "animation",
-                "comedy",
-                "dubbed",
-                "dubbed-lang-cs",
-                "family",
-                "fantasy",
-                "suitable-for-all"
-              ]
-            },
-            {
-              "id": "8270s2r",
-              "name": "Asterix a Obelix: Království Núbie",
-              "length": 86,
-              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8270S2R.jpg",
-              "videoLink": "https://www.youtube.com/watch?v=ha0rNxdueJc",
-              "link": "https://www.cinemacity.cz/films/asterix-a-obelix-kralovstvi-nubie/8270s2r",
-              "weight": 0,
-              "releaseYear": "2026",
-              "releaseDate": "2026-12-03T00:00:00",
-              "languages": {
-                "original": [
-                  "fr"
-                ],
-                "dubbed": [
-                  "cs"
-                ],
-                "voiceover": [],
-                "subtitles": []
-              },
-              "attributeIds": [
-                "2d",
-                "action",
-                "adventure",
-                "animation",
-                "comedy",
-                "dubbed",
-                "dubbed-lang-cs",
-                "family",
-                "suitable-for-all"
-              ]
-            },
             {
               "id": "6377s2r1",
               "name": "Duna",
@@ -5629,6 +7241,38 @@
                 "imax",
                 "sci-fi",
                 "subbed"
+              ]
+            },
+            {
+              "id": "8270s2r",
+              "name": "Asterix a Obelix: Království Núbie",
+              "length": 86,
+              "posterLink": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8270S2R.jpg",
+              "videoLink": "https://www.youtube.com/watch?v=ha0rNxdueJc",
+              "link": "https://www.cinemacity.cz/films/asterix-a-obelix-kralovstvi-nubie/8270s2r",
+              "weight": 0,
+              "releaseYear": "2026",
+              "releaseDate": "2026-12-03T00:00:00",
+              "languages": {
+                "original": [
+                  "fr"
+                ],
+                "dubbed": [
+                  "cs"
+                ],
+                "voiceover": [],
+                "subtitles": []
+              },
+              "attributeIds": [
+                "2d",
+                "action",
+                "adventure",
+                "animation",
+                "comedy",
+                "dubbed",
+                "dubbed-lang-cs",
+                "family",
+                "suitable-for-all"
               ]
             },
             {
@@ -5975,16 +7619,6 @@
             }
           ],
           "eventsDatesByFilmId": {
-            "8297s2r1": [
-              "2026-11-29"
-            ],
-            "8270s2r": [
-              "2026-11-29",
-              "2026-12-03",
-              "2026-12-04",
-              "2026-12-05",
-              "2026-12-06"
-            ],
             "6377s2r1": [
               "2026-12-03",
               "2026-12-06",
@@ -5996,6 +7630,12 @@
               "2026-12-06",
               "2026-12-08",
               "2026-12-09"
+            ],
+            "8270s2r": [
+              "2026-12-03",
+              "2026-12-04",
+              "2026-12-05",
+              "2026-12-06"
             ],
             "6377s2r3": [
               "2026-12-04",
